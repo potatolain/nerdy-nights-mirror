@@ -1,4 +1,3 @@
 # Starting up
 
-`php -S localhost:8080 .`
-
+Run start.bat or start.sh
