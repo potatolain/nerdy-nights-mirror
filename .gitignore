@@ -3,3 +3,4 @@ phpinstall
 temp
 
 scraper/node_modules
+dist

@@ -37,6 +37,11 @@
                 also available <a href="downloads/nerdy-nights-ca65.zip">here</a>, in case you ever need it.
             </p>
 
+            <p>
+                Want to save this locally in case my site goes down, or the apocalypse hits, or whatever? Sure thing!
+                <a href="full_site.zip">Full site download</a>
+            </p>
+
             <h4>Table of Contents</h5>
 
             <h5>Main Tutorial Series</h5>
