@@ -1,0 +1,12 @@
+# TODO Items
+- Create one big zip of entire site (convert .php to a html file, give everything else)
+- Upload to cpp.net
+- Make git repo public too
+- Parse the # part of the url, go to right page via JS
+- Pretty up css
+- Do all for all 3 sections
+- Fancy: search bar?
+- Look at zophar urls and fix
+- License info
+- Proper readme
+- Fix links in main ToC

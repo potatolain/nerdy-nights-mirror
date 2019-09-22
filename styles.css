@@ -237,3 +237,13 @@
     z-index: 99;
   }
   
+
+  .spacer {
+    height: 20px;
+    display: block;
+  }
+
+  .tutorialCard {
+    width: auto;
+    max-width: 1080px;
+  }

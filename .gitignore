@@ -1,3 +1,5 @@
 phpinstall
 !phpinstall/README.md
 temp
+
+scraper/node_modules
