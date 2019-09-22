@@ -45,10 +45,12 @@ document.addEventListener('click', function (event) {
 
 document.addEventListener('DOMContentLoaded', function() {
     if (window.location.hash) {
-        Array.prototype.forEach.call(document.querySelectorAll('a'), function(elem) {
-            if (elem.getAttribute('href') == window.location.hash) {
-                elem.click();
-            }
-        });
+        setTimeout(function() {
+            Array.prototype.forEach.call(document.querySelectorAll('a'), function(elem) {
+                if (elem.getAttribute('href') == window.location.hash) {
+                    elem.click();
+                }
+            });
+        }, 500);
     }
 }, false);

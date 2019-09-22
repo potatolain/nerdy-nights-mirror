@@ -14,12 +14,19 @@
             <p>
                 Recently, the links to the audio series fell off the internet due to a domain expiring. Luckily, members of the community kept these links
                 alive. However, this exposed the fragility of having these tutorials on a bunch of forum posts, which could one day also disappear.
+                MetalSlime's site also went offline, though there is a mirror of that available 
+                <a href="http://web.archive.org/web/20150729002634/http://www.tummaigames.com:80/blog/">thanks to archive.org</a>.
             </p>
 
             <p>
                 This site aims to be an archive of all of the information included in the tutorial series, and also a singular
                 archive that can easily be moved, in case this site some day also goes offline. The links above will take you to 
                 adapted versions of the tutorials. Enjoy!
+            </p>
+
+            <p>
+                Since some of the images from the audio tutorial have fully disappeared from the internet, I tried to add some that
+                make sense in context. Please feel free to reach out to me if you have better ones you'd like to substitute in!
             </p>
 
             <p>

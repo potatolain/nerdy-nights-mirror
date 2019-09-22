@@ -140,9 +140,9 @@ async function main() {
                 } catch (e) {
                     console.warn('Failed downloading image at ', url, e.message);
                     datCheerio.attr('original-src', url);
-                    datCheerio.attr('src', 'images/missing/' + path.basename(url));
+                    datCheerio.attr('src', 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'));
                     missingImages.push({
-                        newUrl: 'images/missing/' + path.basename(url),
+                        newUrl: 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'),
                         originalUrl: url,
                         page: title,
                         id: i
@@ -219,7 +219,7 @@ async function main() {
     }
 
     fs.writeFileSync('./pages/lookup.json', JSON.stringify(lookup, null, 4));
-    fs.writeFileSync('./pages/missing-files.json', JSON.stringify(lookup, null, 4));
+    fs.writeFileSync('./pages/missing-files.json', JSON.stringify(missingImages, null, 4));
 }
 
 main().then(function(err) {

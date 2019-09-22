@@ -4,14 +4,14 @@ the last two lessons, I&apos;ve been giving you the values to plug into the
 11-bit periods for the Square and Triangle channels.&#xA0; I haven&apos;t been
 giving you an explanation of what a period is, or where I got those
 numbers.&#xA0; So this week we&apos;re going to learn about periods.<br><b><br>
-What is a period?</b><br>A period refers to the length of a wave, or rather the <i>time</i> length of the <i>repeating</i> part of a wave.&#xA0; Take a look at this square wave (x-axis is time):<br><br><div id="xdzs" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File?id=d36ccdg_32dh4jjkdf_b" original-src="http://docs.google.com/File?id=d36ccdg_32dh4jjkdf_b"></div>Notice
+What is a period?</b><br>A period refers to the length of a wave, or rather the <i>time</i> length of the <i>repeating</i> part of a wave.&#xA0; Take a look at this square wave (x-axis is time):<br><br><div id="xdzs" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File_id_d36ccdg_32dh4jjkdf_b" original-src="http://docs.google.com/File?id=d36ccdg_32dh4jjkdf_b"></div>Notice
 how it is repeating.&#xA0; It starts high and remains high for 2 time
 units.&#xA0; Then it goes low and remains low for 2 time units.&#xA0; Then it
 repeats.&#xA0; When we say period, we are talking about the horizontal time
 length of this repeating wave.&#xA0; In this case, the period is 4 time
 units.&#xA0; The longer a period is, the lower the note will sound.&#xA0;&#xA0;
 Conversely, the shorter a period is, the higher the note will sound.&#xA0;
-Look at these 3 Square waves:<br><br>Period = 6 time units<br><div id="o6dq" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File?id=d36ccdg_33fm9jm9dg_b" original-src="http://docs.google.com/File?id=d36ccdg_33fm9jm9dg_b"></div><br>Period = 4 time units<br><div id="wj8x" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File?id=d36ccdg_34gmf46jdj_b" original-src="http://docs.google.com/File?id=d36ccdg_34gmf46jdj_b"></div><br>Period = 1 time unit<br><div id="mw1w" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File?id=d36ccdg_354r6gfhx5_b" original-src="http://docs.google.com/File?id=d36ccdg_354r6gfhx5_b"></div><br>The
+Look at these 3 Square waves:<br><br>Period = 6 time units<br><div id="o6dq" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File_id_d36ccdg_33fm9jm9dg_b" original-src="http://docs.google.com/File?id=d36ccdg_33fm9jm9dg_b"></div><br>Period = 4 time units<br><div id="wj8x" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File_id_d36ccdg_34gmf46jdj_b" original-src="http://docs.google.com/File?id=d36ccdg_34gmf46jdj_b"></div><br>Period = 1 time unit<br><div id="mw1w" style="text-align: left;"><img style="width: 240px; height: 50px;" src="images/missing/File_id_d36ccdg_354r6gfhx5_b" original-src="http://docs.google.com/File?id=d36ccdg_354r6gfhx5_b"></div><br>The
 top wave has the longest period (6 time units) and it will sound the
 lowest.&#xA0; The bottom wave has a short period (1 time unit) and will
 sound higher than the other two.<br><br>On the NES, we write an 11-bit
