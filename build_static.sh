@@ -13,5 +13,6 @@ cp -R scraper/files dist/scraper
 cp -R scraper/images dist/scraper
 cp *.js dist/
 cp *.css dist/
+# Build an archive of the site, for sharing. This is referenced from the site, so we need it.
 zip -r full_site.zip ./dist > /dev/null
-mv full_site.zip ./dist/full_site.zip
+cp full_site.zip ./dist/full_site.zip
