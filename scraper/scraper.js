@@ -176,7 +176,7 @@ async function main() {
             }
 
             deliciousCereal(this).attr('href', 'scraper/files/' + path.basename(href));
-
+            var _this = this;
             allHref.push( (async function() {
                 
                 try {
@@ -190,8 +190,8 @@ async function main() {
                     });
                 } catch (e) {
                     console.warn('Failed downloading file at ', href, e.message);
-                    deliciousCereal(this).attr('original-href', href);
-                    deliciousCereal(this).attr('href', 'images/missing/' + path.basename(href));
+                    deliciousCereal(_this).attr('original-href', href);
+                    deliciousCereal(_this).attr('href', 'downloads/missing/' + path.basename(href));
                     missingImages.push({
                         newUrl: 'downloads/missing/' + path.basename(href),
                         originalUrl: href,

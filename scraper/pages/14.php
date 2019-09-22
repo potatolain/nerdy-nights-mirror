@@ -25,8 +25,8 @@ find the period values for notes, we will have to look up note
 frequencies and plug them into the formula.&#xA0; Or we can cross our
 fingers and hope somebody has already done the work for us and put the
 answers in an easy-to-read table.&#xA0; Lucky for us a cool fellow named
-Celius has done just that, for both NTSC and PAL.&#xA0; Here are the charts:<br><br><a href="scraper/files/NotesTableNTSC.txt" target="_blank">http://www.freewebs.com/the_bott/NotesTableNTSC.txt</a><br>
-<a href="scraper/files/NotesTablePAL.txt" target="_blank">http://www.freewebs.com/the_bott/NotesTablePAL.txt</a><br>
+Celius has done just that, for both NTSC and PAL.&#xA0; Here are the charts:<br><br><a href="downloads/missing/NotesTableNTSC.txt" target="_blank" original-href="http://www.freewebs.com/the_bott/NotesTableNTSC.txt">http://www.freewebs.com/the_bott/NotesTableNTSC.txt</a><br>
+<a href="downloads/missing/NotesTablePAL.txt" target="_blank" original-href="http://www.freewebs.com/the_bott/NotesTablePAL.txt">http://www.freewebs.com/the_bott/NotesTablePAL.txt</a><br>
 <br><b><font size="4">Lookup Tables</font></b><br>It is fairly common practice to store period values in a lookup table.&#xA0; A <b>lookup table</b>
 is a table of pre-calculated data stored in ROM.&#xA0; Like an answer
 sheet.&#xA0; Lookup tables are used to cut down on complicated,
