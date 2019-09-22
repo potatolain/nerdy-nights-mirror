@@ -71,7 +71,7 @@
 
             <p>
                 This site is maintained by <a href="https://twitter.com/cppchriscpp">cppchriscpp</a>, and is linked to 
-                <a href="http://cpprograms.net">his site</a>. Another version is available <a href="http://cpprograms.net/devnull/nerdy-nights/index.php">there</a>. 
+                <a href="http://cpprograms.net">his site</a>. Another version is available <a href="http://cpprograms.net/devnull/nerdy-nights/">there</a>. 
                 Thanks for reading!
             </p>
         </div>
