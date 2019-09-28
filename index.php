@@ -44,6 +44,7 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
     <style type="text/css">
+      /* Prevent flash of unstyled content from tabs that will be hidden when the material library finishes loading */
       .mdl-layout__tab-panel:not(.is-active) {
         display: none;
       }
