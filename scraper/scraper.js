@@ -45,6 +45,12 @@ var lookup = {
     misc: []
 };
 
+// If urls you were using are broken (and perhaps make you download the wrong thing) use this to replace the link
+// with a local file.
+var urlReplacements = {
+    'http://www.zophar.net/utilities/download/TileMolester_015a_bin.zip': 'downloads/missing/tilemolester-0.16.zip'
+};
+
 var downloadBlacklist = [
     'zophar.net', // Urls are beyond broken for this. 
     'expressions/face-' // I uh... not sure what's going on here, but that's not gonna work.
@@ -158,6 +164,11 @@ async function main() {
         var allHref = [];
         post.find('a').each(function(fileIndex, elem) {
             var href = deliciousCereal(this).attr('href');
+
+            if (urlReplacements[href]) {
+                deliciousCereal(this).attr('href', urlReplacements[href]);   
+                return;
+            }
 
             if (!href.endsWith('.zip') && !href.endsWith('.txt')) {
                 return;
