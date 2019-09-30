@@ -220,12 +220,16 @@ async function main() {
 
     fs.writeFileSync('./pages/lookup.json', JSON.stringify(lookup, null, 4));
     fs.writeFileSync('./pages/missing-files.json', JSON.stringify(missingImages, null, 4));
+
+    for (var i = 0; i != missingImages.length; i++) {
+        missingImages[i].existsInRepo = fs.existsSync('../'+missingImages[i].newUrl);
+    }
 }
 
 main().then(function(err) {
     console.info('Scraping complete!');
-    console.info('Missing images + files from tummaigames site', missingImages);
-    console.info('Grab whatever we can manually from web.archive.org, put them in images/nerdy-nights/sound -- good luck');
+    console.info('Missing images + files', missingImages);
+    console.info('If any files are marked as not existing in the repo, please try to find them on archive.org or other sites, and add them in.');
 }, function(err) {
     console.error('Something went wrong when scraping!', err);
 })

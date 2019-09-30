@@ -1,12 +1,6 @@
 # TODO Items
-- Create one big zip of entire site (convert .php to a html file, give everything else)
-- Upload to cpp.net
 - Make git repo public too
-- Fancy: search bar?
 - Look at zophar urls and fix
-- License info
 - Add in comments after original post
   - How: "view comments" button after main; displays a pile of the comments (don't bother paginating)
   - Probably need to go through these for links and other stuff too... may have to refactor slightly
-- Proper readme
-- For missing files, do fs.existsSync and bail as needed
