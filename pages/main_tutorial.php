@@ -20,10 +20,14 @@
                         <?php include "scraper/pages/$idx.php"; ?>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#main_tutorial-toc">
-                        Back to Table of Contents
-                    </a>
-
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#main_tutorial-toc">
+                            Back to Table of Contents
+                        </a>
+                        <div style="float: right;">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="<?php echo $item['originalUrl']; ?>" target="_blank">
+                                Original Article
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="spacer"></div>

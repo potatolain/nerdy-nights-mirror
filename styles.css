@@ -88,8 +88,10 @@
     color: inherit;
   }
   .mdl-demo .mdl-card__actions a {
-    color: #00BCD4;
     margin: 0;
+  }
+  .mdl-demo .mdl-card__actions a:not(.mdl-button--primary):not(.mdl-button--accent) {
+    color: #00BCD4;
   }
   .mdl-demo .mdl-card__actions a:hover,
   .mdl-demo .mdl-card__actions a:active {
