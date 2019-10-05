@@ -5,7 +5,7 @@
 document.addEventListener('click', function (event) {
 
     // Work around silly mdl thing where it prevents the default setting the url. We actually wanna do that.
-    if (event.target && event.target.matches && event.target.matches('span') && event.target.parentNode && event.target.parentNode.matches('a')) {
+    if (event.target && event.target.matches && event.target.matches('span') && event.target.parentNode && event.target.parentNode.matches('a') && event.target.parentNode.getAttribute('href').substr(0, 1) === '#') {
         var href = event.target.parentNode.getAttribute('href').substr(1);
 
         // Temporarily move the id to the top of the page, so we don't scroll annoyingly
