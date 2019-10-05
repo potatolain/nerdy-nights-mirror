@@ -45,12 +45,27 @@ document.addEventListener('click', function (event) {
 
 document.addEventListener('DOMContentLoaded', function() {
     if (window.location.hash) {
-        setTimeout(function() {
+        var repeats = 10; // Try to center on the page for 2 seconds... hopefully it "really" loads by then... browsers are weird, man.
+        var theInterval = setInterval(function() {
             Array.prototype.forEach.call(document.querySelectorAll('a'), function(elem) {
                 if (elem.getAttribute('href') == window.location.hash) {
                     elem.click();
                 }
             });
-        }, 500);
+            repeats--;
+            if (repeats === 0) {
+                clearInterval(theInterval);
+            }
+        }, 200);
     }
 }, false);
+
+window.doCommentToggle = function(id) {
+    var elem = document.getElementById(id);
+
+    if (elem.style.display === 'none') {
+        elem.style.display = 'block';
+    } else {
+        elem.style.display = 'none';
+    }
+}

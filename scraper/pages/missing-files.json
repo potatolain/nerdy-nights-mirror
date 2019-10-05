@@ -1,74 +1,178 @@
 [
     {
+        "newUrl": "images/missing/ddraa1.gif",
+        "originalUrl": "http://img116.imageshack.us/img116/5488/ddraa1.gif",
+        "page": "Nerdy Nights week 2: NES architecture overview",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/ddremptyarrowpc7.gif",
+        "originalUrl": "http://img444.imageshack.us/img444/7823/ddremptyarrowpc7.gif",
+        "page": "Nerdy Nights week 2: NES architecture overview",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/001.png",
+        "originalUrl": "http://bombsomedodongos.com/a/images/001.png",
+        "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/002.png",
+        "originalUrl": "http://bombsomedodongos.com/a/images/002.png",
+        "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/07321682-F930-22C9-979A2CCF3C1B635F.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/07321682-F930-22C9-979A2CCF3C1B635F.png",
+        "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/background001vf4.png",
+        "originalUrl": "http://img178.imageshack.us/img178/2452/background001vf4.png",
+        "page": "Nerdy Nights week 6: Backgrounds",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/kep.jpg",
+        "originalUrl": "http://kunio.zapto.org/Horv/kep.jpg",
+        "page": "Nerdy Nights week 6: Backgrounds",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/snap0002.png",
+        "originalUrl": "http://s12.postimg.org/tc0y4bht9/snap0002.png",
+        "page": "Nerdy Nights week 7: subroutines, game layout, starting Pong",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/91try2348naegxl5cjbp_thumb.png",
+        "originalUrl": "http://8pic.ir/images/91try2348naegxl5cjbp_thumb.png",
+        "page": "Nerdy Nights week 7: subroutines, game layout, starting Pong",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
         "newUrl": "images/nerdy-nights-sound/square_wave.jpg",
         "originalUrl": "http://tummaigames.com/square_wave.jpg",
         "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/nerdy-nights-sound/triangle_wave.jpg",
         "originalUrl": "http://tummaigames.com/triangle_wave.jpg",
         "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/nerdy-nights-sound/square_wave_125_duty.jpg",
         "originalUrl": "http://tummaigames.com/square_wave_125_duty.jpg",
         "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/nerdy-nights-sound/square_wave_25_duty.jpg",
         "originalUrl": "http://tummaigames.com/square_wave_25_duty.jpg",
         "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/nerdy-nights-sound/square_wave_50_duty.jpg",
         "originalUrl": "http://tummaigames.com/square_wave_50_duty.jpg",
         "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/nerdy-nights-sound/square_wave_25neg_duty.jpg",
         "originalUrl": "http://tummaigames.com/square_wave_25neg_duty.jpg",
         "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
-        "newUrl": "images/missing/File_id_d36ccdg_34gmf46jdj_b",
-        "originalUrl": "http://docs.google.com/File?id=d36ccdg_34gmf46jdj_b",
-        "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 2
+        "newUrl": "downloads/missing/NotesTableNTSC.txt",
+        "originalUrl": "http://www.freewebs.com/the_bott/NotesTableNTSC.txt",
+        "page": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/missing/File_id_d36ccdg_354r6gfhx5_b",
         "originalUrl": "http://docs.google.com/File?id=d36ccdg_354r6gfhx5_b",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/missing/File_id_d36ccdg_33fm9jm9dg_b",
         "originalUrl": "http://docs.google.com/File?id=d36ccdg_33fm9jm9dg_b",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/File_id_d36ccdg_34gmf46jdj_b",
+        "originalUrl": "http://docs.google.com/File?id=d36ccdg_34gmf46jdj_b",
+        "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "images/missing/File_id_d36ccdg_32dh4jjkdf_b",
         "originalUrl": "http://docs.google.com/File?id=d36ccdg_32dh4jjkdf_b",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 2
-    },
-    {
-        "newUrl": "downloads/missing/NotesTableNTSC.txt",
-        "originalUrl": "http://www.freewebs.com/the_bott/NotesTableNTSC.txt",
-        "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     },
     {
         "newUrl": "downloads/missing/NotesTablePAL.txt",
         "originalUrl": "http://www.freewebs.com/the_bott/NotesTablePAL.txt",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 2
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "downloads/missing/NotesTableNTSC.txt",
+        "originalUrl": "http://www.freewebs.com/the_bott/NotesTableNTSC.txt",
+        "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
+        "id": 3,
+        "isComment": false,
+        "existsInRepo": true
     }
 ]

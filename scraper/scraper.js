@@ -45,6 +45,8 @@ var lookup = {
     misc: []
 };
 
+var currentHost = 'http://nintendoage.com';
+
 // If urls you were using are broken (and perhaps make you download the wrong thing) use this to replace the link
 // with a local file.
 var urlReplacements = {
@@ -53,7 +55,8 @@ var urlReplacements = {
 
 var downloadBlacklist = [
     'zophar.net', // Urls are beyond broken for this. 
-    'expressions/face-' // I uh... not sure what's going on here, but that's not gonna work.
+    'expressions/face-', // I uh... not sure what's going on here, but that's not gonna work.
+    '_images/expressions/'
 ];
 
 var allUrls = [];
@@ -92,8 +95,9 @@ async function main() {
     for (var i = 0; i != allUrls.length; i++) {
         var content = await axios.get(allUrls[i].url),
             deliciousCereal = cheerio.load(content.data),
-            post = deliciousCereal('.m8t').first(),// If this breaks, this is likely where it fails. This is a class for the html of the post.
-            title = deliciousCereal('h2').text();
+            posts = deliciousCereal('.m8t');// If this breaks, this is likely where it fails. This is a class for the html of the post.
+
+        var title = deliciousCereal('h2').text();
         if (deliciousCereal('h2 small').length) {
             subTitle = deliciousCereal('h2 small').text();
             if (subTitle.length) {
@@ -102,139 +106,218 @@ async function main() {
             }
         }
 
+        // Cleaning up title/subtitle repitition in some of these
         if (title.startsWith('Homebrew')) {
             title = title.replace('Homebrew', '').trim();
         }
 
-        // Now, do a little bit of manipulation on the page... we want to take over all the images and file links!
-        var allImg = []
-        post.find('img').each(function(imgIndex, elem) {
-            var datCheerio = deliciousCereal(this);
-            allImg.push((async function() {
-                var url = datCheerio.attr('src');
+        async function parseLinks(stupid, isComment) {
 
-                for (var i = 0; i != downloadBlacklist.length; i++) {
-                    if (url.indexOf(downloadBlacklist[i]) !== -1) {
+            // Now, do a little bit of manipulation on the page... we want to take over all the images and file links!
+            var allImg = []
+            stupid.post.find('img').each(function(imgIndex, elem) {
+                var datCheerio = deliciousCereal(this);
+                allImg.push((async function() {
+                    var url = datCheerio.attr('src');
+
+                    for (var i = 0; i != downloadBlacklist.length; i++) {
+                        if (url.indexOf(downloadBlacklist[i]) !== -1) {
+                            datCheerio.attr('style', 'display: none;');
+                            return;
+                        }
+                    }
+
+                    // Original site already down, sadly... hopefully we can pull some backup images
+                    if (url.indexOf('tummaigames') !== -1) {
+                        datCheerio.attr('original-src', url);
+                        datCheerio.attr('src', 'images/nerdy-nights-sound/' + path.basename(url));
+                        missingImages.push({
+                            newUrl: 'images/nerdy-nights-sound/' + path.basename(url),
+                            originalUrl: url,
+                            page: title,
+                            id: i,
+                            isComment: isComment,
+                            existsInRepo: fs.existsSync('../images/nerdy-nights-sound/' + path.basename(url))
+                        });
                         return;
                     }
-                }    
 
-                // Original site already down, sadly... hopefully we can pull some backup images
-                if (url.indexOf('tummaigames') !== -1) {
-                    datCheerio.attr('original-src', url);
-                    datCheerio.attr('src', 'images/nerdy-nights-sound/' + path.basename(url));
-                    missingImages.push({
-                        newUrl: 'images/nerdy-nights-sound/' + path.basename(url),
-                        originalUrl: url,
-                        page: title,
-                        id: i
-                    });
+                    datCheerio.attr('original-src', datCheerio.attr('src'));
+                    datCheerio.attr('src', 'scraper/images/' + path.basename(url));
+                    try {
+                        var imgResult = await axios.request({
+                            responseType: 'arraybuffer',
+                            url: url,
+                            method: 'get',
+                            headers: {
+                                'Content-Type': 'audio/mpeg',
+                            }                  
+                        });
+                    } catch (e) {
+                        console.warn('Failed downloading image at ', url, e.message);
+                        datCheerio.attr('original-src', url);
+                        datCheerio.attr('src', 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'));
+                        missingImages.push({
+                            newUrl: 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'),
+                            originalUrl: url,
+                            page: title,
+                            id: i,
+                            isComment: isComment,
+                            existsInRepo: fs.existsSync('../images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'))
+                        });
+                        return;
+                    }
+                    fs.writeFileSync('./images/' + path.basename(url), imgResult.data);
+                    console.debug('Downloaded and mirrored ' + url + ' to ' + './images/' + path.basename(url));
+                })());
+            })
+            await Promise.all(allImg);
+
+            var allHref = [];
+            stupid.post.find('a').each(function(fileIndex, elem) {
+                var href = deliciousCereal(this).attr('href');
+
+                if (urlReplacements[href]) {
+                    deliciousCereal(this).attr('href', urlReplacements[href]);   
                     return;
                 }
 
-                datCheerio.attr('original-src', datCheerio.attr('src'));
-                datCheerio.attr('src', 'scraper/images/' + path.basename(url));
-                try {
-                    var imgResult = await axios.request({
-                        responseType: 'arraybuffer',
-                        url: url,
-                        method: 'get',
-                        headers: {
-                        'Content-Type': 'audio/mpeg',
-                        }                  
-                    });
-                } catch (e) {
-                    console.warn('Failed downloading image at ', url, e.message);
-                    datCheerio.attr('original-src', url);
-                    datCheerio.attr('src', 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'));
-                    missingImages.push({
-                        newUrl: 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'),
-                        originalUrl: url,
-                        page: title,
-                        id: i
-                    });
-                    return;
-                }
-                fs.writeFileSync('./images/' + path.basename(url), imgResult.data);
-                console.debug('Downloaded and mirrored ' + url + ' to ' + './images/' + path.basename(url));
-            })());
-        })
-        await Promise.all(allImg);
-
-        var allHref = [];
-        post.find('a').each(function(fileIndex, elem) {
-            var href = deliciousCereal(this).attr('href');
-
-            if (urlReplacements[href]) {
-                deliciousCereal(this).attr('href', urlReplacements[href]);   
-                return;
-            }
-
-            if (!href.endsWith('.zip') && !href.endsWith('.txt')) {
-                return;
-            }
-
-            for (var i = 0; i != downloadBlacklist.length; i++) {
-                if (href.indexOf(downloadBlacklist[i]) !== -1) {
-                    return;
-                }
-            }
-
-            // Original site already down, sadly... but we have backups saved in the repo!
-            if (href.indexOf('tummaigames') !== -1) {
-                deliciousCereal(this).attr('href', 'downloads/NerdyNightsSoundSourceCollection/' + path.basename(href));
-                return;
-            }
-
-            deliciousCereal(this).attr('href', 'scraper/files/' + path.basename(href));
-            var _this = this;
-            allHref.push( (async function() {
-                
-                try {
-                    var zipFile = await axios.request({
-                        responseType: 'arraybuffer',
-                        url: href,
-                        method: 'get',
-                        headers: {
-                            'Content-Type': href.endsWith('.zip') ? 'application/zip' : 'text/plain'
-                        }
-                    });
-                } catch (e) {
-                    console.warn('Failed downloading file at ', href, e.message);
-                    deliciousCereal(_this).attr('original-href', href);
-                    deliciousCereal(_this).attr('href', 'downloads/missing/' + path.basename(href));
-                    missingImages.push({
-                        newUrl: 'downloads/missing/' + path.basename(href),
-                        originalUrl: href,
-                        page: title,
-                        id: i
-                    });
+                if (!href.endsWith('.zip') && !href.endsWith('.txt')) {
                     return;
                 }
 
-                fs.writeFileSync('./files/' + path.basename(href), zipFile.data);
-                console.debug('Downloaded and mirrored ' + href + ' to ' + './scraper/files/' + path.basename(href));
-            })() );
-        })
+                for (var i = 0; i != downloadBlacklist.length; i++) {
+                    if (href.indexOf(downloadBlacklist[i]) !== -1) {
+                        return;
+                    }
+                }
 
-        await Promise.all(allHref);
+                // Original site already down, sadly... but we have backups saved in the repo!
+                if (href.indexOf('tummaigames') !== -1) {
+                    deliciousCereal(this).attr('href', 'downloads/NerdyNightsSoundSourceCollection/' + path.basename(href));
+                    return;
+                }
 
+                deliciousCereal(this).attr('href', 'scraper/files/' + path.basename(href));
+                var _this = this;
+                allHref.push( (async function() {
+                    
+                    try {
+                        var zipFile = await axios.request({
+                            responseType: 'arraybuffer',
+                            url: href,
+                            method: 'get',
+                            headers: {
+                                'Content-Type': href.endsWith('.zip') ? 'application/zip' : 'text/plain'
+                            }
+                        });
+                    } catch (e) {
+                        console.warn('Failed downloading file at ', href, e.message);
+                        deliciousCereal(_this).attr('original-href', href);
+                        deliciousCereal(_this).attr('href', 'downloads/missing/' + path.basename(href));
+                        missingImages.push({
+                            newUrl: 'downloads/missing/' + path.basename(href),
+                            originalUrl: href,
+                            page: title,
+                            id: i,
+                            isComment: isComment,
+                            existsInRepo: fs.existsSync('../downloads/missing/' + path.basename(href))
+                        });
+                        return;
+                    }
 
+                    fs.writeFileSync('./files/' + path.basename(href), zipFile.data);
+                    console.debug('Downloaded and mirrored ' + href + ' to ' + './scraper/files/' + path.basename(href));
+                })() );
+            })
+
+            await Promise.all(allHref);
+
+            return stupid.post;
+        }
+
+        console.info('Starting page ' + i + ': ' + title);
         lookup[allUrls[i].type].push({
             originalUrl: allUrls[i].url,
             name: title,
             filename: i + '.php'
         });
-        fs.writeFileSync('./pages/' + i +'.php', post.html());
+
+        // force pass-by-reference
+        var stupid = {post: deliciousCereal(posts.get(0))};
+        await parseLinks(stupid, false);
+
+        fs.writeFileSync('./pages/' + i +'.php', deliciousCereal(posts[0]).html());
+        try { fs.mkdirSync('./pages/' + i); } catch (e) { /* meh */ }
+
+        var postId = 1;
+        for (postId = 1; postId != posts.length; postId++) {
+            // force pass-by-reference
+            var stupid = {post: deliciousCereal(posts.get(postId))};
+            await parseLinks(stupid, true);
+            var theHtml = deliciousCereal('<div>');
+            theHtml.append(
+                '<div class="mdl-card__title">' +
+                    '<strong>' + 
+                        deliciousCereal(posts[postId]).closest('.row').find('a.h4').text() + 
+                    '</strong>' + 
+                    ' posted on ' +
+                    deliciousCereal(posts[postId]).closest('.panel').find('.panel-heading').text() +
+                '</div>' + 
+                '<div class="mdl-card__supporting-text">' + 
+                    deliciousCereal(posts[postId]).html() +
+                '</div>' +
+                '<div class="mdl-card--border"></div>'
+            );
+            fs.writeFileSync('./pages/' + i + '/' + postId + '.php', theHtml.html());
+        }
+
+        var ongoingPostId = postId;
+        var nextUrl = true;
+        while (nextUrl) {
+            nextUrl = null;
+            var pages = deliciousCereal('.pagination').first().find('li');
+            for (var pageId = 0; pageId != pages.length; pageId++) {
+                if (deliciousCereal(pages.get(pageId)).find('a').text().trim() == 'next') {
+                    nextUrl = currentHost + deliciousCereal(pages.get(pageId)).find('a').attr('href');
+                }
+            }
+            if (!nextUrl) {
+                break;
+            }
+
+            console.info('Getting additional comments, starting at ' + ongoingPostId + ': ' + nextUrl);
+            content = await axios.get(nextUrl);
+            deliciousCereal = cheerio.load(content.data);
+            posts = deliciousCereal('.m8t');
+            for (var postId = 0; postId != posts.length; postId++) {
+                // force pass-by-reference
+                var stupid = {post: deliciousCereal(posts.get(postId))};
+                await parseLinks(stupid, true);
+                var theHtml = deliciousCereal('<div>');
+                theHtml.append(
+                    '<div class="mdl-card__title">' +
+                        '<strong>' + 
+                            deliciousCereal(posts[postId]).closest('.row').find('a.h4').text() + 
+                        '</strong>' + 
+                        ' posted on ' +
+                        deliciousCereal(posts[postId]).closest('.panel').find('.panel-heading').text() +
+                    '</div>' + 
+                    '<div class="mdl-card__supporting-text">' + 
+                        deliciousCereal(posts[postId]).html() +
+                    '</div>' +
+                    '<div class="mdl-card--border"></div>'
+                );
+                fs.writeFileSync('./pages/' + i + '/' + (ongoingPostId++) + '.php', theHtml.html());
+    
+            }
+        }
+
         console.info('Finished page ' + i + ': ' + title);
     }
 
     fs.writeFileSync('./pages/lookup.json', JSON.stringify(lookup, null, 4));
     fs.writeFileSync('./pages/missing-files.json', JSON.stringify(missingImages, null, 4));
-
-    for (var i = 0; i != missingImages.length; i++) {
-        missingImages[i].existsInRepo = fs.existsSync('../'+missingImages[i].newUrl);
-    }
 }
 
 main().then(function(err) {

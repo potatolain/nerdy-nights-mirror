@@ -23,6 +23,9 @@
                         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#main_tutorial-toc">
                             Back to Table of Contents
                         </a>
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="javascript:doCommentToggle('main_tutorial-<?php echo $idx; ?>__comments');">
+                            Toggle Comments
+                        </a>
                         <div style="float: right;">
                             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="<?php echo $item['originalUrl']; ?>" target="_blank">
                                 Original Article
@@ -30,6 +33,18 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="comments" style="display: none;" id="main_tutorial-<?php echo $idx; ?>__comments">
+                    <?php foreach (glob('scraper/pages/' . $idx . '/*.php') as $subIndex => $file): ?>
+
+                        <div class="commentCard mdl-card mdl-shadow--2dp" id="main_tutorial-<?php echo $idx . '__' . ($subIndex + 1); ?>">
+                            <?php /* This is quite a hack... since we know all comments will be numeric and in order... we just use the arary for length, and dummy up the file names. ¯\_(ツ)_/¯ */ ?>
+                            <?php include 'scraper/pages/' . $idx . '/' . ($subIndex + 1) . '.php'; ?>
+                        </div>
+                    <?php endforeach;?>
+                </div>
+
+
                 <div class="spacer"></div>
 
             <?php endforeach; ?>

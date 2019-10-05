@@ -243,9 +243,25 @@
   .spacer {
     height: 20px;
     display: block;
+    clear: both;
   }
 
   .tutorialCard {
     width: auto;
     max-width: 1080px;
+  }
+
+  .commentCard {
+    width: auto;
+    max-width: 800px;
+    margin: 10px 0;
+    min-height: 0;
+  }
+
+  .mdl-card__title > strong {
+    margin-right: 5px;
+  }
+
+  .mdl-demo .commentCard.mdl-card .mdl-card__supporting-text {
+    margin: 20px;
   }
