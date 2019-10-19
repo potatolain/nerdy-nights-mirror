@@ -1,0 +1,4 @@
+<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1255298" data-ipsquote-username="Urchlay" data-cite="Urchlay" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div><p>Reading over this thread, I can see that I need to learn how to use the illegal/undocumented opcodes. About the only ones I&apos;ve ever used are DCP and some of the extended NOPs (e.g. to sleep for 3 cycles).</p></div></blockquote>
+<p>LAX is also often very useful (especially LAX (),y). And the various NOPs can also be used to skip instructions (like BIT does) but without changing the flag and sometimes even slightly faster (NOP #imm).</p>
+</div><div class="mdl-card--border"></div>

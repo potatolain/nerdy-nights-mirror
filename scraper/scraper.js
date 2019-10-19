@@ -38,7 +38,8 @@ var soundUrls = [
 ];
 
 var miscUrls = [
-    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=19733"
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=19733",
+    "https://atariage.com/forums/topic/71120-6502-killer-hacks/"
 ];
 
 var lookup = {
@@ -48,12 +49,13 @@ var lookup = {
     misc: []
 };
 
-var currentHost = 'http://nintendoage.com';
+const currentHost = 'http://nintendoage.com';
 
 // If urls you were using are broken (and perhaps make you download the wrong thing) use this to replace the link
 // with a local file.
 var urlReplacements = {
-    'http://www.zophar.net/utilities/download/TileMolester_015a_bin.zip': 'downloads/missing/tilemolester-0.16.zip'
+    'http://www.zophar.net/utilities/download/TileMolester_015a_bin.zip': 'downloads/missing/tilemolester-0.16.zip',
+    'https://www.eecs.umich.edu/~ackerm/vita.pdf': 'downloads/missing/vita.pdf'
 };
 
 var downloadBlacklist = [
@@ -98,10 +100,10 @@ async function main() {
     for (var i = 0; i != allUrls.length; i++) {
         var content = await axios.get(allUrls[i].url),
             deliciousCereal = cheerio.load(content.data),
-            posts = deliciousCereal('.m8t');// If this breaks, this is likely where it fails. This is a class for the html of the post.
+            posts = deliciousCereal('[data-role="commentContent"],.m8t');// If this breaks, this is likely where it fails. This is a class for the html of the post.
 
         var title = deliciousCereal('h2').text();
-        if (deliciousCereal('h2 small').length) {
+        if (deliciousCereal('.ipsType_pageTitle,h2 small').length) {
             subTitle = deliciousCereal('h2 small').text();
             if (subTitle.length) {
                 title = title.replace(subTitle, '').trim();
@@ -177,7 +179,7 @@ async function main() {
             await Promise.all(allImg);
 
             var allHref = [];
-            stupid.post.find('a').each(function(fileIndex, elem) {
+            stupid.post.find('a[href]').each(function(fileIndex, elem) {
                 var href = deliciousCereal(this).attr('href');
 
                 if (urlReplacements[href]) {
@@ -185,7 +187,7 @@ async function main() {
                     return;
                 }
 
-                if (!href.endsWith('.zip') && !href.endsWith('.txt')) {
+                if (!href.endsWith('.zip') && !href.endsWith('.txt') && !href.endsWith('.pdf')) {
                     return;
                 }
 
@@ -211,7 +213,7 @@ async function main() {
                             url: href,
                             method: 'get',
                             headers: {
-                                'Content-Type': href.endsWith('.zip') ? 'application/zip' : 'text/plain'
+                                'Content-Type': (href.endsWith('.zip') ? 'application/zip' : (href.endsWith('.pdf') ? 'application/pdf' :  'text/plain'))
                             }
                         });
                     } catch (e) {
@@ -262,10 +264,10 @@ async function main() {
             theHtml.append(
                 '<div class="mdl-card__title">' +
                     '<strong>' + 
-                        deliciousCereal(posts[postId]).closest('.row').find('a.h4').text() + 
+                        deliciousCereal(posts[postId]).closest('.row,article').find('a.h4,a.ipsType_break').text() + 
                     '</strong>' + 
                     ' posted on ' +
-                    deliciousCereal(posts[postId]).closest('.panel').find('.panel-heading').text() +
+                    deliciousCereal(posts[postId]).closest('.panel,article').find('.panel-heading,time').text() +
                 '</div>' + 
                 '<div class="mdl-card__supporting-text">' + 
                     deliciousCereal(posts[postId]).html() +
@@ -279,10 +281,11 @@ async function main() {
         var nextUrl = true;
         while (nextUrl) {
             nextUrl = null;
-            var pages = deliciousCereal('.pagination').first().find('li');
+            var pages = deliciousCereal('.pagination,.ipsPagination').first().find('li');
             for (var pageId = 0; pageId != pages.length; pageId++) {
-                if (deliciousCereal(pages.get(pageId)).find('a').text().trim() == 'next') {
-                    nextUrl = currentHost + deliciousCereal(pages.get(pageId)).find('a').attr('href');
+                if (deliciousCereal(pages.get(pageId)).find('a').text().trim().toLowerCase() == 'next' && !deliciousCereal(pages.get(pageId)).hasClass('ipsPagination_inactive')) {
+                    var theUrl = deliciousCereal(pages.get(pageId)).find('a').attr('href');
+                    nextUrl = (theUrl.startsWith('http') ? '' : currentHost) + theUrl;
                 }
             }
             if (!nextUrl) {
@@ -292,7 +295,7 @@ async function main() {
             console.info('Getting additional comments, starting at ' + ongoingPostId + ': ' + nextUrl);
             content = await axios.get(nextUrl);
             deliciousCereal = cheerio.load(content.data);
-            posts = deliciousCereal('.m8t');
+            posts = deliciousCereal('[data-role="commentContent"],.m8t');
             for (var postId = 0; postId != posts.length; postId++) {
                 // force pass-by-reference
                 var stupid = {post: deliciousCereal(posts.get(postId))};

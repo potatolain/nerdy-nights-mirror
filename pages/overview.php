@@ -68,6 +68,14 @@
                 <?php endforeach; ?>
             </ul>
 
+            <h5>Miscellaneous Articles</h5>
+
+            <ul class="toc">
+                <?php foreach ($TUTORIAL_MANIFEST['misc'] as $idx => $item): ?>
+                    <a href="#misc-<?php echo $idx; ?>"><?php echo $item['name']; ?></a>
+                <?php endforeach; ?>
+            </ul>
+
 
             <p>
                 This site is maintained by <a href="https://twitter.com/cppchriscpp">cppchriscpp</a>, and is linked to 

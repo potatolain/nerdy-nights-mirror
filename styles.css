@@ -265,3 +265,7 @@
   .mdl-demo .commentCard.mdl-card .mdl-card__supporting-text {
     margin: 20px;
   }
+
+pre.ipsCode, blockquote.ipsQuote {
+  font-size: 14px;
+}

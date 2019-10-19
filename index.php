@@ -81,6 +81,7 @@
           <a href="#main_tutorial" class="mdl-layout__tab">Main Tutorial Series</a>
           <a href="#advanced_tutorial" class="mdl-layout__tab">Advanced Tutorials</a>
           <a href="#audio_tutorial" class="mdl-layout__tab">Audio tutorial</a>
+          <a href="#misc" class="mdl-layout__tab">Miscellaneous</a>
         </div>
       </header>
       <main class="mdl-layout__content">
