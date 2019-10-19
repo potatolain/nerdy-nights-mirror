@@ -1,25 +1,13 @@
-<div class="mdl-card__title"><strong>SoleGooseProductions</strong> posted on 
+<div class="mdl-card__title"><strong>Rachel</strong> posted on 
 		
 			
 				
-				Feb 16, 2015 at 8:21:55 AM 
+				Apr 17, 2009 at 7:23:56 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE">
-	<i>Originally posted by: <b>thefox</b></i><br>
-	<br>
-	<div class="FTQUOTE">
-		<i>Originally posted by: <b>SoleGooseProductions</b></i><br>
-		<br>
-		Or I am missing a step when it comes to switching this up?</div>
-	You need to manually reset the &quot;scroll&quot; variable to 0 when it becomes 240 (for the horizontal case it&apos;s automatically reset as it wraps 255-&gt;0).<br>
-	<br>
-	&#xA0;</div>
-<br>
-Seamless! Thanks Kalle!<br>
-<br>
+					Thank you! I&apos;ll be trying this out on my game tonight! <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
 				</div><div class="mdl-card--border"></div>

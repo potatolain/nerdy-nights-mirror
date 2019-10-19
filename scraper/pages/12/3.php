@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>udisi</strong> posted on 
+<div class="mdl-card__title"><strong>Arkonviox</strong> posted on 
 		
 			
 				
-				Aug 20, 2009 at 3:33:32 PM 
+				Jul 5, 2012 at 3:24:17 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					excellent, I will have to look at this tonight.
+					Nevermind, I got the mapper and mirror data reversed, I&apos;m using the Ophis assembler, same as P65.
 				</div><div class="mdl-card--border"></div>

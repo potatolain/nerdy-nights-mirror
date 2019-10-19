@@ -1,13 +1,19 @@
-<div class="mdl-card__title"><strong>freeman.pixelz</strong> posted on 
+<div class="mdl-card__title"><strong>guillavoie</strong> posted on 
 		
 			
 				
-				Apr 12, 2016 at 12:00:58 PM 
+				Feb 27, 2016 at 1:18:27 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Thank you Mog! <span class="sprites_emoticons absmiddle" id="emo_happy"></span>
+					<div class="FTQUOTE">
+	<i>Originally posted by: <b>zi</b></i><br>
+	<br>
+	plus when you attack him he just flees. super annoying.</div>
+<br>
+<br>
+This is simply the perfect post for this thread, we can now lock it in peace gentlemen!<br>
 				</div><div class="mdl-card--border"></div>

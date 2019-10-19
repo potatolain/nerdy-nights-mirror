@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>NESHomebrew</strong> posted on 
+<div class="mdl-card__title"><strong>Dain</strong> posted on 
 		
 			
 				
-				May 15, 2010 at 3:08:28 AM 
+				May 16, 2010 at 8:50:03 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Our Nerdy Nights Master Returns!!!  Just wondering, is the scrolling tutorial mentioned in previous Nerdy Nights still in the works?  *edit* maybe it wasn&apos;t mentioned as I can&apos;t seem to find it, but there have been a few requests.
+					That bored in Hawaii? <img src="/media/_images/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
 				</div><div class="mdl-card--border"></div>

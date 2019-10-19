@@ -1,13 +1,15 @@
-<div class="mdl-card__title"><strong>frantik</strong> posted on 
+<div class="mdl-card__title"><strong>Roth</strong> posted on 
 		
 			
 				
-				May 28, 2009 at 6:32:56 AM 
+				Jan 10, 2015 at 7:04:48 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>marvelus10</b></i><br><br>Ok cool, so how do we make it a multicart then.</div><br><br>thats a bit more involved than editing a few values... like.. a lot more<br><br>
+					I&apos;m not sure about this specific engine, but are you referring to making the more chime-like sound in the noise channel? If so, that can be made by setting bit 7 of $400e:
+<br>
+<br><a href="http://wiki.nesdev.com/w/index.php/APU#Noise_.28.24400C-400F.29" target="_blank">http://wiki.nesdev.com/w/index.ph...</a>
 				</div><div class="mdl-card--border"></div>

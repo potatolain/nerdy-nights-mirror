@@ -1,13 +1,15 @@
-<div class="mdl-card__title"><strong>Arkonviox</strong> posted on 
+<div class="mdl-card__title"><strong>Sivak</strong> posted on 
 		
 			
 				
-				Jul 5, 2012 at 2:41:02 PM 
+				Mar 12, 2009 at 7:58:43 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					I hate to bump this topic but I followed your tutorial exactly as shown but I&apos;m noticing the mirror you use is actually a horizontal mirror, with $2400 as the mirror and $2800 as nametable 2, I can&apos;t see what I did wrong that would cause this but it&apos;s driving me nuts.
+					I&apos;m using UOROM, so it&apos;s all PRG for me.  This is nothing new.
+<br>
+<br>I am curious, however...  Is there a different value to use if, say, you had both PRG and CHR ROM like with MMC1 or MMC3?
 				</div><div class="mdl-card--border"></div>

@@ -1,23 +1,15 @@
-<div class="mdl-card__title"><strong>dra600n</strong> posted on 
+<div class="mdl-card__title"><strong>KHAN Games</strong> posted on 
 		
 			
 				
-				Aug 26, 2013 at 9:39:04 AM 
+				Mar 13, 2009 at 1:11:50 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE">
-	<i>Originally posted by: <b>thefox</b></i><br>
-	<br>
-	<div class="FTQUOTE">
-		<i>Originally posted by: <b>dra600n</b></i><br>
-		<br>
-		Probably a hex editor. I use XVI32 (it&apos;s free and very lightweight).</div>
-	HxD (free as well) is better, I highly recommend it.</div>
+					I saw it.  Just wanted to keep bunnyboy on his toes.
 <br>
-Nice. I&apos;ll have to check that out. Thanks!<br>
-<br>
+<br>Okay, I didn&apos;t see it.
 				</div><div class="mdl-card--border"></div>

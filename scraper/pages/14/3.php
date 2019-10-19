@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>Mog</strong> posted on 
+<div class="mdl-card__title"><strong>zi</strong> posted on 
 		
 			
 				
-				Apr 11, 2016 at 5:15:01 PM 
+				Feb 27, 2016 at 1:05:58 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Here is the zip file for part 3
+					plus when you attack him he just flees. super annoying.
 				</div><div class="mdl-card--border"></div>

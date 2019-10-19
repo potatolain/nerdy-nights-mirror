@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>udisi</strong> posted on 
+<div class="mdl-card__title"><strong>RetroBasement</strong> posted on 
 		
 			
 				
-				Aug 24, 2009 at 2:27:56 AM 
+				Aug 4, 2010 at 2:13:05 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					it&apos;s times like this I wish I actually spent more time on music theory. I played guitar, bass, and drums, but I was all by ear. I have some chord books somewhere, may have to bust them out.
+					wow dude thats awesome you put these together if i knew what any of this meant id totally be into it. im sure your helping alot of ppl on here
 				</div><div class="mdl-card--border"></div>

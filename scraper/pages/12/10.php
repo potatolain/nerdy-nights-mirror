@@ -1,13 +1,25 @@
-<div class="mdl-card__title"><strong>Vaevictus</strong> posted on 
+<div class="mdl-card__title"><strong>SoleGooseProductions</strong> posted on 
 		
 			
 				
-				Aug 24, 2009 at 6:11:04 PM 
+				Feb 16, 2015 at 8:21:55 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					oops... didn&apos;t need to preempt, but some of us might be working a bit ahead <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"> &#xA0;
+					<div class="FTQUOTE">
+	<i>Originally posted by: <b>thefox</b></i><br>
+	<br>
+	<div class="FTQUOTE">
+		<i>Originally posted by: <b>SoleGooseProductions</b></i><br>
+		<br>
+		Or I am missing a step when it comes to switching this up?</div>
+	You need to manually reset the &quot;scroll&quot; variable to 0 when it becomes 240 (for the horizontal case it&apos;s automatically reset as it wraps 255-&gt;0).<br>
+	<br>
+	&#xA0;</div>
+<br>
+Seamless! Thanks Kalle!<br>
+<br>
 				</div><div class="mdl-card--border"></div>

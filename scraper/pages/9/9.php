@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>Rachel</strong> posted on 
+<div class="mdl-card__title"><strong>KHAN Games</strong> posted on 
 		
 			
 				
-				May 19 at 9:51:07 AM 
+				Jan 20, 2014 at 3:38:57 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Was looking back at this thread recently, as I&apos;m working on a new game with WRAM. Curious to know why the resetSignature is two bytes instead of one. Seems like it could even be a bit flag. Anyone want to hazard a guess?
+					Was there a question in here or just posting code? <span class="sprites_emoticons absmiddle" id="emo_smile"></span>
 				</div><div class="mdl-card--border"></div>

@@ -1,13 +1,5 @@
 [
     {
-        "newUrl": "images/missing/ddraa1.gif",
-        "originalUrl": "http://img116.imageshack.us/img116/5488/ddraa1.gif",
-        "page": "Nerdy Nights week 2: NES architecture overview",
-        "id": 3,
-        "isComment": true,
-        "existsInRepo": true
-    },
-    {
         "newUrl": "images/missing/ddremptyarrowpc7.gif",
         "originalUrl": "http://img444.imageshack.us/img444/7823/ddremptyarrowpc7.gif",
         "page": "Nerdy Nights week 2: NES architecture overview",
@@ -16,16 +8,24 @@
         "existsInRepo": true
     },
     {
-        "newUrl": "images/missing/001.png",
-        "originalUrl": "http://bombsomedodongos.com/a/images/001.png",
+        "newUrl": "images/missing/ddraa1.gif",
+        "originalUrl": "http://img116.imageshack.us/img116/5488/ddraa1.gif",
+        "page": "Nerdy Nights week 2: NES architecture overview",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/002.png",
+        "originalUrl": "http://bombsomedodongos.com/a/images/002.png",
         "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
         "id": 3,
         "isComment": true,
         "existsInRepo": false
     },
     {
-        "newUrl": "images/missing/002.png",
-        "originalUrl": "http://bombsomedodongos.com/a/images/002.png",
+        "newUrl": "images/missing/001.png",
+        "originalUrl": "http://bombsomedodongos.com/a/images/001.png",
         "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
         "id": 3,
         "isComment": true,
@@ -160,16 +160,16 @@
         "existsInRepo": true
     },
     {
-        "newUrl": "downloads/missing/NotesTablePAL.txt",
-        "originalUrl": "http://www.freewebs.com/the_bott/NotesTablePAL.txt",
+        "newUrl": "downloads/missing/NotesTableNTSC.txt",
+        "originalUrl": "http://www.freewebs.com/the_bott/NotesTableNTSC.txt",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
         "id": 3,
         "isComment": false,
         "existsInRepo": true
     },
     {
-        "newUrl": "downloads/missing/NotesTableNTSC.txt",
-        "originalUrl": "http://www.freewebs.com/the_bott/NotesTableNTSC.txt",
+        "newUrl": "downloads/missing/NotesTablePAL.txt",
+        "originalUrl": "http://www.freewebs.com/the_bott/NotesTablePAL.txt",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
         "id": 3,
         "isComment": false,

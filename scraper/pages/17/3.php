@@ -1,14 +1,13 @@
-<div class="mdl-card__title"><strong>Mario&apos;s Right Nut</strong> posted on 
+<div class="mdl-card__title"><strong>Mog</strong> posted on 
 		
 			
 				
-				Oct 23, 2009 at 9:06:21 AM 
+				Apr 11, 2016 at 5:15:01 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Oh god...my brain hurts.  
-<br>Excellent job though.  This is awesome!
+					Here is the zip file for part 3
 				</div><div class="mdl-card--border"></div>

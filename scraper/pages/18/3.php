@@ -1,19 +1,24 @@
-<div class="mdl-card__title"><strong>MetalSlime</strong> posted on 
+<div class="mdl-card__title"><strong>udisi</strong> posted on 
 		
 			
 				
-				Nov 3, 2009 at 7:56:08 AM 
+				Sep 14, 2009 at 1:08:59 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>udisi</b></i><br><br>well, this is neat, was able to add back the staccato sound I had in my splash page. A few things I was wondering though. will probably be covered in the next tutorial.
+					well, I have the skeleton sound engine in my game now. The sound_play_frame works fine in my NMI. It doesn&apos;t interfere with anything that I can see. I have it play the scale when the game comes on and I can still use the controller buttons, so this works better than what I had tried before.
 <br>
-<br>1) what if I don&apos;t want an envelope? We split the byte between Duty cycle and Volume in this tutorial. The Volume is controlled solely by the envelope byte now. since this is an expected byte in the header, I have to put some value in. Do you make an envelope with just OF, OF, OF, etc. or is there a simpler way?
+<br>I set the sound engine to disable when I select something. My plan being I can re-enable and load a different scale when the next screen comes up. we&apos;ll see.
 <br>
-<br>2)This will probably be covered by Opcodes. Will opcodes allow my to change the Duty Cycle and envelope mid-stream? Say I want to start with a staccato then change to something else. or change the duty cycle. I would think I may want to change the tempo maybe also. 
+<br>I was looking at the sound engine code itself, and thinking of making a variable to control looping. Like if gamestate is still the same, then loop. kinda treating the scale as a song. 
 <br>
-<br></div><br>Good questions.<br><br>1) Right now, if you don&apos;t want an envelope and you don&apos;t want to change any code you could make a custom envelope for a constant volume.&#xA0; It would only need to be two bytes long, like this:<br><br>ve_F:<br>&#xA0;&#xA0;&#xA0; .byte $0F, $FF<br><br>Since the $FF automatically sustains the last value for the remainder of the note you get this pretty cheaply:&#xA0; 2 bytes for the envelope, plus 2 more bytes for the pointer table entry. <br><br>If you wanted to take volume control away from the envelopes, you could add in a flag (one of the bits in stream_status maybe) that you could use to turn volume envelopes off and on.&#xA0; If off, you could tell the engine to use the default value in stream_duty_vol.&#xA0; This would require a check of the flag in your se_set_volume code, and you&apos;d have to code in a way to set and clear the flag.&#xA0; <br><br>2) Yes, opcodes will allow you to pretty much do anything you want at any point in a stream.&#xA0; Change volume envelope, change duty cycle, change tempo, change keys, trigger a sound effect, loop, jump.&#xA0; Anything you can write code for you can make into an opcode and allow the sound engine to call it as needed.<br>
+<br>Probably thinking ahead a bit here, but I was trying to see how to have a song play and still have soundfx. since sound fx will use the same channel as a song, I need to come up with a way to still progress the song data, but mute it and load the sound fx, and then return to the song when the soundfx is done.
+<br>
+<br>Still playing with this a bit, looking at what of things may be useful as a variable. maybe a tempo variable, to handle the CMP frame. 
+<br>
+<br>I assume that future tutorial will add the other channels in. I have someone who did music for me. The songs are done with a tracker program though and in NSF, so I&apos;m thinking they may need to be re-written to work in this engine. I&apos;d use the NSF player route, but I don&apos;t know how I&apos;d do that and still be able to use soundfx. 
+<br>
 				</div><div class="mdl-card--border"></div>

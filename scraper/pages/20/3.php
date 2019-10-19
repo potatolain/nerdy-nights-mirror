@@ -1,13 +1,14 @@
-<div class="mdl-card__title"><strong>GradualGames</strong> posted on 
+<div class="mdl-card__title"><strong>Mario&apos;s Right Nut</strong> posted on 
 		
 			
 				
-				May 2, 2010 at 10:36:49 PM 
+				Oct 23, 2009 at 9:06:21 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Thanks for such a thorough sound tutorial! Using some of the core concepts here and important facts (such as what happens when writing to the 4th register of square channels), I&apos;ve written my own sound engine for use in my game.
+					Oh god...my brain hurts.  
+<br>Excellent job though.  This is awesome!
 				</div><div class="mdl-card--border"></div>

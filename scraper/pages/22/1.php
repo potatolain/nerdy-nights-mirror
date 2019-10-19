@@ -1,15 +1,13 @@
-<div class="mdl-card__title"><strong>MrMark0673</strong> posted on 
+<div class="mdl-card__title"><strong>udisi</strong> posted on 
 		
 			
 				
-				May 27, 2009 at 3:07:20 PM 
+				Nov 10, 2009 at 1:42:51 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!!!!!!
-<br>
-<br>Dude, you win.
+					excellent...muhahahaha.<br><br>btw, song6 would be battlekid minus noise channel <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"><br>
 				</div><div class="mdl-card--border"></div>

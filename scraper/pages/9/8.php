@@ -1,50 +1,151 @@
-<div class="mdl-card__title"><strong>Mega Mario Man</strong> posted on 
+<div class="mdl-card__title"><strong>Vectrex28</strong> posted on 
 		
 			
 				
-				Nov 24, 2015 at 10:16:28 AM 
+				Jan 19, 2014 at 3:45:34 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>splitpane</b></i><br>
+					Finally got a score system working. For now, it only increments by 25, but I added a little part that keeps track of an eventual Hi Score <span class="sprites_emoticons absmiddle" id="emo_tongue"></span><br>
+Yes, it&apos;s from what I&apos;m trying to program, so there are some weird values that refer to the score sprites I&apos;ve used.<br>
 <br>
-First of all, thanks a lot, BunnyBoy, for these tutorials. I&apos;ve learned a lot and made it all the way through in a couple of weeks, and have managed to get a lot of key parts of my game working as proof of concept code already. But now I&apos;ve been working through the example in this lesson and trying to figure out CHR RAM, but not having a lot of luck. I&apos;m looking to use CHR RAM to draw custom tiles. The example program here is all about loading a lot of text (and from the .ineschr 0 at the beginning I guess doesn&apos;t even use CHR RAM) but I&apos;m trying to figure out how to just draw some pixels. I changed the first two lines, removed the text file loading, and started removing a lot of the text printing code, but I am having trouble seeing clearly what is the core of the CHR RAM code. Let&apos;s say I want to do nothing but update a few tiles of background with some random pixels. Can anybody point me toward a minimal sample? Or suggest what the minimal steps would be?</div>
+UpdateScore:<br>
 <br>
-.ineschr 0 just means that you are not using CHR ROM. <strong>&quot;This sample uses 8KB of CHR RAM so no CHR banking has been included.&quot;</strong><br>
+AddOnes:<br>
+LDA score1 ; load the lowest digit of the number<br>
+CLC<br>
+ADC #$05 ; add new number, no carry<br>
+STA score1<br>
+STA $0285<br>
+CMP #$2A ; check if digit went above 9. If accumulator &gt;= $0A, carry is set<br>
+BCC AddTens ; if carry is clear, all done with ones digit<br>
+; carry was set, so we need to handle wrapping<br>
+LDA score1<br>
+SEC<br>
+SBC #$0A ; subtract off what doesnt fit in 1 digit<br>
+STA score1<br>
+STA $0285 ; then store the rest<br>
+INC score10<br>
+INC $0281 ; increment the tens digit<br>
+AddTens:<br>
+LDA score10 ; load the tens digit of the number<br>
+CLC<br>
+ADC #$02 ; add new number, no carry<br>
+STA score10<br>
+STA $0281<br>
+CMP #$2A ; check if digit went above 9. If accumulator &gt;= $0A, carry is set<br>
+BCC AddHundreds ; if carry is clear, all done with tens digit<br>
+; carry was set, so we need to handle wrapping<br>
+LDA score10<br>
+SEC<br>
+SBC #$0A ; subtract off what doesnt fit in 1 digit<br>
+STA score10<br>
+STA $0281 ; then store the rest<br>
+INC score100<br>
+INC $027D ; increment the hundreds digit<br>
+AddHundreds:<br>
+LDA score100 ; load the hundreds digit of the number<br>
+CMP #$2A ; check if digit went above 9. If accumulator &gt;= $0A, carry is set<br>
+BCC AddThousands ; if carry is clear, all done with ones digit<br>
+; carry was set, so we need to handle wrapping<br>
+LDA score100<br>
+SEC<br>
+SBC #$0A ; subtract off what doesnt fit in 1 digit<br>
+STA score100<br>
+STA $027D ; then store the rest<br>
+INC score1000<br>
+INC $0279 ; increment the thousands digit<br>
+AddThousands:<br>
+LDA score1000 ; load the thousands digit of the number<br>
+CMP #$2A ; check if digit went above 9. If accumulator &gt;= $0A, carry is set<br>
+BCC AddTThousands ; if carry is clear, all done with T digit<br>
+; carry was set, so we need to handle wrapping<br>
+LDA score1000<br>
+SEC<br>
+SBC #$0A ; subtract off what doesnt fit in 1 digit<br>
+STA score1000<br>
+STA $0279 ; then store the rest<br>
+INC score10000<br>
+INC $0275 ; increment the ten thousands digit<br>
+AddTThousands:<br>
+LDA score10000 ; load the ten thousands digit of the number<br>
+CMP #$2A ; check if digit went above 9. If accumulator &gt;= $0A, carry is set<br>
+BCC EndScore ; if carry is clear, all done with TT digit<br>
+; carry was set, so we need to handle wrapping<br>
+LDA score10000<br>
+SEC<br>
+SBC #$0A ; subtract off what doesnt fit in 1 digit<br>
+STA score10000<br>
+STA $0275 ; then store the rest<br>
+INC score100000<br>
+INC $0271 ; increment the Hundred Thousands digit<br>
+EndScore:<br>
 <br>
-Here is the CHR RAM loading subroutine in the tutorial. Really, it&apos;s not much different than what we did before, you are just reading the .chr file (or in the tutorials case, the graphics.nes file) and loading it into the CHRRAM area on the PPU. I literally just went through this tutorial Sunday night so I could prep my game to flash to my my UNROM flash board. As for answering your question on how to load the screen with random pixels, about the only think I can think of is to use a Pointer Table with the tiles you want to use and a random number generator subroutine to select tiles from the table at random and then write them to the screen. Maybe I&apos;m wrong on this though.<br>
 <br>
-<strong>GRAPHICS TILES AND SPRITES STORED IN BANK 14</strong><br>
-.bank 14<br>
-&#xA0; .org $C000&#xA0;&#xA0; ;;8KB graphics in this fixed bank<br>
-Graphics:<br>
-&#xA0; .incbin &quot;graphics.nes&quot;<br>
-&#xA0; .incbin &quot;graphics.nes&quot;<br>
+HiScoreCheck:<br>
+LDA score100000<br>
+CMP hiscore100000<br>
+BEQ TenThousandsCheck<br>
+BCS WriteHi<br>
+JMP EndHi<br>
+TenThousandsCheck:<br>
+LDA score10000<br>
+CMP hiscore10000<br>
+BEQ ThousandsCheck<br>
+BCS WriteHi<br>
+JMP EndHi<br>
+ThousandsCheck:<br>
+LDA score1000<br>
+CMP hiscore1000<br>
+BEQ HundredsCheck<br>
+BCS WriteHi<br>
+JMP EndHi<br>
+HundredsCheck:<br>
+LDA score100<br>
+CMP hiscore100<br>
+BEQ TensCheck<br>
+BCS WriteHi<br>
+JMP EndHi<br>
+TensCheck:<br>
+LDA score10<br>
+CMP hiscore10<br>
+BEQ OnesCheck<br>
+BCS WriteHi<br>
+JMP EndHi<br>
+OnesCheck:<br>
+LDA score1<br>
+CMP hiscore1<br>
+BEQ EndHi<br>
+BCS WriteHi<br>
+JMP EndHi<br>
+WriteHi:<br>
 <br>
-<strong>CODE TO LOAD PPU WITH CHRRAM</strong><br>
-LoadCHRRAM:&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;;copies 8KB of graphics from PRG to CHR RAM<br>
-&#xA0; lda $2002<br>
-&#xA0; lda #$00<br>
-&#xA0; sta $2006&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;set PPU to the CHR RAM area $0000-1FFF<br>
-&#xA0; sta $2006<br>
-&#xA0; ldy #$00<br>
-&#xA0; ldx #$20&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;32 x 256 bytes = 8 KB<br>
-&#xA0; lda #LOW(Graphics)<br>
-&#xA0; sta sourceLo<br>
-&#xA0; lda #HIGH(Graphics)&#xA0; ;get the address of the graphics data ($C000)<br>
-&#xA0; sta sourceHi&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;put into our source pointer<br>
-LoadCHRRamLoop:<br>
-&#xA0; lda [sourceLo], y&#xA0;&#xA0;&#xA0; ;copy from source pointer<br>
-&#xA0; sta $2007&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;to PPU CHR RAM area<br>
-&#xA0; iny<br>
-&#xA0; bne LoadCHRRamLoop&#xA0;&#xA0; ;;loop 256 times<br>
-&#xA0; inc sourceHi&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;;then increment the high address byte<br>
-&#xA0; dex&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;;do that 32 times<br>
-&#xA0; bne LoadCHRRamLoop&#xA0;&#xA0; ;;32 x 256 = 8KB<br>
-LoadCHRRamDone:<br>
-&#xA0; rts<br>
-&#xA0;
+LDA $0285<br>
+STA $02A5<br>
+LDA $0281<br>
+STA $02A1<br>
+LDA $027D<br>
+STA $029D<br>
+LDA $0279<br>
+STA $0299<br>
+LDA $0275<br>
+STA $0295<br>
+LDA $0271<br>
+STA $0291<br>
+LDA $0285<br>
+STA hiscore1<br>
+LDA $0281<br>
+STA hiscore10<br>
+LDA $027D<br>
+STA hiscore100<br>
+LDA $0279<br>
+STA hiscore1000<br>
+LDA $0275<br>
+STA hiscore10000<br>
+LDA $0271<br>
+STA hiscore100000<br>
+EndHi:
 				</div><div class="mdl-card--border"></div>

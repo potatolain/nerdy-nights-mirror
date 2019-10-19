@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>Mario&apos;s Right Nut</strong> posted on 
+<div class="mdl-card__title"><strong>udisi</strong> posted on 
 		
 			
 				
-				May 17, 2010 at 7:45:09 PM 
+				May 16, 2010 at 11:23:48 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>bunnyboy</b></i><br><div><br></div><div><b><span class="Apple-style-span" style="FONT-SIZE: small">SUROM</span></b></div><div>This board is used by DW3 and DW4. &#xA0;It uses 8KB of CHR RAM and the games set the CHR bank size to 8KB. &#xA0;That means neither CHR bank register is used for CHR, because there is only one bank. &#xA0;Instead the top bit of the CHR bank register (D4) becomes an additional top bit of the PRG Bank. &#xA0;That gives you 5 bank bits for 32 banks of 16KB, or 512KB of PRG ROM. &#xA0;Clearing the CHR bank D4 accesses the first 16 banks, and setting it accesses the second 16 banks.</div><div><br></div><div>In 8KB CHR mode the CHR bank 1 register is still ignored, so you only have to set CHR bank 0. &#xA0;However in 4KB CHR mode you have to set D4 in both registers the same or else the PRG will be swapping while the screen is being rendered without you controlling it. &#xA0;When the PPU switches between background and sprites your PRG would also switch.</div><div><br></div><div>Typically you will want to use 16KB PRG mode and keep all your bank switching code in the last bank. &#xA0;Doing the PRG switch happens in 2 steps (CHR bank register and PRG bank register) and you don&apos;t want the first step to switch away your code. &#xA0;The other method is to copy your bank switching code to RAM and execute it there.</div></div><p>So, here you&apos;re saying that your &quot;dominate&quot; bank would have to be exactly the same in each 16 bank set if you were to do it the first way you mentioned?&#xA0; This would keep your addresses all in line.&#xA0; Correct?</p><p>The second method sounds somewhat more efficent, right?&#xA0; I appoligize for being thick here, but I really can&apos;t wrap my head around how you would do that.&#xA0; <img src="/media/_images/expressions/face-icon-small-tongue.gif" border="0" style="display: none;">&#xA0; And here wouldn&apos;t you have to have reset code in the second set of banks to at least switch to the first one as it could load any random bank during start up?&#xA0; Don&apos;t suppose you have a quick example of this?&#xA0; At least the bank switching via RAM part?</p><p>Thank you for the help.<br><br><br></p>
+					This is awesomo 5000. Not that I had a lot of time lately, but this will be helpful
 				</div><div class="mdl-card--border"></div>

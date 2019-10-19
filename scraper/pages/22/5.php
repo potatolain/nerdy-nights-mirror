@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>bunnyboy</strong> posted on 
+<div class="mdl-card__title"><strong>zi</strong> posted on 
 		
 			
 				
-				May 28, 2009 at 8:57:19 AM 
+				Jan 10, 2015 at 10:27:10 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Other than using the debugger to find the bankswitching location, all you need to know to make it a multicart is covered in previous lessons  <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					I am, and I&apos;m going to task the programmer to make that a pretty lil&apos; opcode so I can call it and not worry about ever typing lda. <span class="sprites_emoticons absmiddle" id="emo_wink"></span> thanks rob!
 				</div><div class="mdl-card--border"></div>

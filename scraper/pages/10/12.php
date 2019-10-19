@@ -1,21 +1,20 @@
-<div class="mdl-card__title"><strong>user</strong> posted on 
+<div class="mdl-card__title"><strong>frantik</strong> posted on 
 		
 			
 				
-				Sep 28, 2015 at 11:37:26 AM 
+				May 7, 2009 at 2:30:17 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					^___ never mind, silly me. <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
+					.db causes the bytes to be written at that point in the code. data doesn&apos;t automatically start at $8000 or anything.. even your program code won&apos;t start at $8000 unless you tell the assembler to do so with an org command.  (well the pointers won&apos;t start at $8000)
 <br>
----
-<div class="FTQUOTE"><i>Originally posted by: <b>thefox</b></i><br>
+<br>you could do something like 
 <br>
-You need to manually reset the &quot;scroll&quot; variable to 0 when it becomes 240 (for the horizontal case it&apos;s automatically reset as it wraps 255-&gt;0).</div>
-So my solution is the common way to do it. <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
+<br>LDA #$03
+<br>STA Bankvalue + #$03
 <br>
-<strong>Edit</strong>: word changed
+<br>if you knew you wanted to switch to bank 3.. but it&apos;s better to reuse the general bank switching function.. that way if you end up switching mappers you only ahve to change one area of code
 				</div><div class="mdl-card--border"></div>

@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong>Paul</strong> posted on 
+<div class="mdl-card__title"><strong>NewUser123456789</strong> posted on 
 		
 			
 				

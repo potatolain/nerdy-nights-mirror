@@ -1,18 +1,15 @@
-<div class="mdl-card__title"><strong>Mega Mario Man</strong> posted on 
+<div class="mdl-card__title"><strong>Mario&apos;s Right Nut</strong> posted on 
 		
 			
 				
-				Feb 27, 2016 at 12:57:58 AM 
+				May 16, 2010 at 12:03:02 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>hanter</b></i><br>
+					This is pretty cool.  Thanks for the info.  For some reason, on my computer here, it looks like all of your paragraphs are in one line of text and you have to scroll way right off the screen to read the whole thing.  Is that a setting I have messed up?
 <br>
-Hi, MetalSlime. Your website and download files is out of date. Do you update this resources?&#xA0;</div>
-<br>
-<br>
-You may be waiting a long time on a reply. He hasn&apos;t logged into NA since 2014.
+<br>Any chance of expanding this to include SUROM?  I&apos;ve made it work, but it is not pretty.
 				</div><div class="mdl-card--border"></div>

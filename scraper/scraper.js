@@ -11,13 +11,16 @@ var mainUrls = [
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=6082",
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=7974",
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=8172",
-    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=8747"
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=8747",
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33274",
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33308"
 ];
 
 var advUrls = [
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=17074",
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33260",
-    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=36958"
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=36958",
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=36969"
 ];
 
 var soundUrls = [

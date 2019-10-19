@@ -1,18 +1,23 @@
-<div class="mdl-card__title"><strong>KHAN Games</strong> posted on 
+<div class="mdl-card__title"><strong>FarruOne</strong> posted on 
 		
 			
 				
-				Oct 11, 2016 at 6:33:36 PM 
+				Dec 22, 2015 at 1:39:19 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>Erdrick</b></i><br>
+					<div class="FTQUOTE"><i>Originally posted by: <b>user</b></i><br>
 <br>
-I am looking for the mirror links for this tutorial&apos;s sample codes and I can&apos;t see it in your post. I would really appreciate help finding the links. Thank you.</div>
+In case you did not read these two articles yet, give a look:<br>
 <br>
-Did you look at the attached file two posts up?<br>
+&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_scrolling" target="_blank">http://wiki.nesdev.com/w/index.php/PPU_scrolling</a><br>
+<br>
+&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs</a><br>
+&#xA0;</div>
+<br>
+I&apos;ll read them. Thanks!<br>
 &#xA0;
 				</div><div class="mdl-card--border"></div>

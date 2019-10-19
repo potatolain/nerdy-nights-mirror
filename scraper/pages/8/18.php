@@ -1,14 +1,15 @@
-<div class="mdl-card__title"><strong>Rachel</strong> posted on 
+<div class="mdl-card__title"><strong>removed04092017</strong> posted on 
 		
 			
 				
-				Mar 10, 2011 at 10:33:01 PM 
+				Mar 31, 2014 at 5:22:45 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Hey, totally random question on a blast-from-the-past thread... <img src="/media/_images/expressions/face-icon-small-smile.gif" border="0" style="display: none;"> This method works for me when I&apos;m using 2 or 4 CHR banks. However, games with 3 CHR banks do not pull from the proper tileset when running on the PowerPak/NES. (They work fine in Nintendulator, though.) A game that uses 3 CHR banks will only work for me if I set .ineschr to 4 and duplicate one of the banks. I&apos;m continuing to experiment, but I wonder if anyone has any thoughts as to why this might be happening. Just curious.
+					1: They are not the same. HIGH() is an ASSEMBLER FUNCTION and goes to the label we used, and pulls the high and low bytes with the function to get them so in our code we don&apos;t have to use random numbers, when it moves our code is automatically right.
 <br>
+<br>2: [] addressing mode means &quot;Look at where zeropage (variable name in []) points to and adds Y to it. The INC doesn&apos;t need brackets because we don&apos;t care wtf it points to, it just need to be incremented so our data is pulled right from the pointer location. Pointer is a 2 byte variable. low and high attached just say which byte it is we are accessing, with the low byte being the pointer it&apos;s self.
 				</div><div class="mdl-card--border"></div>

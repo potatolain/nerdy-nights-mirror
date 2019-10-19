@@ -1,18 +1,13 @@
-<div class="mdl-card__title"><strong>FarruOne</strong> posted on 
+<div class="mdl-card__title"><strong>frantik</strong> posted on 
 		
 			
 				
-				Dec 22, 2015 at 10:45:40 AM 
+				May 7, 2009 at 8:24:48 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					The problem lies in the NMI, the PPU or both.
-<br>
-<br>I have just tried a different appeoach and it works fine: I have kept the scrolling code in the NMI but it is branched by a variable flag enabled when the right button is pressed.
-<br>
-<br>Anyway, I should get more familiar with the NMI mechanism...
-<br>Thank you!
+					You only have to do that for mappers with &quot;bus conflicts&quot;.  You&apos;re writing to memory which is supposed to be Read Only (ROM).  Instead of writing, you actually cause the mapper to do things.  but mappers with bus conflicts get messed up if you don&apos;t write the same value which is contained in the ROM
 				</div><div class="mdl-card--border"></div>

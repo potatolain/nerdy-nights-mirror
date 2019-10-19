@@ -2,12 +2,12 @@
 		
 			
 				
-				Jan 18, 2010 at 8:56:31 AM 
+				Nov 2, 2009 at 9:02:55 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Awesome, nicely done!  Keep them comming.  I can&apos;t wait to start adding music to my game.
+					Wow...that&apos;s intense.  You&apos;re doing a great job, dude, keep &apos;em comming!
 				</div><div class="mdl-card--border"></div>

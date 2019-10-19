@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>hanter</strong> posted on 
+<div class="mdl-card__title"><strong>NESHomebrew</strong> posted on 
 		
 			
 				
-				Feb 26, 2016 at 9:59:29 PM 
+				May 15, 2010 at 3:08:28 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Hi, MetalSlime. Your website and download files is out of date. Do you update this resources?&#xA0;
+					Our Nerdy Nights Master Returns!!!  Just wondering, is the scrolling tutorial mentioned in previous Nerdy Nights still in the works?  *edit* maybe it wasn&apos;t mentioned as I can&apos;t seem to find it, but there have been a few requests.
 				</div><div class="mdl-card--border"></div>

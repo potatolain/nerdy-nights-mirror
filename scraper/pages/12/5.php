@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>Zzap</strong> posted on 
+<div class="mdl-card__title"><strong>dra600n</strong> posted on 
 		
 			
 				
-				Aug 20, 2009 at 7:31:53 PM 
+				Aug 26, 2013 at 8:32:53 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Looks great, you followed bunnys styling perfectly <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"> I think I&apos;m going to learn a bit about some of the intricacies of the APU here too <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					Probably a hex editor. I use XVI32 (it&apos;s free and very lightweight). Give that a shot. I&apos;m willing to bet that it&apos;s tile numbers for the data and drawn based on the number.
 				</div><div class="mdl-card--border"></div>

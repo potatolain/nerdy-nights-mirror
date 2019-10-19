@@ -1,24 +1,13 @@
-<div class="mdl-card__title"><strong>MetalSlime</strong> posted on 
+<div class="mdl-card__title"><strong>SoleGooseProductions</strong> posted on 
 		
 			
 				
-				Mar 13, 2009 at 1:14:08 AM 
+				Jul 3, 2013 at 8:26:17 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>bunnyboy</b></i><br><br><span style="font-weight: bold;" class="Apple-style-span"><span style="font-size: medium;" class="Apple-style-span">
-Bank Switching Code</span></span><br>
-The final part it to write your bank switching code.  This subroutine will take a bank number in the x register and switch the CHR bank to it immediately.  The actual switch is done by writing the desired bank number anywhere in the $8000-FFFF memory range.  The cart hardware sees this write and changes the CHR bank.<br><p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="font-family: &apos;-webkit-sans-serif&apos;; font-size: 12px;" class="Apple-style-span"><br></span></p><p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">... your game code ...</span></p>
-<p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">  LDA #$01        ;;put new bank to use into X register</span></p>
-<p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">  JSR Bankswitch  ;;jump to bank switching code</span></p>
-<p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">... your game code ...</span></p>
-<br>
-<p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">Bankswitch:</span></p>
-<p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">  STA $8000       ;;new bank to use</span></p>
-<p style="margin: 0px; font-family: Monaco; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal;"><span style="letter-spacing: 0px;">  RTS</span></p>
-<br>
-<br><span style="font-weight: bold;" class="Apple-style-span"><span style="font-size: medium;" class="Apple-style-span"></span></span></div><br><br>Nice to see Nerdy Nights back. <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"><br><br>I found a little typo in the above part.&#xA0; You talk about using the X register (both in the paragraph and in the code comments) but you do everything with A.&#xA0; I don&apos;t think anyone who has made it far enough to complete pong will get confused by that, but for completeness&apos; sake, you might want to fix it <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"><br>
+					After the concrete goals of Lesson 7 (finally worked through most of them!), the assignment for this lesson baffles me. Primarily, what exactly is the task in lesson 8? The assignment is given of &quot;separating the code that sets the pointer variables from the code that copies the loop,&quot; with the goal being to devise a way to &quot;have multiple backgrounds that use different pointer loading code, but the same copy code.&quot; One respondent in the thread seemed to give indication that this was primarily asking one to turn part of the code into a subroutine, which would minimize the need to rewrite the copy code each time. Is this what is being asked for? A nudge in the right direction, or even a different phrasing for the task would be greatly appreciated. I am a bit unclear on the whole lesson to be honest, despite reading through it many times, so that may have something to do with my inability to figure out what is being asked.
 				</div><div class="mdl-card--border"></div>

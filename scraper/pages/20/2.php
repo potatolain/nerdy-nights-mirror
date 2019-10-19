@@ -1,13 +1,13 @@
-<div class="mdl-card__title"><strong>Mario&apos;s Right Nut</strong> posted on 
+<div class="mdl-card__title"><strong>removed-07-06-2016</strong> posted on 
 		
 			
 				
-				Nov 30, 2009 at 8:43:25 AM 
+				Oct 23, 2009 at 5:12:22 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					This looks great!  I can&apos;t wait to start making music.  Thanks!
+					Man, you&apos;re tutorials are so thorough.  Fantastic job!
 				</div><div class="mdl-card--border"></div>

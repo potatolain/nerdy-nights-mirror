@@ -1,13 +1,15 @@
-<div class="mdl-card__title"><strong>HocusPocus</strong> posted on 
+<div class="mdl-card__title"><strong>bunnyboy</strong> posted on 
 		
 			
 				
-				Aug 26, 2013 at 8:27:39 AM 
+				Mar 12, 2009 at 9:59:49 PM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Going through this topic in an effort to learn to scroll some stuff <span class="sprites_emoticons absmiddle" id="emo_smile"></span> In the tutorial for scrolling 4 bunny incbin&apos;s a file called SMBlevel.bin which includes the column data which is being written. Can someone point out to me how to edit SMBlevel.bin?
+					This was a requested topic for a game in development  <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">  If anyone else is working on something and needs help I can cover other things like 16 bit math, more collisions, fading, etc.
+<br>
+<br>Mappers like MMC1 and MMC3 use more than a single write to do bank switching.  They also have more logic so the ROM doesn&apos;t respond to a write command, meaning no bus conflicts.
 				</div><div class="mdl-card--border"></div>

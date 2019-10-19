@@ -1,64 +1,162 @@
 
-					<span class="Apple-style-span" style="font-weight: bold; "><div><span class="Apple-style-span" style="font-weight: normal; ">To do the advanced lessons you should have already finished Pong.</span></div><div><br></div>This Week:&#xA0;</span>As you complete a full game you may find the NROM memory limits to be too small.  To enable more ROM on carts many forms of &quot;bank switching&quot; were used.  This article deals with just one type of CHR switching, used on CNROM carts.  CNROM is easy to use and very cheap to manufacture.  The <a href="http://www.retrousb.com/product_info.php?ref=5&amp;products_id=42&amp;affiliate_banner_id=1" target="_blank">ReproPak</a>, <a href="http://www.retrousb.com/product_info.php?ref=5&amp;products_id=34&amp;affiliate_banner_id=1" target="_blank">PowerPak</a>, and <a href="http://www.retrousb.com/product_info.php?ref=5&amp;products_id=35&amp;affiliate_banner_id=1" target="_blank">PowerPak Lite</a> all support CNROM completely so it is easy to get your code running on real hardware.  If you are using donor carts you can look up games that use CNROM at <a href="http://bootgod.dyndns.org:7777/" target="_blank">BootGod&apos;s NES Cart Database</a>.<br>
+					<b>This Week:</b> The NES is an 8 bit machine, but sometimes you need more!  Learn to handle 16+ bit numbers, and use them for bigger loops.<br>
 <br>
-<br><span class="Apple-style-span" style="font-weight: bold; "><span class="Apple-style-span" style="font-size: medium; ">
-CHR Bank Switching</span> </span><br>
-  Bank switching is exchanging one chunk of ROM for a different chunk, while keeping everything in same address range.  It is not making a copy, so it happens instantly.  You can switch between different banks whenever you want.  The size and memory range of the banks depends on the mapper.  For the CNROM mapper used in this article the bank size is 8KB of CHR ROM.  The whole 8KB range of PPU memory $0000-1FFF is switched at once.  This means the graphics for all background tiles and sprite tiles will be swapped.  In your game you may have some tiles duplicated in multiple banks so they do not appear to change on screen.  PRG is not bank switched, so it remains at the NROM limit of 32KB.<br>
+<span class="Apple-style-span" style="font-size: medium; "><b>16 Bit Math</b></span><br>
+Doing 16 bit addition and subtraction is fairly simple because of the carry flag that we had previously been clearing.  First the normal add is done using the clc/adc pair.  This add is for the lower 8 bits of the 16 bit number.  For the upper 8 bits the adc instruction is used again, but without the clc.  You want to keep the carry from the first add, in case it overflowed.  To only add in the carry the second adc value is just 0.<br>
 <br>
-<br><span class="Apple-style-span" style="font-weight: bold; "><span class="Apple-style-span" style="font-size: medium; ">
-Set Mapper Number</span></span><br>
-The first part of adding bank switching is changing the mapper number your .NES file uses.  At the top of your code has previously been:<br>
+Here are some examples in decimal.  One digit column is added at a time.  The carry (1) is added to the next column as needed.  <br>
+<pre>    0 3
++   0 4
+    0 7  (no carry needed, top digit = 0)
+</pre>
 <br>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;.inesmap 0   ; mapper 0 = NROM, no bank swapping</span></p>
+<pre>    0 4
++   0 8
+    1 2  (carry only, top digit = 1)
+</pre>
 <br>
-The new line is:<br>
-<p></p><p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;.inesmap 3   ; mapper 3 = CNROM, 8KB CHR ROM bank swapping</span></p>
+<pre>    2 2
++   1 9
+    4 1  (carry plus 2 plus 1, top digit = 4)
+</pre>
 <br>
-This line in the header just tells the emulator to use CNROM to play your game.  A list of other iNES mapper numbers can be seen at the wiki at <a href="http://nesdevwiki.org/" target="_blank">http://nesdevwiki.org/...</a>. <br>
+And the code to do it on the NES, adding 1 to a 16 bit number:<br>
+<pre>  LDA lowbyte      ; load low 8 bits of 16 bit value
+  CLC              ; clear carry
+  ADC #$01         ; add 1
+  STA lowbyte      ; done with low bits, save back
+  LDA highbyte     ; load upper 8 bits
+  ADC #$00         ; add 0 and carry from previous add
+  STA highbyte     ; save back</pre>
 <br>
-<br><span class="Apple-style-span" style="font-size: medium; "><span class="Apple-style-span" style="font-weight: bold; ">
-Set CHR Size</span></span><br>
-The next part is to increase the size of your CHR ROM.  Change the .ineschr value from 1 to 2, showing that there are now two 8KB banks. CNROM can handle 32KB of CHR ROM or four 8KB banks but this example will only use two.<br>
+The same process of adding 0 without clearing the carry can be continued to do 24 bit, 32 bit, or higher numbers.  It is also the same process to do 16 bit subtraction:<br>
+<pre>  LDA lowbyte      ; load low 8 bits of 16 bit value
+  SEC              ; set carry
+  SBC #$01         ; subtract 1
+  STA lowbyte      ; done with low bits, save back
+  LDA highbyte     ; load upper 8 bits
+  SBC #$00         ; subtract 0 and carry from previous sub
+  STA highbyte     ; save back</pre>
 <br>
-<br><span class="Apple-style-span" style="font-weight: bold; "><span class="Apple-style-span" style="font-size: medium; ">
-Add CHR Data</span></span><br>
-The third part adds the data for the next bank into your game.  Just make a new .bank statement below your current one for CHR, giving it the next sequential number.  In your code when you set which bank to switch to this is the number used.  PRG bank numbers are ignored so your original CHR bank will be #0 and the new one will be #1.<br>
+<br><span class="Apple-style-span" style="font-size: medium; "><b>
+Pointers and Indirect Indexed Mode</b></span><br>
+Previously when loading background tiles the x register was used as an 8 bit offset.  Now that we can handle 16 bit numbers a different addressing mode can be used.  The 16 bit address is saved into two 8 bit variables, which are then used as a &quot;<b>pointer</b>&quot; which points to the background data we want.  The LDA instruction then uses the &quot;<b>Indirect Indexed</b>&quot; addressing mode.  This takes the 16 bit variable inside the brackets and uses it as an address.  For the address to be correct, the low byte must be first and the high byte must come immediately after.  Then the value in the Y register is added to the address.  This forms the final address to load from.  Both variables must also be in the first 256 bytes of RAM, called &quot;<b>Zero Page</b>&quot;, and the X register cannot be used with this addressing mode.<br>
+<pre>  .rsset $0000       ; put pointers in zero page
+pointerLo  .rs 1   ; pointer variables are declared in RAM
+pointerHi  .rs 1   ; low byte first, high byte immediately after
+</pre>
+<pre>  LDA #$D0
+  STA pointerHi
+  LDA #$12
+  STA pointerLo       ; pointer now says $D012
+</pre>
+<pre>  LDY #$00            ; no offset from Y
+  LDA [pointerLo], y  ; load data from the address pointed to by the 16 bit pointer variable plus the value in the Y register
+</pre>
 <br>
-<br><span class="Apple-style-span" style="font-weight: bold; "><span class="Apple-style-span" style="font-size: medium; ">
-Bank Switching Code</span></span><br>
-The final part it to write your bank switching code.  This subroutine will take a bank number in the A register and switch the CHR bank to it immediately.  The actual switch is done by writing the desired bank number anywhere in the $8000-FFFF memory range.  The cart hardware sees this write and changes the CHR bank.<br><p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span class="Apple-style-span" style="font-family: &apos;-webkit-sans-serif&apos;; font-size: 12px; "><br></span></p><p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">... your game code ...</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;LDA #$01        ;;put new bank to use into the A register</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;JSR Bankswitch  ;;jump to bank switching code</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">... your game code ...</span></p>
+  That last line is the same as <pre>LDA $D012, y</pre>Because we kept Y = 0, that is the same as <pre>LDA $D012</pre>
+<br><b><span class="Apple-style-span" style="font-size: medium; ">  
+Copy Loops  </span></b><br>
+Now using your 16 bit math the pointer address can be incremented.  Instead of being limited to 256 background tiles like when using the x offset, the whole background can be copied in one loop.  First the address of the background data is put into the pointer variable.  The high and low bytes of the address are each copied individually.  Then the number of tiles to copy is put into the loop counter, which will count down to 0.  Each time through the loop one byte will be copied, the 16 bit pointer address will be incremented, and the 16 bit loop counter will be decremented.  The Y offset is always kept at 0, because the pointer always points to the correct byte.  When the loop counter reaches 0 everything is done.  <br>
+ <pre>  LDA #LOW(background)
+  STA pointerLo       ; put the low byte of the address of background into pointer
+  LDA #HIGH(background)
+  STA pointerHi       ; put the high byte of the address into pointer
+</pre>
+<pre>  LDA #$00
+  sta counterLo       ; put the loop counter into 16 bit variable
+  LDA #$04
+  sta counterHi       ; count = $0400 = 1KB, the whole screen at once including attributes
+</pre>
+<pre>  
+  LDY #$00            ; put y to 0 and don&apos;t change it
+LoadBackgroundLoop:
+  LDA [pointerLo], y
+  STA $2007           ; copy one background byte
+</pre>
+<pre>  LDA pointerLo
+  CLC
+  ADC #$01
+  STA pointerLo
+  LDA pointerHi
+  ADC #$00
+  STA pointerHi       ; increment the pointer to the next byte
+</pre>
+<pre>  
+  LDA counterLo
+  SEC
+  SBC #$01
+  STA counterLo
+  LDA counterHi
+  SBC #$00
+  STA counterHi       ; decrement the loop counter
+</pre>
+<pre>  
+  LDA counterLo
+  CMP #$00
+  BNE LoadBackgroundLoop
+  LDA counterHi
+  CMP #$00
+  BNE LoadBackgroundLoop  ; if the loop counter isn&apos;t 0000, keep copying
+&#xA0;</pre>That is a lot of code to copy just one byte!
 <br>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">Bankswitch:</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;STA $8000       ;;new bank to use</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;RTS</span></p>
+<br><span class="Apple-style-span" style="font-size: medium; "><b>
+Nested Loops</b></span><br>
+To avoid using so much code, we can use both the X and Y registers as loop counters.  By putting one loop inside another loop we create a &quot;nested loop&quot;.  First the inside loop counts all the way up.  Then the outside loop counts up once, and the inside loop counts all the way again.  Normally using only X or Y would only give a maximum of 256 times through a loop like we have previously done.  With nested loops using both X and Y the maximum is the inside counter multiplied by the outside counter, or 256*256 = 65536.
 <br>
-<br><span class="Apple-style-span" style="font-weight: bold; "><span class="Apple-style-span" style="font-size: medium; ">
-Bus Conflicts</span></span><br>
-When you start running your code on real hardware there is one catch to worry about.  For basic mappers, the PRG ROM does not care if it receives a read or a write command.  It will respond to both like a read by putting the data on the data bus.  This is a problem for bank switching, where the CPU is also trying to put data on the data bus at the same time.  They electrically fit in a &quot;bus conflict&quot;.  The CPU could win, giving you the right value.  Or the ROM could win, giving you the wrong value.  This is solved by having the ROM and CPU put the same value on the data bus, so there is no conflict.  First a table of bank numbers is made, and the value from that table is written to do the bank switch.<br>
+<pre>  LDX #$00
+  LDY #$00
+OutsideLoop:
+  
+InsideLoop:
+  ;
+  ; this section runs 256 x 256 times
+  ;
+  
+  INY                 ; inside loop counter
+  CPY #$00
+  BNE InsideLoop      ; run the inside loop 256 times before continuing down
+  
+  INX
+  CPX #$00
+  BNE OutsideLoop     ; run the outside loop 256 times before continuing down
+</pre><div><br></div>
+First the Inside Loop runs and Y will count from 0 to 256.  When that finishes X will count 0 to 1, and branch back to the beginning of the loops.  Then the Inside Loop runs again, Y 0 -&gt; 256.  X now goes 1 -&gt; 2 and the process continues.  Everything ends when both X and Y have each counted to 256.
 <br>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">... code ...</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;LDA #$01        ;;put new bank to use into A</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;JSR Bankswitch  ;;jump to bank switching code</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">... code ...</span></p>
 <br>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">Bankswitch:</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;TAX                ;;copy A into X</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;STA Bankvalues, X  ;;new bank to use</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;RTS</span></p>
-  <br>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">Bankvalues:</span></p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal 10px/normal Monaco; "><span style="letter-spacing: 0px; ">&#xA0;&#xA0;.db $00, $01, $02, $03    ;;bank numbers </span></p>
- 
-<br>
-The X register is used as an index into the Bankvalues table, so the value written by the CPU will match the value coming from the ROM.<br>
-<br>
-  <br><span class="Apple-style-span" style="font-weight: bold; "><span class="Apple-style-span" style="font-size: medium; "><br>
-Putting It All Together</span></span><br>
-Download and unzip the <a href="scraper/files/chrbanks.zip" target="_blank">chrbanks.zip</a> sample files.  This set is based on the previous <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=7974" target="_blank">Week 5</a> code.  Make sure that file, mario0.chr, mario1.chr, and chrbanks.bat is in the same folder as NESASM3, then double click on chrbanks.bat.  That will run NESASM3 and should produce chrbanks.nes.  Run that NES file in FCEUXD SP to see small Mario.<br>
-<br>
-Inside the LatchController subroutine a new section is added to read the Select and Start buttons from the controller.  The Select button switches to CHR bank 0, and the Start button switches to CHR bank 1.  Graphics of CHR bank 1 have been rearranged so Mario will change to a beetle. &#xA0;The tile numbers are not changed, but the graphics for those tiles are.
-<div><br></div><div>Open the PPU Viewer from the Tools menu in FCEUXD SP and try hitting the buttons. &#xA0;You can see all the graphics changing at once when the active bank switches.</div>
+When we are using nested loops to copy entire backgrounds we want 256 x 4 = 1KB.  The Y code from above can be unchanged, but the X code is changed to CPX #$04.
+<br><br>
+Because we are changing the Y register our previous pointer copying code also needs to be modified.  Instead of incrementing the pointer every time, the incrementing Y register is doing the same thing.  The low byte of the pointer will be kept at 0.  This means your background data needs to be aligned to where the low byte of the address is $00.   However the high byte of the pointer still needs to change.  By always making the inside loop count 256 times, that will end at the same time that the high byte needs to change.  This time 16 bit math isn&apos;t needed because only the high byte is incremented.
+<br><br>
+No loop counter is used because X and Y are used instead.  If you cannot align your data so the low byte of the address is $00, you will have to use the CopyLoop above.<br>
+<pre>  LDA #$00
+  STA pointerLo       ; put the low byte of the address of background into pointer
+  LDA #HIGH(background)
+  STA pointerHi       ; put the high byte of the address into pointer
+  
+  LDX #$00            ; start at pointer + 0
+  LDY #$00
+OutsideLoop:
+  
+InsideLoop:
+  LDA [pointerLo], y  ; copy one background byte from address in pointer plus Y
+  STA $2007           ; this runs 256 * 4 times
+  
+  INY                 ; inside loop counter
+  CPY #$00
+  BNE InsideLoop      ; run the inside loop 256 times before continuing down
+  
+  INC pointerHi       ; low byte went 0 to 256, so high byte needs to be changed now
+  
+  INX
+  CPX #$04
+  BNE OutsideLoop     ; run the outside loop 256 times before continuing down
+</pre>
+  <br><span class="Apple-style-span" style="font-size: medium; "><b>
+Putting It All Together</b></span><br>
+Download and unzip the <a href="scraper/files/background3.zip" target="_blank">background3.zip</a> sample files.  All the code is in the background.asm file.  Make sure that file, mario.chr, and background.bat is in the same folder as NESASM, then double click on background.bat.  That will run NESASM and should produce background3.nes.  Run that NES file in FCEUXD SP to see the full background.
+<br><br>
+The new nested loop is used to copy a whole background to the screen instead of only 128 bytes. &#xA0;The background is aligned using the .org directive so the low address byte is $00. &#xA0;The attributes are also placed directly after the background data so it is are copied at the same time.<div><br></div><div>Your task is to separate out the code that sets the pointer variables from the code that copies the loop.  That way you can have multiple backgrounds that use different pointer loading code, but the same copy code.
+<br><br>
+If you are using a different assembler, the Indirect Indexed mode may use () instead of [].  The LOW() and HIGH() syntax may also be different.<br><br></div>
 				

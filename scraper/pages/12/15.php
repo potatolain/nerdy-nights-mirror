@@ -1,28 +1,18 @@
-<div class="mdl-card__title"><strong>Zutano</strong> posted on 
+<div class="mdl-card__title"><strong>FarruOne</strong> posted on 
 		
 			
 				
-				Jul 20, 2016 at 10:25:44 AM 
+				Dec 22, 2015 at 10:45:40 AM 
 			
 			
 			
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>Mog</b></i><br>
-&#xA0;
-<div class="FTQUOTE"><i>Originally posted by: <b>user</b></i><br>
-&#xA0;
-<div class="FTQUOTE"><i>Originally posted by: <b>Zutano</b></i><br>
+					The problem lies in the NMI, the PPU or both.
 <br>
-Sorry to dig up such an old thread. It looks like the example code links are broken for every APU tutorial. Does anyone have a mirror?</div>
+<br>I have just tried a different appeoach and it works fine: I have kept the scrolling code in the NMI but it is branched by a variable flag enabled when the right button is pressed.
 <br>
-Mog posted a new link a while ago, but I can&apos;t find it now.<br>
-&#xA0;</div>
-<br>
-<br>
-Here you go</div>
-<br>
-Thanks!<br>
-&#xA0;
+<br>Anyway, I should get more familiar with the NMI mechanism...
+<br>Thank you!
 				</div><div class="mdl-card--border"></div>
