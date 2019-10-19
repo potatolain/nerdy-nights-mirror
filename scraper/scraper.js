@@ -102,13 +102,17 @@ async function main() {
             deliciousCereal = cheerio.load(content.data),
             posts = deliciousCereal('[data-role="commentContent"],.m8t');// If this breaks, this is likely where it fails. This is a class for the html of the post.
 
-        var title = deliciousCereal('h2').text();
-        if (deliciousCereal('.ipsType_pageTitle,h2 small').length) {
-            subTitle = deliciousCereal('h2 small').text();
-            if (subTitle.length) {
-                title = title.replace(subTitle, '').trim();
-                title += ': ' + subTitle;
+        var title = deliciousCereal('h1.ipsType_pageTitle,h2').first().text().trim();
+        if (allUrls[i].url.indexOf('nintendoage') !== -1) {
+            if (deliciousCereal('h2 small').length) {
+                subTitle = deliciousCereal('h2 small').text();
+                if (subTitle.length) {
+                    title = title.replace(subTitle, '').trim();
+                    title += ': ' + subTitle;
+                }
             }
+        } else if (allUrls[i].url.indexOf('atariage') !== -1) {
+            title = 'AtariAge: ' + title;
         }
 
         // Cleaning up title/subtitle repitition in some of these
