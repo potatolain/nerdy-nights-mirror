@@ -3,143 +3,182 @@
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=4150",
             "name": "Nerdy Nights intro ",
-            "filename": "0.php"
+            "filename": "0.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=4147",
             "name": "Nerdy Nights week 1: number systems and core programming ideas",
-            "filename": "1.php"
+            "filename": "1.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=4291",
             "name": "Nerdy Nights week 2: NES architecture overview",
-            "filename": "2.php"
+            "filename": "2.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=4440",
             "name": "Nerdy Nights week 3: 6502 ASM, first app",
-            "filename": "3.php"
+            "filename": "3.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=6082",
             "name": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
-            "filename": "4.php"
+            "filename": "4.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=7974",
             "name": "Nerdy Nights week 5: multiple sprites, reading controllers, more instructions",
-            "filename": "5.php"
+            "filename": "5.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=8172",
             "name": "Nerdy Nights week 6: Backgrounds",
-            "filename": "6.php"
+            "filename": "6.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=8747",
             "name": "Nerdy Nights week 7: subroutines, game layout, starting Pong",
-            "filename": "7.php"
+            "filename": "7.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33274",
             "name": "Nerdy Nights week 8: 16 bit math, pointers, nested loops",
-            "filename": "8.php"
+            "filename": "8.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33308",
             "name": "Nerdy Nights week 9: Numbers, Bin to Dec",
-            "filename": "9.php"
+            "filename": "9.php",
+            "needsUpdate": false
         }
     ],
     "advanced": [
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=17074",
             "name": "Advanced Nerdy Nights #1: CHR Bank switching",
-            "filename": "10.php"
+            "filename": "10.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33260",
             "name": "Advanced Nerdy Nights #2: MMC1 CHR and PRG Bank switching, WRAM + Battery",
-            "filename": "11.php"
+            "filename": "11.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=36958",
             "name": "Advanced Nerdy Nights #3: Horizontal background scrolling",
-            "filename": "12.php"
+            "filename": "12.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=36969",
             "name": "Advanced Nerdy Nights #4: Sprite 0 hit for a status bar",
-            "filename": "13.php"
+            "filename": "13.php",
+            "needsUpdate": false
         }
     ],
     "audio": [
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=22487",
             "name": "Nerdy Nights Sound intro: About the Nerdy Nights Sound series",
-            "filename": "14.php"
+            "filename": "14.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=22484",
             "name": "Nerdy Nights Sound: Part 1: make a music/sfx engine",
-            "filename": "15.php"
+            "filename": "15.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=22610",
             "name": "Nerdy Nights Sound: Part 2: Square 2 and Triangle Basics",
-            "filename": "16.php"
+            "filename": "16.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=22776",
             "name": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-            "filename": "17.php"
+            "filename": "17.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=23024",
             "name": "Nerdy Nights Sound: Part 4: sound engine skeleton",
-            "filename": "18.php"
+            "filename": "18.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=23452",
             "name": "Nerdy Nights Sound: Part 5: Sound Data, Pointer Tables, Headers",
-            "filename": "19.php"
+            "filename": "19.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=24885",
             "name": "Nerdy Nights Sound: Part 6: Tempo, Note Lengths, Buffering and Rests",
-            "filename": "20.php"
+            "filename": "20.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=25253",
             "name": "Nerdy Nights Sound: Part 7: Volume Envelopes",
-            "filename": "21.php"
+            "filename": "21.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=25583",
             "name": "Nerdy Nights Sound: Part 8: Opcodes and Looping",
-            "filename": "22.php"
+            "filename": "22.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=26247",
             "name": "Nerdy Nights Sound: Part 9: Finite Loops, Key Changes, Chord Progressions",
-            "filename": "23.php"
+            "filename": "23.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=27943",
             "name": "Nerdy Nights Sound: Part 10: Simple Drums",
-            "filename": "24.php"
+            "filename": "24.php",
+            "needsUpdate": false
         }
     ],
     "misc": [
         {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=19733",
             "name": "Nerdy Nights: hex editing: Alter your own title screens!",
-            "filename": "25.php"
+            "filename": "25.php",
+            "needsUpdate": false
         },
         {
             "originalUrl": "https://atariage.com/forums/topic/71120-6502-killer-hacks/",
             "name": "AtariAge: 6502 Killer hacks",
-            "filename": "26.php"
+            "filename": "26.php",
+            "needsUpdate": false
+        },
+        {
+            "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=103138",
+            "name": "Ask all programming questions here!",
+            "filename": "27.php",
+            "needsUpdate": true
+        },
+        {
+            "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=103138",
+            "name": "Ask all programming questions here!",
+            "filename": "27.php",
+            "needsUpdate": false
         }
     ]
 }

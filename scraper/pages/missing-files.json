@@ -182,5 +182,61 @@
         "id": 3,
         "isComment": true,
         "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/094A1B4D-B4BE-76EB-AA7DE27128653CA7.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A1B4D-B4BE-76EB-AA7DE27128653CA7.png",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/094A196F-951F-52C6-4F9BE6E9EC826B5E.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A196F-951F-52C6-4F9BE6E9EC826B5E.png",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/094A1D30-0262-6829-315C9290EB42FFA1.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A1D30-0262-6829-315C9290EB42FFA1.png",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/93C2A55F-D2B8-4753-FAEF48451E44AAC7.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/93C2A55F-D2B8-4753-FAEF48451E44AAC7.png",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/5585923A-EC0E-4604-05608639C85DC413.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/5585923A-EC0E-4604-05608639C85DC413.png",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "images/missing/C5B57052-BFC7-FB05-61EB4A04DA59BE9E.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/C5B57052-BFC7-FB05-61EB4A04DA59BE9E.png",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
+    },
+    {
+        "newUrl": "downloads/missing/nesasm_usage.txt",
+        "originalUrl": "https://dl.dropboxusercontent.com/u/6447287/nesasm_usage.txt",
+        "page": "Ask all programming questions here!",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": false
     }
 ]

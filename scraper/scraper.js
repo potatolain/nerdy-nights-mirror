@@ -39,7 +39,8 @@ var soundUrls = [
 
 var miscUrls = [
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=19733",
-    "https://atariage.com/forums/topic/71120-6502-killer-hacks/"
+    "https://atariage.com/forums/topic/71120-6502-killer-hacks/",
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=103138"
 ];
 
 var lookup = {
@@ -48,6 +49,13 @@ var lookup = {
     audio: [],
     misc: []
 };
+
+try {
+    lookup = require('./pages/lookup.json');
+} catch (e) {
+    // Move on; not found.
+    console.info('Unable to find existing lookup table; ok, will re-fetch everything!');
+}
 
 const currentHost = 'http://nintendoage.com';
 
@@ -92,12 +100,34 @@ for (var i = 0; i != miscUrls.length; i++) {
 
 var missingImages = [];
 
+try {
+    missingImages = require('./pages/missing-files.json');
+} catch (e) {
+    console.info('Unable to find existing missing images; loading all!');
+}
+
+function pushMissingFile(file) {
+    var existing = missingImages.filter(oldFile => { return oldFile.originalUrl === file.originalUrl; });
+    if (existing.length > 0) {
+        return;
+    }
+    missingImages.push(file);
+}
+
 async function main() {
     try { fs.mkdirSync('./pages') } catch (e) { /* Assume it exists, and move on*/ }
     try { fs.mkdirSync('./images') } catch (e) { /* ditto */ }
     try { fs.mkdirSync('./files') } catch (e) { /* tritto?? */ }
 
     for (var i = 0; i != allUrls.length; i++) {
+
+        var existingData = lookup[allUrls[i].type].filter(url => { return url.originalUrl === allUrls[i].url });
+        if (existingData.length && !existingData[0].needsUpdate) {
+            console.info('Skipping loading ' + allUrls[i].url + ' - already backed up');
+            continue;
+        }
+
+
         var content = await axios.get(allUrls[i].url),
             deliciousCereal = cheerio.load(content.data),
             posts = deliciousCereal('[data-role="commentContent"],.m8t');// If this breaks, this is likely where it fails. This is a class for the html of the post.
@@ -140,7 +170,7 @@ async function main() {
                     if (url.indexOf('tummaigames') !== -1) {
                         datCheerio.attr('original-src', url);
                         datCheerio.attr('src', 'images/nerdy-nights-sound/' + path.basename(url));
-                        missingImages.push({
+                        pushMissingFile({
                             newUrl: 'images/nerdy-nights-sound/' + path.basename(url),
                             originalUrl: url,
                             page: title,
@@ -166,7 +196,7 @@ async function main() {
                         console.warn('Failed downloading image at ', url, e.message);
                         datCheerio.attr('original-src', url);
                         datCheerio.attr('src', 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'));
-                        missingImages.push({
+                        pushMissingFile({
                             newUrl: 'images/missing/' + path.basename(url).replace('?', '_').replace('=', '_'),
                             originalUrl: url,
                             page: title,
@@ -224,7 +254,7 @@ async function main() {
                         console.warn('Failed downloading file at ', href, e.message);
                         deliciousCereal(_this).attr('original-href', href);
                         deliciousCereal(_this).attr('href', 'downloads/missing/' + path.basename(href));
-                        missingImages.push({
+                        pushMissingFile({
                             newUrl: 'downloads/missing/' + path.basename(href),
                             originalUrl: href,
                             page: title,
@@ -249,7 +279,8 @@ async function main() {
         lookup[allUrls[i].type].push({
             originalUrl: allUrls[i].url,
             name: title,
-            filename: i + '.php'
+            filename: i + '.php',
+            needsUpdate: false
         });
 
         // force pass-by-reference
