@@ -61,5 +61,5 @@ Player1
 <p>I have attached the full code to this message which allows you to move the sprite around the screen.</p>
 <p>&#xA0;</p>
 <p>Chris</p>
-<p><a href="https://atariage.com/forums/applications/core/interface/file/attachment.php?id=35903" data-fileid="35903" data-fileext="zip" rel>msprite.zip</a></p>
+<p><a href="https://atariage.com/forums/applications/core/interface/file/attachment.php?id=35903" data-fileid="35903" data-fileext="zip" rel original-href="https://atariage.com/forums/applications/core/interface/file/attachment.php?id=35903">msprite.zip</a></p>
 </div><div class="mdl-card--border"></div>

@@ -3,7 +3,7 @@
 <p> This code lifted directly from dclxvi in the 6502.org</p>
 <p> programming forum</p>
 <p>&#xA0;</p>
-<p> <a href="http://forum.6502.org/viewtopic.php?p=6993&amp;highlight=#6993" rel="external nofollow">http://forum.6502.org/viewtopic.php?p=6993...highlight=#6993</a></p>
+<p> <a href="http://forum.6502.org/viewtopic.php?p=6993&amp;highlight=#6993" rel="external nofollow" original-href="http://forum.6502.org/viewtopic.php?p=6993&amp;highlight=#6993">http://forum.6502.org/viewtopic.php?p=6993...highlight=#6993</a></p>
 <p>&#xA0;</p>
 <p></p>
 <pre class="ipsCode">   TAX 

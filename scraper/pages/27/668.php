@@ -13,7 +13,7 @@
 Here is the IRQ triggering code in my NMI and my IRQ handler.<br>
 <br>
 <span style="font-family:courier new,courier,monospace;">&#xA0; LDA IRQFlag &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; ;This is the code that&apos;s in my NMI handler. Basically, it checks if the game needs IRQs with the IRQFlag variable<br>
-&#xA0; BEQ .noirq &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;;then it does IRQ stuff like it&apos;s explained here - <a href="scraper/files/mmc3irqs.txt" target="_blank">http://bobrost.com/nes/files/mmc3...</a><br>
+&#xA0; BEQ .noirq &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;;then it does IRQ stuff like it&apos;s explained here - <a href="scraper/files/mmc3irqs.txt" target="_blank" original-href="http://bobrost.com/nes/files/mmc3irqs.txt">http://bobrost.com/nes/files/mmc3...</a><br>
 &#xA0; STA IRQOFF &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;;IRQLATCH&#xA0;&#xA0; &#xA0;&#xA0;&#xA0; &#xA0;= $C000<br>
 &#xA0; LDA #$BF &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; ;IRQRELOAD&#xA0;&#xA0; &#xA0;&#xA0;&#xA0; &#xA0;= $C001<br>
 &#xA0; STA IRQLATCH &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; ;IRQOFF&#xA0;&#xA0; &#xA0;&#xA0;&#xA0; &#xA0;&#xA0;&#xA0; &#xA0;= $E000<br>

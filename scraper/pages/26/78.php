@@ -6,7 +6,7 @@
 <p></p>
 </div></blockquote>
 <p>&#xA0;</p>
-<p>Long description: <a href="https://en.wikipedia.org/wiki/Parity_%28telecommunication%29" rel="external nofollow">http://en.wikipedia.org/wiki/Parity_%28telecommunication%29</a></p>
+<p>Long description: <a href="https://en.wikipedia.org/wiki/Parity_%28telecommunication%29" rel="external nofollow" original-href="https://en.wikipedia.org/wiki/Parity_%28telecommunication%29">http://en.wikipedia.org/wiki/Parity_%28telecommunication%29</a></p>
 <p>&#xA0;</p>
 <p>Short version: An 8th bit that&apos;s added to a 7-bit byte, so that the number of 1 bits comes out to an even number (even parity) or to an odd number (odd parity). Used to detect errors on a serial line: the sender sends bytes with correct parity, and the receiver calculates what the parity bit should be... and if they&apos;re different, the receiver knows the data got garbled during transmission.</p>
 </div><div class="mdl-card--border"></div>

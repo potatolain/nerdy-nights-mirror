@@ -82,7 +82,7 @@
 </pre><br>
 <br>
 For the rest of the table (and the rest of the circle) involving negative values of the X/Y vectors, assuming that the speed is &lt;= 127, you can use two&apos;s complement math to store negative values, so that you can always add the value in the lookup tables to the previous value (e.g. initial position 42, you need to sub 01, and you sum FF instead: 42 + FF = 41).<br>
-I assume everyone in here knows about it, but for the sake of complete info I post a link to it: <a href="https://en.wikipedia.org/wiki/Two" target="_blank">https://en.wikipedia.org/wiki/Two...</a>&apos;s_complement<br>
+I assume everyone in here knows about it, but for the sake of complete info I post a link to it: <a href="https://en.wikipedia.org/wiki/Two" target="_blank" original-href="https://en.wikipedia.org/wiki/Two">https://en.wikipedia.org/wiki/Two...</a>&apos;s_complement<br>
 <br>
 <br>Cheers! <span class="sprites_emoticons absmiddle" id="emo_smile">&#xA0;</span>
 				</div><div class="mdl-card--border"></div>

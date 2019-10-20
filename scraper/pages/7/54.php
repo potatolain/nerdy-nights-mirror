@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://nesdev.parodius.com/bbs/viewtopic.php?t=7503&amp;highlight=disch" target="_blank">http://nesdev.parodius.com/bbs/vi...</a>
+					<a href="http://nesdev.parodius.com/bbs/viewtopic.php?t=7503&amp;highlight=disch" target="_blank" original-href="http://nesdev.parodius.com/bbs/viewtopic.php?t=7503&amp;highlight=disch">http://nesdev.parodius.com/bbs/vi...</a>
 <br>
 <br>check this out
 				</div><div class="mdl-card--border"></div>

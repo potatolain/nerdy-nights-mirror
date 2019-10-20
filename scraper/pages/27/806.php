@@ -16,7 +16,7 @@
 The main difference is how you call a bank switch. I don&apos;t remember all the details of MMC1 (I think I stated MMC3 earlier, but you are right, the tutorial is MMC1).&#xA0; I think the layout is pretty similar.<br>
 <br>
 This is where I learned about UNROM. It&apos;s not in NESASM format, but the general idea is there.<br>
-<a href="http://wiki.nesdev.com/w/index.php/Programming_UNROM" target="_blank">http://wiki.nesdev.com/w/index.php/Programming_UNROM</a><br>
+<a href="http://wiki.nesdev.com/w/index.php/Programming_UNROM" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/Programming_UNROM">http://wiki.nesdev.com/w/index.php/Programming_UNROM</a><br>
 &#xA0;</div>
 So I&apos;m looking into this now, the bank swapping with CHR RAM with UNROM... and I had a couple questions!<br>
 <br>
@@ -36,7 +36,7 @@ EDIT: and what&apos;s the difference between having 256KB of PRG ROM an d128KB o
 EDIT EDIT: looking a littlf further in the nerdy nights for MMC1, I assume &quot;seaming&quot; the names tables together is done by including some sort of indicator of the name tables in either diection from the one you&apos;re in, and switching between which tables you&apos;re writing from in tandem with the changes in mirroring? can UNROM do that too?<br>
 &#xA0;</div>
 This is a very long document, but there is a great section about headers and mappers.<br>
-<a href="scraper/files/neshdr20.txt" target="_blank">https://github.com/thentenaar/nes...</a><br>
+<a href="scraper/files/neshdr20.txt" target="_blank" original-href="https://github.com/thentenaar/nesasm/blob/master/documentation/neshdr20.txt">https://github.com/thentenaar/nes...</a><br>
 <br>
 I&apos;m going to try to answer some of this with sleep depervation. Seems to be a lot of thinking out loud questions in this post. Hopefully I hit them all.<br>
 <strong>what&apos;s a good way to remember how to set up my banks in code, and what would the proper ines header be</strong><br>

@@ -13,7 +13,7 @@
 <br>
 New thing I&apos;m trying to work out, how to find the position of my sprite relative to the background byte in the nametable <span class="sprites_emoticons absmiddle" id="emo_smile">&#xA0;</span> oh joy<br>
 <br>
-EDIT: So i&apos;ve been doing some research over a few days now but can&apos;t find much related to determining what nametable byte my sprite is overlapping. I found this but I&apos;m struggling to translate it to my use case - <a href="https://forums.nesdev.com/viewtopic.php?f=10&amp;t=14788" target="_blank">https://forums.nesdev.com/viewtop...</a><br>
+EDIT: So i&apos;ve been doing some research over a few days now but can&apos;t find much related to determining what nametable byte my sprite is overlapping. I found this but I&apos;m struggling to translate it to my use case - <a href="https://forums.nesdev.com/viewtopic.php?f=10&amp;t=14788" target="_blank" original-href="https://forums.nesdev.com/viewtopic.php?f=10&amp;t=14788">https://forums.nesdev.com/viewtop...</a><br>
 <br>
 I have a single screen level, no scolling. Using 16x16 metatiles for my background. My sprite (also 16x16) moves 16px at a time so will always start/stop within a matching 16x16 background metatile boundary. I can work out my sprites top left (8x8) tile top(x) and left(y) positions easily enough using the OAM values. But I&apos;m finding it hard to figure out how to translate that to a nametable address. I want to do this because when my sprite moves to a certain tile I want to swap out the background tile in the nametable. Which i can do manually with some testing code, buut obviously I need to do this programatically.<br>
 <br>

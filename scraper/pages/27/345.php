@@ -39,6 +39,6 @@
 Vectrex, MRN just released a new tutorial today with an example. Check it out, it&apos;s pretty good.<br>
 <br>
 Game Engine Building #8: Sprite Cycling and Attribute Handling<br>
-<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=128426" target="_blank">http://www.nintendoage.com/forum/...</a><br>
+<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=128426" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=128426">http://www.nintendoage.com/forum/...</a><br>
 <br>
 				</div><div class="mdl-card--border"></div>

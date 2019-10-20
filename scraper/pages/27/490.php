@@ -33,5 +33,5 @@
 <br>
 About sprite zero: I made a little parallax scrolling demo that involves Sprite Zero. Dunno if it helps<br>
 <br>
-<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=138967" target="_blank">http://www.nintendoage.com/forum/...</a>
+<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=138967" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=138967">http://www.nintendoage.com/forum/...</a>
 				</div><div class="mdl-card--border"></div>

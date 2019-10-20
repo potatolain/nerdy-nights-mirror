@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://www.crypticalley.com/files/images/ddr-screenshot.JPG" target="_blank">DDR Screenshot</a>
+					<a href="http://www.crypticalley.com/files/images/ddr-screenshot.JPG" target="_blank" original-href="http://www.crypticalley.com/files/images/ddr-screenshot.JPG">DDR Screenshot</a>
 <br>
 <br>Take note of the green/blue arrows, the usable screen space is about 6 arrows including static ones. At 32 pixels you can fit 7 onscreen, the same dimensions as real DDR. I fear 16 pixel arrows might be too small.
 <br>

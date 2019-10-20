@@ -25,7 +25,7 @@
 		.db $B8, $03, $00, $28<br>
 		.db $37, $37, $37, $37 ;end &#xA0; &#xA0;&lt;- Ignore this.</div>
 	<br>
-	<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=33378" target="_blank">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
+	<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=33378" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=33378">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
 	&#xA0;</div>
 Okay, I think I have incorporated everything within the link above. &#xA0;I haven&apos;t run into any problems, so I think I got it working. &#xA0;That brings me to my next question: &#xA0;I&apos;m trying to make my 16x16 sprite flip when I press left (these sprites are oriented to the right). &#xA0;I know how to make the graphics for individual sprites flip, but what I was wondering was how to swap the places of the vertical 8x16 sprites (they appear vertically fragmented) so that it looks like a proper flip.<br>
 <br>

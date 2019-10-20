@@ -14,7 +14,7 @@
 	<br>
 	1. ORA sets certain bits, I wrote it in binary so you can see which bits are set with it, it&apos;s the 3rd bit over from the left. 2^2.<br>
 	<br>
-	2. The NESDev wiki pake. Most people use PPU(Name)4 letters after. Its pretty easy to understand. <a href="http://wiki.nesdev.com/w/index.php/PPU_registers" target="_blank">http://wiki.nesdev.com/w/index.php/PPU_registers</a><br>
+	2. The NESDev wiki pake. Most people use PPU(Name)4 letters after. Its pretty easy to understand. <a href="http://wiki.nesdev.com/w/index.php/PPU_registers" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_registers">http://wiki.nesdev.com/w/index.php/PPU_registers</a><br>
 	<br>
 	PPUCtrl=$2000<br>
 	PPUMask=$2001<br>

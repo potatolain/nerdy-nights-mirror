@@ -11,5 +11,5 @@
 	</div><div class="mdl-card__supporting-text">
 					Ugh, that&apos;s embarrassing, I didn&apos;t even check it!  Linux line endings or something?  Anyway, here you go:
 <br>
-<br><a href="http://pastebin.com/By4NtKVR" target="_blank">http://pastebin.com/By4NtKVR...</a>
+<br><a href="http://pastebin.com/By4NtKVR" target="_blank" original-href="http://pastebin.com/By4NtKVR">http://pastebin.com/By4NtKVR...</a>
 				</div><div class="mdl-card--border"></div>

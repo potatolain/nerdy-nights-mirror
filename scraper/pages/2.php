@@ -1,5 +1,5 @@
 
-					<b><a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4147" target="_blank">Previous week:</a></b> number systems and core programming ideas<br><br>
+					<b><a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4147" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4147">Previous week:</a></b> number systems and core programming ideas<br><br>
 <b>This week:</b> general overview of the NES architecture with the major components covered.  All general purpose computers are arranged the same way with a place to store code (ROM), a place to store variables (RAM), and a processor to run code (CPU).  The NES also adds another processor to generate the graphics (PPU) and a section of the CPU to generate audio (APU).  Everything here is very general and will have more details than you want in the next few weeks.
 <br><br>
 <font size="+1">NES System Architecture</font><br>
@@ -59,7 +59,7 @@ NTSC runs at 60Hz and PAL runs at 50Hz.  Running an NTSC game on a PAL system wi
 <br><br><br><br><br>
 <font size="+1">Graphics System Overview</font><br><br>
 <b>Tiles</b><br>
-All graphics are made up of 8x8 pixel tiles.  Large characters like Mario are made from multiple 8x8 tiles.  All the backgrounds are also made from these tiles.  The tile system means less memory is needed (was expensive at the time) but also means that things like bitmap pictures and 3d graphics aren&apos;t really possible.  To see all the tiles in a game, download <a href="downloads/missing/tilemolester-0.16.zip" target="_blank">Tile Molester</a> and open up your .NES file.  Scroll down until you see graphics that don&apos;t look like static.  You can see that small tiles are arranged by the game to make large images.<br>
+All graphics are made up of 8x8 pixel tiles.  Large characters like Mario are made from multiple 8x8 tiles.  All the backgrounds are also made from these tiles.  The tile system means less memory is needed (was expensive at the time) but also means that things like bitmap pictures and 3d graphics aren&apos;t really possible.  To see all the tiles in a game, download <a href="downloads/missing/tilemolester-0.16.zip" target="_blank" original-href="http://www.zophar.net/utilities/download/TileMolester_015a_bin.zip">Tile Molester</a> and open up your .NES file.  Scroll down until you see graphics that don&apos;t look like static.  You can see that small tiles are arranged by the game to make large images.<br>
 <b>Sprites</b><br>
 The PPU has enough memory for 64 sprites, or things that move around on screen like Mario.  Only 8 sprites per scanline are allowed, any more than that will be ignored.  This is where the flickering comes from in some games when there are too many objects on screen.<br>
 <b>Background</b><br>
@@ -74,7 +74,7 @@ These two areas hold the color information, one for the background and one for s
 To display a tile on screen, the pixel color index is taken from the Pattern Table and the Attribute Table.  That index is then looked up in the Palette to get the actual color.<br><br>
 <img src="scraper/images/pputile.png" original-src="http://www.nesmuseum.com/images/pputile.png">
 <br><br><br>
-To see all the graphics, download the <a href="http://www.the-interweb.com/serendipity/exit.php?url_id=627&amp;entry_id=90" target="_blank">FCEUXD SP emulator</a>.  Open up your .NES game and choose PPU Viewer from the Tools menu.  This will show you all the active background tiles, all the active sprite tiles, and the color palettes.  Then choose Name Table Viewer from the Tools menu.  This will show you the backgrounds as they will appear on screen.  If you choose a game that scrolls like SMB you can see the off screen background sections being updated.
+To see all the graphics, download the <a href="http://www.the-interweb.com/serendipity/exit.php?url_id=627&amp;entry_id=90" target="_blank" original-href="http://www.the-interweb.com/serendipity/exit.php?url_id=627&amp;entry_id=90">FCEUXD SP emulator</a>.  Open up your .NES game and choose PPU Viewer from the Tools menu.  This will show you all the active background tiles, all the active sprite tiles, and the color palettes.  Then choose Name Table Viewer from the Tools menu.  This will show you the backgrounds as they will appear on screen.  If you choose a game that scrolls like SMB you can see the off screen background sections being updated.
 <br><br><br>
 <b>NEXT WEEK:</b> CPU details, start of 6502 assembly programming
 				

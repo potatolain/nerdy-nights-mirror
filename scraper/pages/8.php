@@ -154,7 +154,7 @@ InsideLoop:
 </pre>
   <br><span class="Apple-style-span" style="font-size: medium; "><b>
 Putting It All Together</b></span><br>
-Download and unzip the <a href="scraper/files/background3.zip" target="_blank">background3.zip</a> sample files.  All the code is in the background.asm file.  Make sure that file, mario.chr, and background.bat is in the same folder as NESASM, then double click on background.bat.  That will run NESASM and should produce background3.nes.  Run that NES file in FCEUXD SP to see the full background.
+Download and unzip the <a href="scraper/files/background3.zip" target="_blank" original-href="http://www.nespowerpak.com/nesasm/background3.zip">background3.zip</a> sample files.  All the code is in the background.asm file.  Make sure that file, mario.chr, and background.bat is in the same folder as NESASM, then double click on background.bat.  That will run NESASM and should produce background3.nes.  Run that NES file in FCEUXD SP to see the full background.
 <br><br>
 The new nested loop is used to copy a whole background to the screen instead of only 128 bytes. &#xA0;The background is aligned using the .org directive so the low address byte is $00. &#xA0;The attributes are also placed directly after the background data so it is are copied at the same time.<div><br></div><div>Your task is to separate out the code that sets the pointer variables from the code that copies the loop.  That way you can have multiple backgrounds that use different pointer loading code, but the same copy code.
 <br><br>

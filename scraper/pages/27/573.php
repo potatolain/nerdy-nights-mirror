@@ -14,7 +14,7 @@
 	<br>
 	I highly recommend Al Bailey&apos;s Image Helper Tool.&#xA0; I&apos;ve used a lot of tools over the years I&apos;ve been making NES games, and his tool seems to have the best luck with making things look kinda right.&#xA0; You&apos;ll have to touch things up a bit, but it saves a bunch of time.&#xA0; I don&apos;t know if I&apos;m really allowed to distribute it without his permission, but I&apos;m going to post it until someone yells at me.&#xA0; It&apos;s helped me a ton so I hope it will also help other people.<br>
 	<br>
-	<a href="https://drive.google.com/file/d/0B-NEolq4vN1-a3dCUE9uakhFdXc/view?usp=sharing" target="_blank">https://drive.google.com/file/d/0B-NEolq4vN1-a3dCUE9uakhFdXc...</a> <br>
+	<a href="https://drive.google.com/file/d/0B-NEolq4vN1-a3dCUE9uakhFdXc/view?usp=sharing" target="_blank" original-href="https://drive.google.com/file/d/0B-NEolq4vN1-a3dCUE9uakhFdXc/view?usp=sharing">https://drive.google.com/file/d/0B-NEolq4vN1-a3dCUE9uakhFdXc...</a> <br>
 	<br>
 	Just go to Graphics &gt; Image Helper Tool.<br>
 	Then File &gt; Load Image.<br>

@@ -10,5 +10,5 @@
 		
 	</div><div class="mdl-card__supporting-text">
 					(Cough)...link...
-<br><a href="http://nesdoug.com/2016/01/13/23-using-dmc-sounds/" target="_blank">http://nesdoug.com/2016/01/13/23-...</a>
+<br><a href="http://nesdoug.com/2016/01/13/23-using-dmc-sounds/" target="_blank" original-href="http://nesdoug.com/2016/01/13/23-using-dmc-sounds/">http://nesdoug.com/2016/01/13/23-...</a>
 				</div><div class="mdl-card--border"></div>

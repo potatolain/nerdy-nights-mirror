@@ -18,9 +18,9 @@
 	<br>
 	Screen shots of asm code and hex binary: it works, of course.<br>
 	<br>
-	<a href="http://nintendoagemedia.com/users/21264/photobucket/2887D08E-C252-63B0-082B229C49B18A2F.png" target="_blank">http://nintendoagemedia.com/users/21264/photobucket/2887D08E...</a> <br>
+	<a href="http://nintendoagemedia.com/users/21264/photobucket/2887D08E-C252-63B0-082B229C49B18A2F.png" target="_blank" original-href="http://nintendoagemedia.com/users/21264/photobucket/2887D08E-C252-63B0-082B229C49B18A2F.png">http://nintendoagemedia.com/users/21264/photobucket/2887D08E...</a> <br>
 	<br>
-	<a href="http://nintendoagemedia.com/users/21264/photobucket/2887DB52-9A59-155B-1965439D976051F8.png" target="_blank">http://nintendoagemedia.com/users/21264/photobucket/2887DB52...</a> <br>
+	<a href="http://nintendoagemedia.com/users/21264/photobucket/2887DB52-9A59-155B-1965439D976051F8.png" target="_blank" original-href="http://nintendoagemedia.com/users/21264/photobucket/2887DB52-9A59-155B-1965439D976051F8.png">http://nintendoagemedia.com/users/21264/photobucket/2887DB52...</a> <br>
 	<br>
 	#1. Line 47<br>
 	<br>

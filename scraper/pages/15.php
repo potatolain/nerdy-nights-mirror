@@ -103,7 +103,7 @@ For our purposes, we will focus on Volume and Duty Cycle.&#xA0; We will set Saw 
 10 = a strong, full tone, like a clarinet or a lead guitar (50% Duty)<br>
 11 = sounds a lot like 01 (25% Duty negated)<br>
 <br>
-The best way to know the difference in sound is to listen yourself.&#xA0; I recommend downloading <a href="http://famitracker.shoodot.net/" target="_blank">FamiTracker</a> and playing with the different Duty settings in the Instrument Editor.<br>
+The best way to know the difference in sound is to listen yourself.&#xA0; I recommend downloading <a href="http://famitracker.shoodot.net/" target="_blank" original-href="http://famitracker.shoodot.net/">FamiTracker</a> and playing with the different Duty settings in the Instrument Editor.<br>
 <br>
 For those interested, Duty Cycle actually refers to the percentage of time that the wave is in &quot;up&quot; position vs. &quot;down&quot; position.&#xA0; Here are some pictures:<br>
 <br>
@@ -154,7 +154,7 @@ Here is some code that will produce an eternal beep on the Square 1 channel:<br>
 <span style="font-family: Courier New;">&#xA0;&#xA0;&#xA0; sta $4003</span><br>
 &#xA0;&#xA0; &#xA0;<br>
 <b>Putting It All Together</b><br>
-Download and unzip the <a href="downloads/NerdyNightsSoundSourceCollection/square1.zip" target="_blank">square1.zip</a> sample files. All the code above is in the square1.asm file. Make sure square1.asm and square1.bat are all in the same folder as NESASM3, then double click square1.bat. That will run NESASM3 and should produce the square1.nes file. Run that NES file in FCEUXD SP to listen to your beep!&#xA0; Edit square1.asm to change the Volume (0 to F), or to change the Duty Cycle for the square wave.&#xA0; Try changing the period to produce different notes.<br>
+Download and unzip the <a href="downloads/NerdyNightsSoundSourceCollection/square1.zip" target="_blank" original-href="http://tummaigames.com/square1.zip">square1.zip</a> sample files. All the code above is in the square1.asm file. Make sure square1.asm and square1.bat are all in the same folder as NESASM3, then double click square1.bat. That will run NESASM3 and should produce the square1.nes file. Run that NES file in FCEUXD SP to listen to your beep!&#xA0; Edit square1.asm to change the Volume (0 to F), or to change the Duty Cycle for the square wave.&#xA0; Try changing the period to produce different notes.<br>
 <br>
-<b>Next Week</b>: <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=22610" target="_blank">Square 2 and Triangle.&#xA0; Multiple beeps!</a>
+<b>Next Week</b>: <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=22610" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=22610">Square 2 and Triangle.&#xA0; Multiple beeps!</a>
 				

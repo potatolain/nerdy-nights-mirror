@@ -26,6 +26,6 @@
 	</div>
 	I have a question about this bit of the code. Sorry if I am being really really silly here, but I don&apos;t understand why we are writing $02 to $4014, I thought the PPU was $2000 - $2007 and $4000 - $4017 were audio and controller ports? What am I missing here?</div>
 <br>
-$4014 is the OAM DMA register. &#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_OAM" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+$4014 is the OAM DMA register. &#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_OAM" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_OAM">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 				</div><div class="mdl-card--border"></div>

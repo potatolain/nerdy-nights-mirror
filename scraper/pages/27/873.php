@@ -17,7 +17,7 @@
 	The routine worked all fine for me in a few games, without the suggested changes. <b>They&apos;re mathematically correct</b>, though (eor $ff is a cheap version of negation), but all they affect to is shifting the target point by a pixel. So it only will get issues when the target is really close, like just few pixels away.</div>
 <br>
 But unfortunately, I think that they cause a problem implemented in such way.
-<pre><br><br><a href="http://codebase64.org/doku.php?id=base:8bit_atan2_8-bit_angle" target="_blank">http://codebase64.org/doku.php?id=base:8bit_atan2_8-bit_angle</a><br><br>&quot;&quot;&quot; might be more precise to add a clc adc #$01 after each eor #$ff,
+<pre><br><br><a href="http://codebase64.org/doku.php?id=base:8bit_atan2_8-bit_angle" target="_blank" original-href="http://codebase64.org/doku.php?id=base:8bit_atan2_8-bit_angle">http://codebase64.org/doku.php?id=base:8bit_atan2_8-bit_angle</a><br><br>&quot;&quot;&quot; might be more precise to add a clc adc #$01 after each eor #$ff,
     you have to modify all the preceding bcs *+4/ bcc *+4 to *+7 to
     get the branches correct. also you can omit the clc where bcs is
     used. adding a SEC before all sbc&apos;s might increase the accuracy

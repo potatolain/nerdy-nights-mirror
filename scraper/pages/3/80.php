@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					If you hover over the mentioned &quot;background.zip&quot; file it is a hyperlink, but here is the link location to make it a little easier on you: <a href="scraper/files/background.zip" target="_blank">http://www.nespowerpak.com/nesasm...</a>
+					If you hover over the mentioned &quot;background.zip&quot; file it is a hyperlink, but here is the link location to make it a little easier on you: <a href="scraper/files/background.zip" target="_blank" original-href="http://www.nespowerpak.com/nesasm/background.zip">http://www.nespowerpak.com/nesasm...</a>
 				</div><div class="mdl-card--border"></div>

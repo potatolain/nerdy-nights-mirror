@@ -1,8 +1,8 @@
 
-					This lesson is largely unrelated to programming, but instead focuses on ROM editing.  Using the recently released <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=5&amp;threadid=19704" target="_blank">Exerion 2 ROM</a> we will edit the title screen text to show your own message.  The instructions here will work for many games but not all.  Some use text/graphics compression or do not have all the letters available for use.<div><br>
+					This lesson is largely unrelated to programming, but instead focuses on ROM editing.  Using the recently released <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=5&amp;threadid=19704" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=5&amp;threadid=19704">Exerion 2 ROM</a> we will edit the title screen text to show your own message.  The instructions here will work for many games but not all.  Some use text/graphics compression or do not have all the letters available for use.<div><br>
 <br><span class="Apple-style-span" style="font-weight: bold; ">
 You will need:</span><br>
-  <li><a href="http://www.the-interweb.com/serendipity/index.php?/archives/90-Release-of-FCEUXD-SP-1.07.html" target="_blank">FCEUXDSP emulator</a> with graphics viewer.  Sorry Mac/Linux users, the best development emulators are Windows only.
+  <li><a href="http://www.the-interweb.com/serendipity/index.php?/archives/90-Release-of-FCEUXD-SP-1.07.html" target="_blank" original-href="http://www.the-interweb.com/serendipity/index.php?/archives/90-Release-of-FCEUXD-SP-1.07.html">FCEUXDSP emulator</a> with graphics viewer.  Sorry Mac/Linux users, the best development emulators are Windows only.
   </li><li>Hex editor application</li>
   <li>Text editor application</li>
   <li>10 minutes</li><br><br>
@@ -51,5 +51,5 @@ Step 4: Replacing the text</span><br>
   <br>
 <img src="scraper/images/83649A15-EED7-09A5-8FE2B306803D871E.png" original-src="http://www.NintendoAgeMedia.com/users/142/photobucket/83649A15-EED7-09A5-8FE2B306803D871E.png"></div><div><br>
 <br>
-  Now that your game is done, test it on real hardware with your PowerPak or make a physical copy with the ReproPak at <a href="http://www.retrousb.com" target="_blank">http://www.retrousb.com...</a></div></div></div>
+  Now that your game is done, test it on real hardware with your PowerPak or make a physical copy with the ReproPak at <a href="http://www.retrousb.com" target="_blank" original-href="http://www.retrousb.com">http://www.retrousb.com...</a></div></div></div>
 				

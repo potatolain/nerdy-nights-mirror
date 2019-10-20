@@ -16,6 +16,6 @@ So, I was wondering, if besides the few generic 6502 coding archieves around the
 &#xA0;</div>
 <br>
 I asked this when I first started coding.<br>
-<a href="http://vintage.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=124538" target="_blank">http://vintage.nintendoage.com/fo...</a><br>
+<a href="http://vintage.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=124538" target="_blank" original-href="http://vintage.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=124538">http://vintage.nintendoage.com/fo...</a><br>
 &#xA0;
 				</div><div class="mdl-card--border"></div>

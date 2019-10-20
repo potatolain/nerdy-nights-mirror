@@ -4,7 +4,7 @@
 <p>&#xA0;</p>
 <p>well if you&apos;re using fixed point notation, then 8.8 is the same as 16.0, right? I mean, it&apos;s just a matter of how you interpret it. with that said I think you could use this method (scroll down to &apos;Binary Multiplication&apos;):</p>
 <p>&#xA0;</p>
-<p><a href="http://www.atariarchives.org/roots/chapter_10.php" rel="external nofollow">http://www.atariarchives.org/roots/chapter_10.php</a></p>
+<p><a href="http://www.atariarchives.org/roots/chapter_10.php" rel="external nofollow" original-href="http://www.atariarchives.org/roots/chapter_10.php">http://www.atariarchives.org/roots/chapter_10.php</a></p>
 <p>&#xA0;</p>
 <p>Basically the algorithm is long multiplication like you&apos;d do by hand, except in binary form.</p>
 </div><div class="mdl-card--border"></div>

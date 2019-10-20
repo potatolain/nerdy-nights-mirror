@@ -32,7 +32,7 @@
 <p>&#xA0;</p>
 <p>32 bits with only four adders. &quot;</p>
 <p>&#xA0;</p>
-<p>[EDIT] Somehow I think this is related to this algorithm here, but I&apos;m not seeing it quite yet: <a href="http://www.sxlist.com/techref/method/math/divconst.htm" rel="external nofollow">http://www.sxlist.com/techref/method/math/divconst.htm</a></p>
+<p>[EDIT] Somehow I think this is related to this algorithm here, but I&apos;m not seeing it quite yet: <a href="http://www.sxlist.com/techref/method/math/divconst.htm" rel="external nofollow" original-href="http://www.sxlist.com/techref/method/math/divconst.htm">http://www.sxlist.com/techref/method/math/divconst.htm</a></p>
 <span class="ipsType_reset ipsType_medium ipsType_light" data-excludequote>
 <strong>Edited <time datetime="2005-07-21T23:27:06Z" title="07/21/2005 11:27  PM" data-short="14 yr">July 21, 2005</time> by retrocon</strong>
 </span>

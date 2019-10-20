@@ -23,7 +23,7 @@
 	I&apos;m new to this. Sorry if the question doesn&apos;t make sense.</div>
 Also, this one:<br>
 <br>
-&#xA0;<a href="http://skilldrick.github.io/easy6502/#addressing" target="_blank">http://skilldrick.github.io/easy6...</a><br>
+&#xA0;<a href="http://skilldrick.github.io/easy6502/#addressing" target="_blank" original-href="http://skilldrick.github.io/easy6502/#addressing">http://skilldrick.github.io/easy6...</a><br>
 <br>
 ---<br>
 <br>

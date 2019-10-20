@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					This file is for NESICIDE (<a href="http://www.nesicide.com/" target="_blank">http://www.nesicide.com/...</a>), not needed when ca65 used stand-alone.
+					This file is for NESICIDE (<a href="http://www.nesicide.com/" target="_blank" original-href="http://www.nesicide.com/">http://www.nesicide.com/...</a>), not needed when ca65 used stand-alone.
 				</div><div class="mdl-card--border"></div>

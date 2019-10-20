@@ -10,7 +10,7 @@
 		
 	</div><div class="mdl-card__supporting-text">
 					Never mind. The answer was in the next week (week 4) of the tutorial.<br>
-<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=6082" target="_blank">http://nintendoage.com/forum/mess...</a>
+<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=6082" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=6082">http://nintendoage.com/forum/mess...</a>
 <pre><strong>  .bank 1
   .org $E000</strong>
 palette:

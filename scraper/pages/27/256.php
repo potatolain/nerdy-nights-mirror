@@ -23,5 +23,5 @@
 <br>
 <br>Anyone able to point me in the direction of what makes up the byte immediately following the attribute area (the 03 in this case)?
 <br>
-<br>I obtained all my knowledge about all this from this article (for my reference really): <a href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14" target="_blank">http://badderhacksnet.ipage.com/b...</a>
+<br>I obtained all my knowledge about all this from this article (for my reference really): <a href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14" target="_blank" original-href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14">http://badderhacksnet.ipage.com/b...</a>
 				</div><div class="mdl-card--border"></div>

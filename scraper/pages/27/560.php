@@ -17,7 +17,7 @@ At the moment I have one dummy sprite that moves from left to right, and it is s
 <br>
 If someone could take a look, that would be much appreciated. I&apos;ve stuffed all the code in a single .asm file, you can get it here:<br>
 <br>
-<a href="http://pastebin.com/By4NtKVR" target="_blank">http://pastebin.com/By4NtKVR...</a><br>
+<a href="http://pastebin.com/By4NtKVR" target="_blank" original-href="http://pastebin.com/By4NtKVR">http://pastebin.com/By4NtKVR...</a><br>
 <br>
 Thank you!<br>
 Rob.<br>

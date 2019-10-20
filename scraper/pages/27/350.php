@@ -12,7 +12,7 @@
 					<div class="FTQUOTE">
 	<i>Originally posted by: <b>user</b></i><br>
 	Any chance someone could confirm also that #1 from post above is doable</div>
-Never mind. Task already solved in another way (if interested: <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=128599" target="_blank">link</a> post #4).<br>
+Never mind. Task already solved in another way (if interested: <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=128599" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=128599">link</a> post #4).<br>
 <br>
 Cheers.
 				</div><div class="mdl-card--border"></div>

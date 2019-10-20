@@ -73,7 +73,7 @@ BCS &quot;gotoaddressC&quot; ; B+4 is &gt;= A, hence A &lt; B+5, hence C happens
 <br>
 Also,<br>
 <br>
-&#xA0;<a href="http://www.obelisk.demon.co.uk/6502/reference.html" target="_blank">http://www.obelisk.demon.co.uk/65...</a><br>
+&#xA0;<a href="http://www.obelisk.demon.co.uk/6502/reference.html" target="_blank" original-href="http://www.obelisk.demon.co.uk/6502/reference.html">http://www.obelisk.demon.co.uk/65...</a><br>
 <br>
 here the opcodes list link.
 				</div><div class="mdl-card--border"></div>

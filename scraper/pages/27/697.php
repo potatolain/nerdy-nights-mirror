@@ -53,7 +53,7 @@ Updating Palette Color, Updating any background tiles (such as writing a score o
 <br>
 To activate these to run, I set a flag in the Main Code that activates them to run. So, if something happened that caused my score to increase, I would INC a ScoreFlag to #$01. When the NMI interrupts, it will check to see if this score flag is#$01. If true, then it will enable the subroutine that writes the new score to the screen. The only thing that I am doing here is taking the value out of RAM and putting it on the screen. Anything that needs to happed to update that value must happen in the main code and then copied into RAM for use in the NMI.<br>
 <br>
-For a better understanding of the NMI and vblanks, read this: <a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs</a><br>
+For a better understanding of the NMI and vblanks, read this: <a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs</a><br>
 That is one of the most helpful links I have ever read on NMI and it turned on the lightbulb for me.<br>
 <br>
 I hope this makes sense. At times, its tough for me to interpret how I understand things and then regurgitate that into useful knowledge for others.</div>

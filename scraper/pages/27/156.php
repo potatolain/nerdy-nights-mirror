@@ -24,11 +24,11 @@
 	rol temp1 ;Same for temp1<br>
 	clc ;Clear the Carry flag<br>
 	adc random ;Then add random to the accumulator<br>
-	pha ;vectrex280996.exe encountered an unknown opcode and stopped running. What I understand is that this makes a copy of the accu to the stack according to <a href="http://www.obelisk.demon.co.uk/6502/reference.html#PHA" target="_blank">http://www.obelisk.demon.co.uk/6502/reference.html#PHA</a><br>
+	pha ;vectrex280996.exe encountered an unknown opcode and stopped running. What I understand is that this makes a copy of the accu to the stack according to <a href="http://www.obelisk.demon.co.uk/6502/reference.html#PHA" target="_blank" original-href="http://www.obelisk.demon.co.uk/6502/reference.html#PHA">http://www.obelisk.demon.co.uk/6502/reference.html#PHA</a><br>
 	lda temp1 ;Loads temp1 to the accu<br>
 	adc random+1 ;Adds random+1 to accu<br>
 	sta random+1 ;Then stores this to random+1<br>
-	pla ;What does this opcode do? According to <a href="http://www.obelisk.demon.co.uk/6502/reference.html#PLA" target="_blank">http://www.obelisk.demon.co.uk/6502/reference.html#PLA</a>, it takes the value you put in the stack before and sticks it in the accumulator<br>
+	pla ;What does this opcode do? According to <a href="http://www.obelisk.demon.co.uk/6502/reference.html#PLA" target="_blank" original-href="http://www.obelisk.demon.co.uk/6502/reference.html#PLA">http://www.obelisk.demon.co.uk/6502/reference.html#PLA</a>, it takes the value you put in the stack before and sticks it in the accumulator<br>
 	adc #$11 ;Add #$11 (Decimal 17) to what is in the accu (don&apos;t really know what&apos;s in the accumulator due to pla)<br>
 	sta random ;Store it in random<br>
 	lda random+1 ;Loads random+1 in the accu<br>

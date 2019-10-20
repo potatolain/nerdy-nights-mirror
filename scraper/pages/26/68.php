@@ -2,7 +2,7 @@
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1252071" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>
 <p>This isn&apos;t exactly a 6502 Killer hack but I wanted to share this link.</p>
 <p>&#xA0;</p>
-<p><a href="http://graphics.stanford.edu/~seander/bithacks.html" rel="external nofollow">http://graphics.stanford.edu/~seander/bithacks.html</a></p>
+<p><a href="http://graphics.stanford.edu/~seander/bithacks.html" rel="external nofollow" original-href="http://graphics.stanford.edu/~seander/bithacks.html">http://graphics.stanford.edu/~seander/bithacks.html</a></p>
 <p>&#xA0;</p>
 <p>There you will find some useful methods that apply to your 6502 coding.</p>
 <p></p>

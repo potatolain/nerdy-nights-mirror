@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://wiki.nesdev.com/w/index.php/PPU_registers" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+					<a href="http://wiki.nesdev.com/w/index.php/PPU_registers" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_registers">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 As you can see from this wiki, the $2001 address is the address where the color emphasis is located.<br>
 <br>

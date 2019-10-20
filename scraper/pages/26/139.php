@@ -5,7 +5,7 @@
 <p>&#xA0;</p>
 <p>Given two integer values x and y, the (floor of the) average normally would be computed by (x+y)/2; unfortunately, this can yield incorrect results due to overflow. A very sneaky alternative is to use (x&amp;y)+((x^y)/2). If we are aware of the potential non-portability due to the fact that C does not specify if shifts are signed, this can be simplified to (x&amp;y)+((x^y)&gt;&gt;1). In either case, the benefit is that this code sequence cannot overflow. </p>
 </div></blockquote>
-<p><a href="http://aggregate.ee.engr.uky.edu/MAGIC/#Average%20of%20Integers" rel="external nofollow">http://aggregate.ee.engr.uky.edu/MAGIC/#Average%20of%20Integers</a></p>
+<p><a href="http://aggregate.ee.engr.uky.edu/MAGIC/#Average%20of%20Integers" rel="external nofollow" original-href="http://aggregate.ee.engr.uky.edu/MAGIC/#Average%20of%20Integers">http://aggregate.ee.engr.uky.edu/MAGIC/#Average%20of%20Integers</a></p>
 <p>&#xA0;</p>
 <p>In 6502 assembly:</p>
 <p></p>

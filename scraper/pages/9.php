@@ -128,7 +128,7 @@ You can see this will transfer the binary to decimal one digit at a time.  For n
   STA onesDigit        ; result is already under 10, can copy directly to result
 </pre>
 <br>
-This code can be expanded to 16 bit numbers, but the compares become harder.  Instead a more complex series of loops and shifts with a table is used.  This code does shifting of the binary value into the carry bit to tell when to add numbers to the final decimal result.  I did not write this code, it came from a post by Tokumaru at <a href="http://nesdev.parodius.com/bbs/viewtopic.php?p=10824&amp;sid=55359b42282d1e02b91bebcf1caf56ef#10824" target="_blank">http://nesdev.parodius.com/bbs/vi...</a>  There are many more examples of different conversion styles at that forum thread.
+This code can be expanded to 16 bit numbers, but the compares become harder.  Instead a more complex series of loops and shifts with a table is used.  This code does shifting of the binary value into the carry bit to tell when to add numbers to the final decimal result.  I did not write this code, it came from a post by Tokumaru at <a href="http://nesdev.parodius.com/bbs/viewtopic.php?p=10824&amp;sid=55359b42282d1e02b91bebcf1caf56ef#10824" target="_blank" original-href="http://nesdev.parodius.com/bbs/viewtopic.php?p=10824&amp;sid=55359b42282d1e02b91bebcf1caf56ef#10824">http://nesdev.parodius.com/bbs/vi...</a>  There are many more examples of different conversion styles at that forum thread.
 <br><br>
 Notice there are no branches other than the loop running 16 times (one for each binary input bit), so the conversion always takes the same number of cycles.
 <br>
@@ -175,7 +175,7 @@ Once you have your numbers in decimal format you need to display them on the scr
 <br>
 <br><b><span class="Apple-style-span" style="font-size: medium; ">
 Putting It All Together</span></b><br>
-Download and unzip the <a href="scraper/files/pong2.zip" target="_blank">pong2.zip</a> sample files.  The playing game state and ball movement code is in the pong2.asm file. Make sure that file, mario.chr, and pong2.bat is in the same folder as NESASM3, then double click on pong1.bat. That will run NESASM3 and should produce pong2.nes. Run that NES file in FCEUXD SP to see the score!  Right now the score just increments every time the ball bounces off a side wall.<br>
+Download and unzip the <a href="scraper/files/pong2.zip" target="_blank" original-href="http://www.nespowerpak.com/nesasm/pong2.zip">pong2.zip</a> sample files.  The playing game state and ball movement code is in the pong2.asm file. Make sure that file, mario.chr, and pong2.bat is in the same folder as NESASM3, then double click on pong1.bat. That will run NESASM3 and should produce pong2.nes. Run that NES file in FCEUXD SP to see the score!  Right now the score just increments every time the ball bounces off a side wall.<br>
 <br>
 Try making two scoring variables and drawing them both.  You can also use the other binary to decimal converters to add more than 1 to the score each time.  In the DrawScore you can also check the score digits and not draw any leading zeros.  Instead replace them with spaces when you are drawing to the background.
 </div>

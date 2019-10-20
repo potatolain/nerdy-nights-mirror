@@ -11,7 +11,7 @@
 	</div><div class="mdl-card__supporting-text">
 					Thanks for the help. I have another question, and maybe this example will help...<br>
 <br>
-Here is what the documentation (<a href="scraper/files/usage.txt" target="_blank">http://www.nespowerpak.com/nesasm...</a>) says about BANK:<br>
+Here is what the documentation (<a href="scraper/files/usage.txt" target="_blank" original-href="http://www.nespowerpak.com/nesasm/usage.txt">http://www.nespowerpak.com/nesasm...</a>) says about BANK:<br>
 BANK - Select a 8KB ROM bank (0-127) and reset the location counter to the latest known position in this bank.<br>
 <br>
 EXAMPLE ASM FILE:<br>

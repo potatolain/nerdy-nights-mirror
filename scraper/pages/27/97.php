@@ -22,6 +22,6 @@
 	.db $B8, $03, $00, $28<br>
 	.db $37, $37, $37, $37 ;end &#xA0; &#xA0;&lt;- Ignore this.</div>
 <br>
-<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=33378" target="_blank">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
+<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=33378" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=33378">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
 <br>
 				</div><div class="mdl-card--border"></div>

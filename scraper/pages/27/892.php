@@ -13,7 +13,7 @@
 <br>
 We assume that sprites are transfered each NMI, and stored in $0200, like described here:<br>
 <br>
-<a href="http://vintage.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=6082" target="_blank">http://vintage.nintendoage.com/fo...</a><br>
+<a href="http://vintage.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=6082" target="_blank" original-href="http://vintage.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=6082">http://vintage.nintendoage.com/fo...</a><br>
 <br>
 Sprites are hidden behind higher priority sprites.<br>
 E.g. sprite in $0200 $0201 $0202 $0203 is displayed on top of anyone else.<br>

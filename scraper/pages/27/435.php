@@ -20,7 +20,7 @@
 	Decompilation is a very complicated process I&apos;m afraid, and even if you manage to decompile the ROM, you&apos;ll still need to annotate it. However, there are a few decompiled NES ROMs out there, like SMB3, SMB, Metroid, and Secret Scout (The latter being interesting due to being the actual source code published by the programmer himself)</div>
 Ok, so there is a lot of manual effort involved in decompiling a ROM? &#xA0;I downloaded the files that &quot;L&quot; posted at this site:<br>
 <br>
-<a href="http://forums.selectbutton.net/viewtopic.php?t=26956&amp;sid=1a883209e1ba63877bcd58c007bb63ae" target="_blank">http://forums.selectbutton.net/vi...</a><br>
+<a href="http://forums.selectbutton.net/viewtopic.php?t=26956&amp;sid=1a883209e1ba63877bcd58c007bb63ae" target="_blank" original-href="http://forums.selectbutton.net/viewtopic.php?t=26956&amp;sid=1a883209e1ba63877bcd58c007bb63ae">http://forums.selectbutton.net/vi...</a><br>
 <br>
 which shows an annotated SMB assembly.<br>
 <br>

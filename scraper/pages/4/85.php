@@ -36,7 +36,7 @@
 $2003 and $4014 are PPU registers.<br>
 <br>
 See here:<br>
-<a href="http://wiki.nesdev.com/w/index.php/PPU_registers" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+<a href="http://wiki.nesdev.com/w/index.php/PPU_registers" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_registers">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 <br>
 				</div><div class="mdl-card--border"></div>

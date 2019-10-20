@@ -11,11 +11,11 @@
 	</div><div class="mdl-card__supporting-text">
 					Ok<br>
 <br>
-<a href="http://depositfiles.com/files/7gv4xpdfw" target="_blank">http://depositfiles.com/files/7gv...</a><br>
+<a href="http://depositfiles.com/files/7gv4xpdfw" target="_blank" original-href="http://depositfiles.com/files/7gv4xpdfw">http://depositfiles.com/files/7gv...</a><br>
 <br>
 Another person caught the freezing problem. The Nmi was filling up the stack. New code:<br>
 <br>
-<a href="http://pastebin.com/uL1vFmDL" target="_blank">http://pastebin.com/uL1vFmDL</a>
+<a href="http://pastebin.com/uL1vFmDL" target="_blank" original-href="http://pastebin.com/uL1vFmDL">http://pastebin.com/uL1vFmDL</a>
 <br>
 The collision data fails to work I can&apos;t figure out why :/.The code to make the ball bounce seems to work.
 				</div><div class="mdl-card--border"></div>

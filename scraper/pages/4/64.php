@@ -13,7 +13,7 @@
 <br>
 I found in the link below<br>
 <br>
-<a href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14" target="_blank">http://badderhacksnet.ipage.com/badderhacks/index.php?option...</a> <br>
+<a href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14" target="_blank" original-href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14">http://badderhacksnet.ipage.com/badderhacks/index.php?option...</a> <br>
 <br>
 ,in the section&#xA0;<strong "color: rgb(255, 255, 255); font-family: helvetica, arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(0, 0, 0);">II) Pattern Tables $[0000-1FFF]</strong>, that this is the starting memory region for sprite patterns (followed by the background patterns). The range $0000 - $0FFF is said to be for the sprite tiles but the autor does not mention the 4 bytes that describe the [X,Y] position, the tile number and the attributes. She/he explains the graphical interpretation of 2 bytes to form a sprite/background 8x8 pixels tile, but not the organization of the memory in this region.<br>
 <br>

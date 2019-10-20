@@ -14,7 +14,7 @@
 The main difference is how you call a bank switch. I don&apos;t remember all the details of MMC1 (I think I stated MMC3 earlier, but you are right, the tutorial is MMC1).&#xA0; I think the layout is pretty similar.<br>
 <br>
 This is where I learned about UNROM. It&apos;s not in NESASM format, but the general idea is there.<br>
-<a href="http://wiki.nesdev.com/w/index.php/Programming_UNROM" target="_blank">http://wiki.nesdev.com/w/index.php/Programming_UNROM</a><br>
+<a href="http://wiki.nesdev.com/w/index.php/Programming_UNROM" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/Programming_UNROM">http://wiki.nesdev.com/w/index.php/Programming_UNROM</a><br>
 &#xA0;</div>
 So I&apos;m looking into this now, the bank swapping with CHR RAM with UNROM... and I had a couple questions!<br>
 <br>

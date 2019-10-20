@@ -13,7 +13,7 @@
 <br>
 <br>
 Also, the link below is broken.<br>
-<b>&quot;Homework #2</b>: Read Disch&apos;s document <a href="http://nesdevhandbook.googlepages.com/theframe.html" target="_blank">The Frame and NMIs</a>.&#xA0; Pay special attention to the &quot;Take Full Advantage of NMI&quot; section.&#xA0; We are going to use this style of NMI handler with our sound engine.&#xA0; In fact, periods.asm already uses it.&quot;<br>
+<b>&quot;Homework #2</b>: Read Disch&apos;s document <a href="http://nesdevhandbook.googlepages.com/theframe.html" target="_blank" original-href="http://nesdevhandbook.googlepages.com/theframe.html">The Frame and NMIs</a>.&#xA0; Pay special attention to the &quot;Take Full Advantage of NMI&quot; section.&#xA0; We are going to use this style of NMI handler with our sound engine.&#xA0; In fact, periods.asm already uses it.&quot;<br>
 <br>
-EDIT: I think this is the new link: <a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.ph...</a>
+EDIT: I think this is the new link: <a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">http://wiki.nesdev.com/w/index.ph...</a>
 				</div><div class="mdl-card--border"></div>

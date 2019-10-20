@@ -1,5 +1,5 @@
 <div class="mdl-card__title"><strong>+bataribatari</strong> posted on November 10, 2005</div><div class="mdl-card__supporting-text">
-<blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Here&apos;s some interesting code <a href="https://atariage.com/forums/index.php?showtopic=75267&amp;view=findpost&amp;p=954542" rel>from batari</a>:<p>&#xA0;</p>
+<blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Here&apos;s some interesting code <a href="https://atariage.com/forums/index.php?showtopic=75267&amp;view=findpost&amp;p=954542" rel original-href="https://atariage.com/forums/index.php?showtopic=75267&amp;view=findpost&amp;p=954542">from batari</a>:<p>&#xA0;</p>
 <p>This:</p>
 <p></p>
 <pre class="ipsCode"> &#xA0; ldx #56

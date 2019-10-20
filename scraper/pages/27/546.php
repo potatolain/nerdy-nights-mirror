@@ -18,7 +18,7 @@
 	<br>
 	Thanks.</div>
 <br>
-<a href="http://forums.nesdev.com/viewtopic.php?t=8588" target="_blank">http://forums.nesdev.com/viewtopi...</a><br>
+<a href="http://forums.nesdev.com/viewtopic.php?t=8588" target="_blank" original-href="http://forums.nesdev.com/viewtopic.php?t=8588">http://forums.nesdev.com/viewtopi...</a><br>
 <br>
 This is a very interesting read <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
 <br>

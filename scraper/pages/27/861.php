@@ -14,7 +14,7 @@
 	<br>
 	Yes, it gets two coords as input, calculate the vector (x2-x1, y2-y1; this part can be omited if you have vector already) and returns the angle 0..255 in A. The output is as accurate as it gets with the 8 bit math.<br>
 	<br>
-	For better understanding, try to read something like that: <a href="https://www.raywenderlich.com/35866/trigonometry-for-game-programming-part-1" target="_blank">https://www.raywenderlich.com/35866/trigonometry-for-game-pr...</a> </div>
+	For better understanding, try to read something like that: <a href="https://www.raywenderlich.com/35866/trigonometry-for-game-programming-part-1" target="_blank" original-href="https://www.raywenderlich.com/35866/trigonometry-for-game-programming-part-1">https://www.raywenderlich.com/35866/trigonometry-for-game-pr...</a> </div>
 <br>
 <br>
 <br>

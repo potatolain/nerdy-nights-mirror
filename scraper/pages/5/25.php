@@ -18,5 +18,5 @@
 <br>So the INX method looks best since it&apos;s clean, less bytes, and equally as efficient with the CPU.
 <br>
 <br>A nice site I use to look up exact details of instructions is this one:
-<br><a href="http://www.obelisk.demon.co.uk/6502/instructions.html" target="_blank">http://www.obelisk.demon.co.uk/65...</a>
+<br><a href="http://www.obelisk.demon.co.uk/6502/instructions.html" target="_blank" original-href="http://www.obelisk.demon.co.uk/6502/instructions.html">http://www.obelisk.demon.co.uk/65...</a>
 				</div><div class="mdl-card--border"></div>

@@ -16,7 +16,7 @@ If the Z flag is 1, then A = NUM and BEQ will branch<br>
 If the C flag is 0, then A (unsigned) &lt; NUM (unsigned) and BCC will branch<br>
 If the C flag is 1, then A (unsigned) &gt;= NUM (unsigned) and BCS will branch<br>
 <br>
-Link: <a href="http://www.6502.org/tutorials/compare_beyond.html#1.1" target="_blank">http://www.6502.org/tutorials/com...</a><br>
+Link: <a href="http://www.6502.org/tutorials/compare_beyond.html#1.1" target="_blank" original-href="http://www.6502.org/tutorials/compare_beyond.html#1.1">http://www.6502.org/tutorials/com...</a><br>
 <br>
 So basically:<br>
 BNE to check for not equal &lt;&gt;<br>

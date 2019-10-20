@@ -13,13 +13,13 @@
 <br>
 Which sprite will be in front, and which one will be hidden behind the other?<br>
 i.e. would you see a red sprite or a blue sprite?</div>
-The sprite with the lower index has priority, so if both sprites have a non transparent pixel in the same spot then the sprite 0 pixel is drawn and sprite 1 is not. &#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_sprite_priority" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+The sprite with the lower index has priority, so if both sprites have a non transparent pixel in the same spot then the sprite 0 pixel is drawn and sprite 1 is not. &#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_sprite_priority" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_sprite_priority">http://wiki.nesdev.com/w/index.ph...</a><br>
 &#xA0;
 <div class="FTQUOTE"><i>Originally posted by: <b>user</b></i><br>
 <br>
 <span style="line-height: 1.6;">Also, I know about the fact that sprites can be in front or behind the background, but I can&apos;t remember where you set this option (I always had sprites in front and backgrounds behind so far in my games).</span></div>
 <br>
-Priority bit in the sprite attributes:&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_OAM" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+Priority bit in the sprite attributes:&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_OAM" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_OAM">http://wiki.nesdev.com/w/index.ph...</a><br>
 &#xA0;
 <div class="FTQUOTE"><i>Originally posted by: <b>user</b></i><br>
 <br>

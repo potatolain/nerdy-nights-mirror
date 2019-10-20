@@ -13,7 +13,7 @@
 <br>
 Here&apos;s a quick bounding box collision tutorial I worked up for PK in case anyone else needs it.<br>
 <br>
-<a href="https://www.dropbox.com/s/en88bzmpsbb1wqt/collisiontut.asm?dl=0" target="_blank">https://www.dropbox.com/s/en88bzmpsbb1wqt/collisiontut.asm?d...</a> <br>
+<a href="https://www.dropbox.com/s/en88bzmpsbb1wqt/collisiontut.asm?dl=0" target="_blank" original-href="https://www.dropbox.com/s/en88bzmpsbb1wqt/collisiontut.asm?dl=0">https://www.dropbox.com/s/en88bzmpsbb1wqt/collisiontut.asm?d...</a> <br>
 <br>
 If anyone sees any issues let me know and I&apos;ll make the appropriate changes.</div>
 <br>

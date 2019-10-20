@@ -10,7 +10,7 @@
 <p></p>
 <p></p>
 </div></blockquote>
-<p>I tend to agree too, but there are still a staggering number of PCAE users, many of which are almost dogmatic about it. Maybe a bad decision, but I didn&apos;t want people not judging my game in the minigame contest because it wouldn&apos;t run on what they still consider the &quot;best&quot; emulator despite the fact that it&apos;s very dated (and the author has <a href="https://atariage.com/forums/index.php?showtopic=78054&amp;pid=959025&amp;st=0&amp;&amp;do=findComment&amp;comment=959025" rel>annouced</a> that he will no longer update it.)</p>
+<p>I tend to agree too, but there are still a staggering number of PCAE users, many of which are almost dogmatic about it. Maybe a bad decision, but I didn&apos;t want people not judging my game in the minigame contest because it wouldn&apos;t run on what they still consider the &quot;best&quot; emulator despite the fact that it&apos;s very dated (and the author has <a href="https://atariage.com/forums/index.php?showtopic=78054&amp;pid=959025&amp;st=0&amp;&amp;do=findComment&amp;comment=959025" rel original-href="https://atariage.com/forums/index.php?showtopic=78054&amp;pid=959025&amp;st=0&amp;&amp;do=findComment&amp;comment=959025">annouced</a> that he will no longer update it.)</p>
 <p>&#xA0;</p>
 <p>The FB2 was a lesser consideration... but I have to say I really like the quality of the composite video, and yes I do play my own game occasionally.</p>
 <p></p>

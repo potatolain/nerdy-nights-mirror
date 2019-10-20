@@ -24,6 +24,6 @@
 <br>
 Check out this link, if it still unclear let me know. <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
 <br>
-&#xA0;<a href="http://www.obelisk.demon.co.uk/6502/addressing.html#IDX" target="_blank">http://www.obelisk.demon.co.uk/65...</a><br>
+&#xA0;<a href="http://www.obelisk.demon.co.uk/6502/addressing.html#IDX" target="_blank" original-href="http://www.obelisk.demon.co.uk/6502/addressing.html#IDX">http://www.obelisk.demon.co.uk/65...</a><br>
 <br>
 				</div><div class="mdl-card--border"></div>

@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<p>See the second demo in this thread (in the original post). </p><p><a href="messageview.cfm?catid=22&amp;threadid=25663" target="_blank">http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;am...</a> </p>
+					<p>See the second demo in this thread (in the original post). </p><p><a href="messageview.cfm?catid=22&amp;threadid=25663" target="_blank" original-href="messageview.cfm?catid=22&amp;threadid=25663">http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;am...</a> </p>
 				</div><div class="mdl-card--border"></div>

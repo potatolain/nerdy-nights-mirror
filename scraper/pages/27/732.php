@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					huzzah! just needed to word my google search right. there&apos;s a really nice selection of codes and programs here, in case anyone is interested, including a DMC converter: <a href="http://www.pineight.com/nes/#18" target="_blank">http://www.pineight.com/nes/#18...</a>
+					huzzah! just needed to word my google search right. there&apos;s a really nice selection of codes and programs here, in case anyone is interested, including a DMC converter: <a href="http://www.pineight.com/nes/#18" target="_blank" original-href="http://www.pineight.com/nes/#18">http://www.pineight.com/nes/#18...</a>
 				</div><div class="mdl-card--border"></div>

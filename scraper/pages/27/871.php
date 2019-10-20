@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					There&apos;s the awesome gbdev list: <a href="https://github.com/avivace/awesome-gbdev" target="_blank">https://github.com/avivace/awesom...</a>
+					There&apos;s the awesome gbdev list: <a href="https://github.com/avivace/awesome-gbdev" target="_blank" original-href="https://github.com/avivace/awesome-gbdev">https://github.com/avivace/awesom...</a>
 				</div><div class="mdl-card--border"></div>

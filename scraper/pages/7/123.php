@@ -35,7 +35,7 @@ Seems right to me.<br>
 <br>
 Finished:<br>
 <br>
-<a href="http://pastebin.com/cZAUUTfH" target="_blank">http://pastebin.com/cZAUUTfH</a>
+<a href="http://pastebin.com/cZAUUTfH" target="_blank" original-href="http://pastebin.com/cZAUUTfH">http://pastebin.com/cZAUUTfH</a>
 <br>
 Any tips for optimization?
 				</div><div class="mdl-card--border"></div>

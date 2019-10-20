@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+					<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">http://wiki.nesdev.com/w/index.ph...</a><br>
 EDIT: Concentrate on this section -<strong><span class="mw-headline" id="VBlank.2C_Rendering_Time.2C_and_NMIs"> VBlank, Rendering Time, and NMIs</span></strong><br>
 <br>
 Read this. Once I read this, I started to understand VBlanks and NMIs.<br>

@@ -11,7 +11,7 @@
 	</div><div class="mdl-card__supporting-text">
 					I&apos;m looking now at NN w6.<br>
 <br>
-<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=8172" target="_blank">http://www.nintendoage.com/forum/...</a><br>
+<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=8172" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=8172">http://www.nintendoage.com/forum/...</a><br>
 <br>
 &quot;Nametables<br>
 Like the sprites, background images are made up from 8x8 pixel tiles.&#xA0; The screen video resolution is 32x30 tiles, or 256x240 pixels.<br>

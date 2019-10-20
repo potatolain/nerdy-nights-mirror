@@ -26,7 +26,7 @@
 	<br>
 	It&apos;s buried in here or one of my other tutorials somewhere.<br>
 	<br>
-	<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=38605" target="_blank">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
+	<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=38605" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=38605">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
 	&#xA0;</div>
 <br>
 Hmm... I have yet to go thru your tutorials. I was hoping to finish with this tutorial 8 and then start fresh with yours. It appears that they build onto eachother. Should I just save my question until I make it through all of your tutorials? I have the pong game almost completely finished besides having a title screen and a game over screen...<br>

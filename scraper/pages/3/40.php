@@ -17,5 +17,5 @@
 <br>
 <br>Also some other nice people guide me but I really need some more help :
 <br>
-<br><a href="http://www.romhacking.net/forum/index.php/topic,10389.0.html" target="_blank">http://www.romhacking.net/forum/i...</a>
+<br><a href="http://www.romhacking.net/forum/index.php/topic,10389.0.html" target="_blank" original-href="http://www.romhacking.net/forum/index.php/topic,10389.0.html">http://www.romhacking.net/forum/i...</a>
 				</div><div class="mdl-card--border"></div>

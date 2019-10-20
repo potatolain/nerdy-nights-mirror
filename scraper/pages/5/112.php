@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://s1074.photobucket.com/user/KilleRotom/media/softie000_zpsafd56252.png.html" target="_blank"><img src="scraper/images/softie000_zpsafd56252.png" original-src="http://i1074.photobucket.com/albums/w408/KilleRotom/softie000_zpsafd56252.png"></a><br>
+					<a href="http://s1074.photobucket.com/user/KilleRotom/media/softie000_zpsafd56252.png.html" target="_blank" original-href="http://s1074.photobucket.com/user/KilleRotom/media/softie000_zpsafd56252.png.html"><img src="scraper/images/softie000_zpsafd56252.png" original-src="http://i1074.photobucket.com/albums/w408/KilleRotom/softie000_zpsafd56252.png"></a><br>
 I managed to move my little dude in all 4 directions, but the screen is garbled! My code is as follows...<br>
 <div>
 	&#xA0; .inesprg 1 ; 1x 16KB PRG code&#xA0;</div>

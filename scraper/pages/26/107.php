@@ -4,7 +4,7 @@
 </div></blockquote>
 <p>How much space do you have? </p>
 <p>&#xA0;</p>
-<p>Check this link: <a href="scraper/files/c=hacking9.txt" rel="external nofollow">http://www.ffd2.com/fridge/chacking/c=hacking9.txt</a></p>
+<p>Check this link: <a href="scraper/files/c=hacking9.txt" rel="external nofollow" original-href="http://www.ffd2.com/fridge/chacking/c=hacking9.txt">http://www.ffd2.com/fridge/chacking/c=hacking9.txt</a></p>
 <p>&#xA0;</p>
 <p>This is one of my all time favourites. <img alt=":)" src="scraper/images/atariage_icon_smile.gif" original-src="https://atariage.com/forums/uploads/emoticons/atariage_icon_smile.gif"></p>
 <p></p>

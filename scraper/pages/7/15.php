@@ -34,5 +34,5 @@
 <br>BUT.........this is all guessing i have no idea if this is correct or how it works
 <br>Just have to waith for bunny lessons
 <br>
-<br><a href="http://img329.imageshack.us/img329/2659/as002hd4.jpg" target="_blank">http://img329.imageshack.us/img32...</a>
+<br><a href="http://img329.imageshack.us/img329/2659/as002hd4.jpg" target="_blank" original-href="http://img329.imageshack.us/img329/2659/as002hd4.jpg">http://img329.imageshack.us/img32...</a>
 				</div><div class="mdl-card--border"></div>

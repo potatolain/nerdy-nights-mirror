@@ -23,7 +23,7 @@ Basically, I am changing 1 color of the palette duing game play, specifically ad
 <br>
 I have added a pastebin of the relevant code to the 3 process (Color Change, Switching Gamestates, and Loading Backgrounds). I do run the ColorUpdate Subroutine during gameplay to update some colors when the D-Pad is pressed and everything works fine there. It&apos;s only at the Title Screen where it breaks it.<br>
 <br>
-<a href="http://pastebin.com/Z785aqBB" target="_blank">http://pastebin.com/Z785aqBB...</a><br>
+<a href="http://pastebin.com/Z785aqBB" target="_blank" original-href="http://pastebin.com/Z785aqBB">http://pastebin.com/Z785aqBB...</a><br>
 <br>
 Thanks! Hope this makes sense.
 				</div><div class="mdl-card--border"></div>

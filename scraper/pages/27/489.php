@@ -20,7 +20,7 @@ The four score reads players 1 &amp; 3 from $4016 and 2 &amp; 4 from $4017. Also
 <br>
 Here is where I got my info when I was looking at the four score a few months ago.<br>
 <br>
-<a href="http://wiki.nesdev.com/w/index.php/Four_score" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+<a href="http://wiki.nesdev.com/w/index.php/Four_score" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/Four_score">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 I thought I found someone&apos;s sample code a while back, but I can&apos;t seem to find it anymore. I shortly gave up on this and moved to my power pad project.<br>
 <br>

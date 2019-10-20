@@ -20,9 +20,9 @@ Thank you!</div>
 <br>
 In case you did not read these two articles yet, give a look:<br>
 <br>
-&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_scrolling" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_scrolling" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_scrolling">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
-&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 they can probably help you out. Also, I know there is a buggy behaviour about writing values to $2005 in some scenarios, but I can&apos;t find where such behaviour is explained, and my English and tech language I fear it is not good enough to explain it myself. I&apos;m sure someone else will point out this issue if needed to have your code working correctly.<br>
 <br>

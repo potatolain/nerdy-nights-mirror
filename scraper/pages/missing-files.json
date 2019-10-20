@@ -1,13 +1,5 @@
 [
     {
-        "newUrl": "images/missing/ddraa1.gif",
-        "originalUrl": "http://img116.imageshack.us/img116/5488/ddraa1.gif",
-        "page": "Nerdy Nights week 2: NES architecture overview",
-        "id": 3,
-        "isComment": true,
-        "existsInRepo": true
-    },
-    {
         "newUrl": "images/missing/ddremptyarrowpc7.gif",
         "originalUrl": "http://img444.imageshack.us/img444/7823/ddremptyarrowpc7.gif",
         "page": "Nerdy Nights week 2: NES architecture overview",
@@ -16,16 +8,24 @@
         "existsInRepo": true
     },
     {
-        "newUrl": "images/missing/001.png",
-        "originalUrl": "http://bombsomedodongos.com/a/images/001.png",
+        "newUrl": "images/missing/ddraa1.gif",
+        "originalUrl": "http://img116.imageshack.us/img116/5488/ddraa1.gif",
+        "page": "Nerdy Nights week 2: NES architecture overview",
+        "id": 3,
+        "isComment": true,
+        "existsInRepo": true
+    },
+    {
+        "newUrl": "images/missing/002.png",
+        "originalUrl": "http://bombsomedodongos.com/a/images/002.png",
         "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
         "id": 3,
         "isComment": true,
         "existsInRepo": false
     },
     {
-        "newUrl": "images/missing/002.png",
-        "originalUrl": "http://bombsomedodongos.com/a/images/002.png",
+        "newUrl": "images/missing/001.png",
+        "originalUrl": "http://bombsomedodongos.com/a/images/001.png",
         "page": "Nerdy Nights week 4: Color Palettes, Sprites, second app",
         "id": 3,
         "isComment": true,
@@ -136,8 +136,8 @@
         "existsInRepo": true
     },
     {
-        "newUrl": "images/missing/File_id_d36ccdg_32dh4jjkdf_b",
-        "originalUrl": "http://docs.google.com/File?id=d36ccdg_32dh4jjkdf_b",
+        "newUrl": "images/missing/File_id_d36ccdg_33fm9jm9dg_b",
+        "originalUrl": "http://docs.google.com/File?id=d36ccdg_33fm9jm9dg_b",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
         "id": 3,
         "isComment": false,
@@ -152,16 +152,8 @@
         "existsInRepo": true
     },
     {
-        "newUrl": "images/missing/File_id_d36ccdg_33fm9jm9dg_b",
-        "originalUrl": "http://docs.google.com/File?id=d36ccdg_33fm9jm9dg_b",
-        "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
-        "id": 3,
-        "isComment": false,
-        "existsInRepo": true
-    },
-    {
-        "newUrl": "downloads/missing/NotesTableNTSC.txt",
-        "originalUrl": "http://www.freewebs.com/the_bott/NotesTableNTSC.txt",
+        "newUrl": "images/missing/File_id_d36ccdg_32dh4jjkdf_b",
+        "originalUrl": "http://docs.google.com/File?id=d36ccdg_32dh4jjkdf_b",
         "page": "Nerdy Nights Sound: Part 3: Periods and lookup tables",
         "id": 3,
         "isComment": false,
@@ -178,7 +170,7 @@
     {
         "newUrl": "downloads/missing/64doc.txt",
         "originalUrl": "http://www.viceteam.org/plain/64doc.txt",
-        "page": "Recommended PostsJoin the conversation",
+        "page": "AtariAge: 6502 Killer hacks",
         "id": 3,
         "isComment": true,
         "existsInRepo": true
@@ -192,16 +184,16 @@
         "existsInRepo": false
     },
     {
-        "newUrl": "images/missing/094A196F-951F-52C6-4F9BE6E9EC826B5E.png",
-        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A196F-951F-52C6-4F9BE6E9EC826B5E.png",
+        "newUrl": "images/missing/094A1D30-0262-6829-315C9290EB42FFA1.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A1D30-0262-6829-315C9290EB42FFA1.png",
         "page": "Ask all programming questions here!",
         "id": 3,
         "isComment": true,
         "existsInRepo": false
     },
     {
-        "newUrl": "images/missing/094A1D30-0262-6829-315C9290EB42FFA1.png",
-        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A1D30-0262-6829-315C9290EB42FFA1.png",
+        "newUrl": "images/missing/094A196F-951F-52C6-4F9BE6E9EC826B5E.png",
+        "originalUrl": "http://nintendoagemedia.com/users/21264/photobucket/094A196F-951F-52C6-4F9BE6E9EC826B5E.png",
         "page": "Ask all programming questions here!",
         "id": 3,
         "isComment": true,
@@ -237,6 +229,6 @@
         "page": "Ask all programming questions here!",
         "id": 3,
         "isComment": true,
-        "existsInRepo": false
+        "existsInRepo": true
     }
 ]

@@ -1,5 +1,5 @@
 
-					<b>Last Week</b>: <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=22610" target="_blank">Square 2 and Triangle Basics</a><br><br><b>This week</b>: We will learn about periods and build a period lookup table that spans 8 octaves.<br><br><b><font size="4">Periods</font></b><br><br>In
+					<b>Last Week</b>: <a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=22610" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=22610">Square 2 and Triangle Basics</a><br><br><b>This week</b>: We will learn about periods and build a period lookup table that spans 8 octaves.<br><br><b><font size="4">Periods</font></b><br><br>In
 the last two lessons, I&apos;ve been giving you the values to plug into the
 11-bit periods for the Square and Triangle channels.&#xA0; I haven&apos;t been
 giving you an explanation of what a period is, or where I got those
@@ -61,10 +61,10 @@ lowest notes), <i>even when disabled</i>.&#xA0; We&apos;ll have to take a quick 
 <span style="font-family: Courier New;">|||||+++- Shift</span><br style="font-family: Courier New;">
 <span style="font-family: Courier New;">||||+---- Negate</span><br style="font-family: Courier New;">
 <span style="font-family: Courier New;">|+++----- Sweep Unit Period</span><br style="font-family: Courier New;">
-<span style="font-family: Courier New;">+-------- Enable (1: enabled; 0: disabled)</span><br><br>I&apos;m not going to go into how it works now, but the unwanted silencing of low notes can be circumvented by <b>setting the negate flag</b>:<br><br style="font-family: Courier New;"><span style="font-family: Courier New;">&#xA0;&#xA0;&#xA0; lda #$08&#xA0;&#xA0;&#xA0; ;set Negate flag on the sweep unit</span><br style="font-family: Courier New;"><span style="font-family: Courier New;">&#xA0;&#xA0;&#xA0; sta $4001&#xA0;&#xA0; ;or $4005 for Square 2.</span><br>&#xA0;&#xA0; &#xA0;<br>If you really want to know why, check the Sweep Unit section of blargg&apos;s <a href="scraper/files/apu_ref.txt" target="_blank">NES APU Sound Hardware Technical Reference</a>.<br><br><b>What about PAL?</b><br>For
+<span style="font-family: Courier New;">+-------- Enable (1: enabled; 0: disabled)</span><br><br>I&apos;m not going to go into how it works now, but the unwanted silencing of low notes can be circumvented by <b>setting the negate flag</b>:<br><br style="font-family: Courier New;"><span style="font-family: Courier New;">&#xA0;&#xA0;&#xA0; lda #$08&#xA0;&#xA0;&#xA0; ;set Negate flag on the sweep unit</span><br style="font-family: Courier New;"><span style="font-family: Courier New;">&#xA0;&#xA0;&#xA0; sta $4001&#xA0;&#xA0; ;or $4005 for Square 2.</span><br>&#xA0;&#xA0; &#xA0;<br>If you really want to know why, check the Sweep Unit section of blargg&apos;s <a href="scraper/files/apu_ref.txt" target="_blank" original-href="http://www.slack.net/%7Eant/nes-emu/apu_ref.txt">NES APU Sound Hardware Technical Reference</a>.<br><br><b>What about PAL?</b><br>For
 simplicity, these tutorials are going to use NTSC numbers.&#xA0; Once we
 finish our sound engine I&apos;ll try to whip up a tutorial about adding PAL
-support.<br><br><b>Putting It All Together</b><br>Download and unzip the <a href="downloads/NerdyNightsSoundSourceCollection/periods.zip" target="_blank">periods.zip</a>
+support.<br><br><b>Putting It All Together</b><br>Download and unzip the <a href="downloads/NerdyNightsSoundSourceCollection/periods.zip" target="_blank" original-href="http://tummaigames.com/periods.zip">periods.zip</a>
 sample files.&#xA0; Make sure periods.asm, periods.chr, note_table.i and
 periods.bat are all in the same folder as NESASM3, then double click
 periods.bat. That will run NESASM3 and should produce the periods.nes
@@ -73,8 +73,8 @@ any note from our note table on the Square 1 channel.&#xA0; Controls are as
 follows:<br><br><b>Up</b> - Play selected note<br><b>Down</b> - Stop note<br><b>Left</b> - Move selection down a note<br><b>Right</b> - Move selection up a note<br><br><b>Homework</b>:
 Edit periods.asm and add support for the Square 2 and Triangle
 channels.&#xA0; Allow the user to select between channels and play different
-notes on all three of them.<br><br><b>Homework #2</b>: Read Disch&apos;s document <a href="http://nesdevhandbook.googlepages.com/theframe.html" target="_blank">The Frame and NMIs</a>.&#xA0;
+notes on all three of them.<br><br><b>Homework #2</b>: Read Disch&apos;s document <a href="http://nesdevhandbook.googlepages.com/theframe.html" target="_blank" original-href="http://nesdevhandbook.googlepages.com/theframe.html">The Frame and NMIs</a>.&#xA0;
 Pay special attention to the &quot;Take Full Advantage of NMI&quot; section.&#xA0; We
 are going to use this style of NMI handler with our sound engine.&#xA0; In
-fact, periods.asm already uses it.<br><br><b>Next Week</b>: <a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=23024" target="_blank">Starting our sound engine.</a><br><br><br><br><br><br>
+fact, periods.asm already uses it.<br><br><b>Next Week</b>: <a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=23024" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=23024">Starting our sound engine.</a><br><br><br><br><br><br>
 				

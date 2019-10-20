@@ -45,6 +45,6 @@ So the order is:<br>
   5 - set scroll for level background</pre>
 <br>  
 The only other change is to make sure your graphics updating code does not draw over the status bar.  The previous DrawNewColumn function handles the graphics updates so it has a few small differences.  The starting address is increased by $80 to skip the first 4 rows of background.  Then the source address is increased by $04 for the same reason.  <br><br><br><br><span class="Apple-style-span" style="font-size: medium; "><b>Putting It All Together</b></span><br>
-Download and unzip the <a href="scraper/files/sprite0.zip" target="_blank">sprite0.zip</a> sample files.   sprite0.asm is the same as the previous scrolling5.asm file plus the changes covered here.  This is another good one to watch in an emulator.  
+Download and unzip the <a href="scraper/files/sprite0.zip" target="_blank" original-href="http://www.nespowerpak.com/nesasm/sprite0.zip">sprite0.zip</a> sample files.   sprite0.asm is the same as the previous scrolling5.asm file plus the changes covered here.  This is another good one to watch in an emulator.  
 </div></div>
 				

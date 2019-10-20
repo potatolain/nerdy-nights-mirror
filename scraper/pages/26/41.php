@@ -1,5 +1,5 @@
 <div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on November 10, 2005</div><div class="mdl-card__supporting-text">
-<p>Here&apos;s some interesting code <a href="https://atariage.com/forums/index.php?showtopic=75267&amp;view=findpost&amp;p=954542" rel>from batari</a>:</p>
+<p>Here&apos;s some interesting code <a href="https://atariage.com/forums/index.php?showtopic=75267&amp;view=findpost&amp;p=954542" rel original-href="https://atariage.com/forums/index.php?showtopic=75267&amp;view=findpost&amp;p=954542">from batari</a>:</p>
 <p>&#xA0;</p>
 <p>This:</p>
 <p></p>

@@ -26,7 +26,7 @@
 	<br>
 	So, it seems that my choice of the word&#xA0;<em>slot </em>was an ill-made one, as even in this post, it caused confusion.<br>
 	<br>
-	I guess MMM&apos;s and Roth&apos;s shorthand would be the closest to generally accepted (that seems to be the terminology used on the <a href="http://wiki.nesdev.com/w/index.php/PPU_palettes" target="_blank">nesdev wiki</a>.<br>
+	I guess MMM&apos;s and Roth&apos;s shorthand would be the closest to generally accepted (that seems to be the terminology used on the <a href="http://wiki.nesdev.com/w/index.php/PPU_palettes" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_palettes">nesdev wiki</a>.<br>
 	<br>
 	<em>Therefore, a single palette is 4 bytes long, and there are 8 palettes loaded at a time, four for sprites (SPR Pal 0&#x2013;3 and four for backgrounds (BG Pal 0&#x2013;3). Each of these 16 palettes has four colors, of which one will be transparent/background.</em><br>
 	<br>

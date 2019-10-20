@@ -16,7 +16,7 @@
 <br>
 Cracked it, finally. &#xA0;This thread is very useful for anyone else struggling with bg/player collision:<br>
 <br>
-<a href="http://forums.nesdev.com/viewtopic.php?f=10&amp;t=9953" target="_blank">http://forums.nesdev.com/viewtopi...</a><br>
+<a href="http://forums.nesdev.com/viewtopic.php?f=10&amp;t=9953" target="_blank" original-href="http://forums.nesdev.com/viewtopic.php?f=10&amp;t=9953">http://forums.nesdev.com/viewtopi...</a><br>
 <br>
 Thinking about it, it might be easier to just use a 120 byte array for bg collision (1 bit per 8x8 tile would suffice for my needs), thus saving oodles of space, but this works for now <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
 <br>

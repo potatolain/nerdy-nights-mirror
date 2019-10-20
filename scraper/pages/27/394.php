@@ -10,7 +10,7 @@
 		
 	</div><div class="mdl-card__supporting-text">
 					I asked a coding question in my project thread:<br>
-<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=134187" target="_blank">http://nintendoage.com/forum/mess...</a><br>
+<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=134187" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=134187">http://nintendoage.com/forum/mess...</a><br>
 <br>
 Since there are not links that directly link to a specific post, just search:<br>
 Saturday, September 13, 2014 - 01:50:20 PM<br>

@@ -12,7 +12,7 @@
 					<div class="FTQUOTE">
 	<i>Originally posted by: <b>Rachel</b></i><br>
 	<br>
-	There&apos;s a plugin for FamiTracker that will open NSFs:&#xA0;<a href="http://famitracker.com/wiki/index.php?title=NSF_Importer" target="_blank">http://famitracker.com/wiki/index.php?title=NSF_Importer</a>. It&apos;s not perfect, but I&apos;ve definitely used it when I wanted to look at channel data. IIRC, it&apos;s only compatible with a certain version of FamiTracker, so be sure to check before using the plugin.</div>
+	There&apos;s a plugin for FamiTracker that will open NSFs:&#xA0;<a href="http://famitracker.com/wiki/index.php?title=NSF_Importer" target="_blank" original-href="http://famitracker.com/wiki/index.php?title=NSF_Importer">http://famitracker.com/wiki/index.php?title=NSF_Importer</a>. It&apos;s not perfect, but I&apos;ve definitely used it when I wanted to look at channel data. IIRC, it&apos;s only compatible with a certain version of FamiTracker, so be sure to check before using the plugin.</div>
 <br>
 Thanks, appreciated! <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
 <br>

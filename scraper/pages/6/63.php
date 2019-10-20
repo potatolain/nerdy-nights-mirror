@@ -16,7 +16,7 @@
 	<br>
 	Code here:<br>
 	<br>
-	<a href="http://pastebin.com/N0tQQ1td" target="_blank">http://pastebin.com/N0tQQ1td</a></div>
+	<a href="http://pastebin.com/N0tQQ1td" target="_blank" original-href="http://pastebin.com/N0tQQ1td">http://pastebin.com/N0tQQ1td</a></div>
 <br>
 When I changed your attribute data to normal looking attribute data it worked fine. <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
 <br>

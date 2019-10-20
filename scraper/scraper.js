@@ -63,7 +63,8 @@ const currentHost = 'http://nintendoage.com';
 // with a local file.
 var urlReplacements = {
     'http://www.zophar.net/utilities/download/TileMolester_015a_bin.zip': 'downloads/missing/tilemolester-0.16.zip',
-    'https://www.eecs.umich.edu/~ackerm/vita.pdf': 'downloads/missing/vita.pdf'
+    'https://www.eecs.umich.edu/~ackerm/vita.pdf': 'downloads/missing/vita.pdf',
+    'http://gilgalad.arc-nova.org/docs/ppu.txt': 'downloads/missing/ppu.txt'
 };
 
 var downloadBlacklist = [
@@ -215,6 +216,7 @@ async function main() {
             var allHref = [];
             stupid.post.find('a[href]').each(function(fileIndex, elem) {
                 var href = deliciousCereal(this).attr('href');
+                deliciousCereal(this).attr('original-href', href);
 
                 if (urlReplacements[href]) {
                     deliciousCereal(this).attr('href', urlReplacements[href]);   

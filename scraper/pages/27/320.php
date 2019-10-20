@@ -17,7 +17,7 @@ Yes, I knew c0 was for pseudo-transparency.<br>
 <br>
 Going forwards with my question, if you get time:<br>
 <br>
-<a href="http://www.spriters-resource.com/fullview/29821/" target="_blank">http://www.spriters-resource.com/...</a><br>
+<a href="http://www.spriters-resource.com/fullview/29821/" target="_blank" original-href="http://www.spriters-resource.com/fullview/29821/">http://www.spriters-resource.com/...</a><br>
 <br>
 look at the flying dragon about the center of the image: black + 2 shades + horns + wings = 5 colors<br>
 <br>
@@ -25,7 +25,7 @@ Or course is made by several sprites (80x80px), but they really used a second su
 <br>
 Those are the heroes, which all use 2 specific palette if I understand it right:<br>
 <br>
-<a href="http://www.spriters-resource.com/nes/ff2/sheet/29842/" target="_blank">http://www.spriters-resource.com/...</a><br>
+<a href="http://www.spriters-resource.com/nes/ff2/sheet/29842/" target="_blank" original-href="http://www.spriters-resource.com/nes/ff2/sheet/29842/">http://www.spriters-resource.com/...</a><br>
 <br>
 - BLACK, RED, PINK, WHITE<br>
 - BLACK, BLUE, YELLOW, BROWN<br>

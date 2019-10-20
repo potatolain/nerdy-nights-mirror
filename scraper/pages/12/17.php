@@ -13,9 +13,9 @@
 <br>
 In case you did not read these two articles yet, give a look:<br>
 <br>
-&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_scrolling" target="_blank">http://wiki.nesdev.com/w/index.php/PPU_scrolling</a><br>
+&#xA0;<a href="http://wiki.nesdev.com/w/index.php/PPU_scrolling" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/PPU_scrolling">http://wiki.nesdev.com/w/index.php/PPU_scrolling</a><br>
 <br>
-&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs</a><br>
+&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs</a><br>
 &#xA0;</div>
 <br>
 I&apos;ll read them. Thanks!<br>

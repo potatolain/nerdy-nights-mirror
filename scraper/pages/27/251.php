@@ -13,10 +13,10 @@
 <br>
 <br>Some of my resources (for my later reference):
 <br>
-<br><a href="http://archive.rpgclassics.com/subsites/twit/docs/text/" target="_blank">http://archive.rpgclassics.com/su...</a>
-<br><a href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14" target="_blank">http://badderhacksnet.ipage.com/b...</a><span class="sprites_emoticons absmiddle" id="emo_happy"></span>r-floppy&amp;Itemid=7
-<br><a href="scraper/files/NESprgmn.txt" target="_blank">http://nesdev.com/NESprgmn.txt...</a>
-<br><a href="scraper/files/ppu.txt" target="_blank">http://gilgalad.arc-nova.org/docs...</a>
-<br><a href="http://www.thetechnickel.com/video-games/nes-development-intro" target="_blank">http://www.thetechnickel.com/vide...</a>
+<br><a href="http://archive.rpgclassics.com/subsites/twit/docs/text/" target="_blank" original-href="http://archive.rpgclassics.com/subsites/twit/docs/text/">http://archive.rpgclassics.com/su...</a>
+<br><a href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14" target="_blank" original-href="http://badderhacksnet.ipage.com/badderhacks/index.php?option=com_content&amp;view=article&amp;id=270:the-nes-picture-processing-unit-ppu&amp;catid=14">http://badderhacksnet.ipage.com/b...</a><span class="sprites_emoticons absmiddle" id="emo_happy"></span>r-floppy&amp;Itemid=7
+<br><a href="scraper/files/NESprgmn.txt" target="_blank" original-href="http://nesdev.com/NESprgmn.txt">http://nesdev.com/NESprgmn.txt...</a>
+<br><a href="downloads/missing/ppu.txt" target="_blank" original-href="http://gilgalad.arc-nova.org/docs/ppu.txt">http://gilgalad.arc-nova.org/docs...</a>
+<br><a href="http://www.thetechnickel.com/video-games/nes-development-intro" target="_blank" original-href="http://www.thetechnickel.com/video-games/nes-development-intro">http://www.thetechnickel.com/vide...</a>
 <br>
 				</div><div class="mdl-card--border"></div>

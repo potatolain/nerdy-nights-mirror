@@ -14,7 +14,7 @@
 	1. In games like Super Mario Bros. (side scrolling) in a nutshell, is a game like this contain way more code then a game that is not side scrolling?<br>
 	2. To make your sprite on screen move to the direction of the D pad being pushed, is this a simple code to enter that will connect it, to the D pad? or does it consist of tons of codes just to make it possible to have control of a character.<br>
 	3. When a character jumps on screen, Is it contained in the programming of how fast/smooth/high/far it can jump? Never understood this in games like adventure island where you can sorta feel your jump by how long you hold down the jump button etc. for small jumps.</div>
-I am by no means a veteran, nor have I written any sort of game for the NES, however, I am a programmer. So let&apos;s start this off. All of the tools most people use can be found at&#xA0;<a href="http://nesdev.com/#PC" target="_blank">http://nesdev.com/#PC</a><br>
+I am by no means a veteran, nor have I written any sort of game for the NES, however, I am a programmer. So let&apos;s start this off. All of the tools most people use can be found at&#xA0;<a href="http://nesdev.com/#PC" target="_blank" original-href="http://nesdev.com/#PC">http://nesdev.com/#PC</a><br>
 I&apos;ll try to answer the rest of your questions to the best of my ability.<br>
 <ol>
 	<li>

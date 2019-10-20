@@ -22,5 +22,5 @@
 <br>
 This shold work. Rename the file when including it too, the names not right. I didn&apos;t compile it but I&apos;m fairly confident that this will get the results your after.<br>
 <br>
-<a href="http://wiki.nesdev.com/w/index.php/Palette" target="_blank">http://wiki.nesdev.com/w/index.php/Palette</a>
+<a href="http://wiki.nesdev.com/w/index.php/Palette" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/Palette">http://wiki.nesdev.com/w/index.php/Palette</a>
 				</div><div class="mdl-card--border"></div>

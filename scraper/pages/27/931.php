@@ -16,7 +16,7 @@
 <br>
 <br>
 I use the HTML tag PRE /PRE<br>
-<a href="https://www.w3schools.com/tags/tag_pre.asp" target="_blank">https://www.w3schools.com/tags/ta...</a><br>
+<a href="https://www.w3schools.com/tags/tag_pre.asp" target="_blank" original-href="https://www.w3schools.com/tags/tag_pre.asp">https://www.w3schools.com/tags/ta...</a><br>
 <br>
 to make the code monospace font. But I believe to be the only one in here to do so.<br>
 There is a built in code tag too, but then the font output is quite small.<br>

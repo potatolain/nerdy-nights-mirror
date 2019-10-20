@@ -18,7 +18,7 @@ That&apos;d be about 5 years of magic if my experience with just NES games is an
 <br>
 Unless of course you&apos;re lucky and the arcade hardware is really really similar to SNES or provides enough similar functions you could write some kind of translator...I guess somebody did that with SMB1 to the Genesis, but I imagine that wouldn&apos;t be trivial either...just from knowing the SNES is kinda difficult to program, particularly the sound chip from what I&apos;m told.<br>
 <br>
-*edit* Just looked up that SMB1 to Genesis port. According to this article:&#xA0;<a href="http://kotaku.com/5578821/super-mario-bros-finally-faithfully-ported-to-sega-genesis" target="_blank">http://kotaku.com/5578821/super-m...</a> &#xA0;It wasn&apos;t just the translator, a lot of manual adjustment had to be made.<br>
+*edit* Just looked up that SMB1 to Genesis port. According to this article:&#xA0;<a href="http://kotaku.com/5578821/super-mario-bros-finally-faithfully-ported-to-sega-genesis" target="_blank" original-href="http://kotaku.com/5578821/super-mario-bros-finally-faithfully-ported-to-sega-genesis">http://kotaku.com/5578821/super-m...</a> &#xA0;It wasn&apos;t just the translator, a lot of manual adjustment had to be made.<br>
 <br>
 Still an ambitious project if somebody took it on. Programming is hard. (not to scare anyone off; it&apos;s a GOOD hard. You feel as though you&apos;ve reached the summit of Mt. Everest when you finish a project on a retro system.)
 				</div><div class="mdl-card--border"></div>

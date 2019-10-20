@@ -16,7 +16,8 @@
 <br>It&apos;s more like a demo, but... I don&apos;t know, it&apos;s not really a game, but not really a demo haha It&apos;s something to get my feet wet for the most part. You can get the latest upload here:
 <br>
 <br><a href="http://roth.zhxhome.net/games/index.htm
-" target="_blank">http://roth.zhxhome.net/games/index.htm
+" target="_blank" original-href="http://roth.zhxhome.net/games/index.htm
+">http://roth.zhxhome.net/games/index.htm
 </a><br>
 <br>It&apos;s a bit further along than that now. Different title screen, the cat sprite tiles are pulled onto the screen, and the checkmark on the notepad in the bottom left actually stop at each selection instead of moving up and down really fast haha You&apos;ll also notice that when you come back from the instruction screen in this upload, that the little &quot;Decepticon looking cat-head&quot; is in the wrong spot. That&apos;s fixed also.
 <br>

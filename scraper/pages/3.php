@@ -1,8 +1,8 @@
 
-					<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4291" target="_blank">Previous Week</a> - NES architecture overview<br><br>
+					<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4291" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4291">Previous Week</a> - NES architecture overview<br><br>
 <b>This Week:</b> starts getting into more details about the 6502 and
 intro to assembly language. The lessons for asm usage and NES specifics
-will be done in sections together. There are many other 6502 <a href="http://www.obelisk.demon.co.uk/6502/" target="_blank">websites</a> and good books which may help you learn better.<br><br><br><br><font size="+2">6502 Assembly</font><br>
+will be done in sections together. There are many other 6502 <a href="http://www.obelisk.demon.co.uk/6502/" target="_blank" original-href="http://www.obelisk.demon.co.uk/6502/">websites</a> and good books which may help you learn better.<br><br><br><br><font size="+2">6502 Assembly</font><br>
 <i>Bit - The smallest unit in computers.  It is either a 1 (on) or a 0 (off), like a light switch. <br><br>
 Byte - 8 bits together form one byte, a number from 0 to 255. Two bytes
 put together is 16 bits, forming a number from 0 to 65535. Bits in the
@@ -151,10 +151,10 @@ from 7 to 0. Those 8 bits form the byte you will write to $2001.<br>
 So if you want to enable the sprites, you set bit 3 to 1.  For this program bits 7, 6, 5 will be used to set the screen color:<br>
 <pre>  LDA %10000000   ;intensify blues<br>  STA $2001<br>Forever:<br>  JMP Forever     ;infinite loop<br></pre><br>
 <b>Putting It All Together</b><br>
-Download and unzip the <a href="scraper/files/background.zip" target="_blank">background.zip</a>
+Download and unzip the <a href="scraper/files/background.zip" target="_blank" original-href="http://www.nespowerpak.com/nesasm/background.zip">background.zip</a>
 sample files. All the code above is in the background.asm file. Make
-sure that file, mario.chr, and background.bat is in the same folder as <a href="scraper/files/NESASM3.zip" target="_blank">NESASM3</a>, then double click on background.bat.  That will run NESASM3 and should produce background.nes.  Run that NES file in <a href="http://www.the-interweb.com/serendipity/exit.php?url_id=627_id=90" target="_blank">FCEUXD SP</a> to see your background color!  Edit background.asm to change the intensity bits 7-5 to make the background red or green.<br><br>
-You can start the Debug... from the Tools menu in <a href="http://www.the-interweb.com/serendipity/exit.php?url_id=627&amp;entry_id=90" target="_blank">FCEUXD SP</a>
+sure that file, mario.chr, and background.bat is in the same folder as <a href="scraper/files/NESASM3.zip" target="_blank" original-href="http://www.nespowerpak.com/nesasm/NESASM3.zip">NESASM3</a>, then double click on background.bat.  That will run NESASM3 and should produce background.nes.  Run that NES file in <a href="http://www.the-interweb.com/serendipity/exit.php?url_id=627_id=90" target="_blank" original-href="http://www.the-interweb.com/serendipity/exit.php?url_id=627_id=90">FCEUXD SP</a> to see your background color!  Edit background.asm to change the intensity bits 7-5 to make the background red or green.<br><br>
+You can start the Debug... from the Tools menu in <a href="http://www.the-interweb.com/serendipity/exit.php?url_id=627&amp;entry_id=90" target="_blank" original-href="http://www.the-interweb.com/serendipity/exit.php?url_id=627&amp;entry_id=90">FCEUXD SP</a>
 to watch your code run. Hit the Step Into button, choose Reset from the
 NES menu, then keep hitting Step Into to run one instruction at a time.
 On the left is the memory address, next is the hex opcode that the 6502

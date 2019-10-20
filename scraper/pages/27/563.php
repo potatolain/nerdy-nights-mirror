@@ -13,7 +13,7 @@
 <br>
 Thanks for any help <span class="sprites_emoticons absmiddle" id="emo_smile"></span><br>
 <br>
-<a href="https://drive.google.com/file/d/0B1Yh8r7sMuwtb0s0OWJaSzZCUnM/view?usp=sharing" target="_blank">https://drive.google.com/file/d/0...</a><br>
+<a href="https://drive.google.com/file/d/0B1Yh8r7sMuwtb0s0OWJaSzZCUnM/view?usp=sharing" target="_blank" original-href="https://drive.google.com/file/d/0B1Yh8r7sMuwtb0s0OWJaSzZCUnM/view?usp=sharing">https://drive.google.com/file/d/0...</a><br>
 <br>
 Edit: idiocy
 				</div><div class="mdl-card--border"></div>

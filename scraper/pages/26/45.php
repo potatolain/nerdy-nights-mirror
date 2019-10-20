@@ -1,7 +1,7 @@
 <div class="mdl-card__title"><strong>mojofltrmojofltr</strong> posted on November 10, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="Atari-Jess" data-cite="Atari-Jess" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Not a killer hack but I&apos;d like to share a link to an interview with William Mensch, 6502 designer.<p>&#xA0;</p>
-<p><a href="http://vodreal.stanford.edu/sul/sgp/mensch.ram" rel="external nofollow">Real format video of interview</a></p>
+<p><a href="http://vodreal.stanford.edu/sul/sgp/mensch.ram" rel="external nofollow" original-href="http://vodreal.stanford.edu/sul/sgp/mensch.ram">Real format video of interview</a></p>
 <p></p>
 <div style="text-align:right;"><p><a rel></a>891481[/snapback]</p></div>
 <p></p>

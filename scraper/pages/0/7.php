@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4147&amp;enterthread=y" target="_blank">http://www.nintendoage.com/for...did=4147&amp;enterthread=y</a>
+					<a href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4147&amp;enterthread=y" target="_blank" original-href="http://www.nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=4147&amp;enterthread=y">http://www.nintendoage.com/for...did=4147&amp;enterthread=y</a>
 				</div><div class="mdl-card--border"></div>

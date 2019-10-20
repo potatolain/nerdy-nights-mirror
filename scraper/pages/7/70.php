@@ -30,6 +30,6 @@ Player1Collisions:<br>
 	RTS<br><br>
 And this subroutine is called in the main loop at the end, after the input is handled<br>
 and the sprites are updated. Everything I have done so far seems to work fine EXCEPT the paddle collisions.<br>
-Here is all the code, if it make things easier. <a href="http://pastebin.com/eTVKQgGx" target="_blank">http://pastebin.com/eTVKQgGx...</a><br>
+Here is all the code, if it make things easier. <a href="http://pastebin.com/eTVKQgGx" target="_blank" original-href="http://pastebin.com/eTVKQgGx">http://pastebin.com/eTVKQgGx...</a><br>
 ballPos is x, ballPos+1 is y, player1 is y and player1+3 is x.
 				</div><div class="mdl-card--border"></div>

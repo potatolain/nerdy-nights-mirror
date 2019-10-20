@@ -11,7 +11,7 @@
 	</div><div class="mdl-card__supporting-text">
 					After a game over the game shortly plays and crashes. I can&apos;t get the collision date to work either.
 <br>
-<br><a href="http://pastebin.com/5X1Us01D" target="_blank">http://pastebin.com/5X1Us01D...</a>
+<br><a href="http://pastebin.com/5X1Us01D" target="_blank" original-href="http://pastebin.com/5X1Us01D">http://pastebin.com/5X1Us01D...</a>
 <br>
 <br>Help please.
 				</div><div class="mdl-card--border"></div>

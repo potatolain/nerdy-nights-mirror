@@ -70,7 +70,7 @@ Then of course, if the square root of 16 bits numbers was needed, then it would 
             nomore STY $20      ; all done, store square root
                    STX $21      ; and remainder
                    RTS</pre>
-Source (with <em>really nice</em> explanation, reading advised!): <a href="http://www.dwheeler.com/6502/oneelkruns/asm1step.html" target="_blank">http://www.dwheeler.com/6502/onee...</a><br>
+Source (with <em>really nice</em> explanation, reading advised!): <a href="http://www.dwheeler.com/6502/oneelkruns/asm1step.html" target="_blank" original-href="http://www.dwheeler.com/6502/oneelkruns/asm1step.html">http://www.dwheeler.com/6502/onee...</a><br>
 <br>
 ***<br>
 <br>

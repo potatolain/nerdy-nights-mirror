@@ -16,9 +16,9 @@ Ah, okay. The only thing I&apos;m wondering is how to keep my Game Engine runnin
 I noticed you put your sound engine/sleeping code before the skip_graphics_updates label. Can you explain what the updating_background variable is for? It seems it&apos;s doing more than just signalling that background tiles need redrawn?<br>
 <br>
 Thanks!</div>
-Please take a look at this. it explains NMIs\Vblanks\Interrupts much better than I ever could. <a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+Please take a look at this. it explains NMIs\Vblanks\Interrupts much better than I ever could. <a href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
-I pretty much stole this right from Mario&apos;s Right Nut&apos;s tutorial on game engines: <a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=37054" target="_blank">http://nintendoage.com/forum/mess...</a><br>
+I pretty much stole this right from Mario&apos;s Right Nut&apos;s tutorial on game engines: <a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=37054" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=37054">http://nintendoage.com/forum/mess...</a><br>
 <br>
 Here is the finished Forever: Loop. It&apos;s all explained in that Mario&apos;s Right Nut Tutorial. It&apos;s a really great Game State Engine.<br>
 <br>

@@ -31,7 +31,7 @@ Now, doing it this way is fine, but you have to understand that unless you have 
 <br>
 Let us know if you need further clarification, or when you&apos;re ready for more advanced solutions.<br>
 <br>
-Homework is to read this: <a href="https://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank">https://wiki.nesdev.com/w/index.p...</a><br>
+Homework is to read this: <a href="https://wiki.nesdev.com/w/index.php/The_frame_and_NMIs" target="_blank" original-href="https://wiki.nesdev.com/w/index.php/The_frame_and_NMIs">https://wiki.nesdev.com/w/index.p...</a><br>
 <br>
 You don&apos;t need to understand the technical details of what it&apos;s doing, but at least try to give it a read and understand the concepts. We&apos;ll get there. One step at a time!<br>
 <br>

@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<a href="http://www.nesmuseum.com/images/pputile.png" target="_blank">http://www.nesmuseum.com/images/p...</a><br>
+					<a href="http://www.nesmuseum.com/images/pputile.png" target="_blank" original-href="http://www.nesmuseum.com/images/pputile.png">http://www.nesmuseum.com/images/p...</a><br>
 <br>
 .... what... the hell... is going on here?...... <span class="sprites_emoticons absmiddle" id="emo_sad"></span><br>
 <br>

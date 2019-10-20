@@ -14,5 +14,5 @@
 <br>I tried to make it run too, however, it doesn&apos;t. The CHR/palettes appear fine in FCEUX, however, there should be a background tile on the screen, and there isn&apos;t.
 <br>Anyone knows what I forgot to do/did wrong?
 <br>
-<br><a href="http://pastebin.com/tRUZR7Eu" target="_blank">http://pastebin.com/tRUZR7Eu...</a>
+<br><a href="http://pastebin.com/tRUZR7Eu" target="_blank" original-href="http://pastebin.com/tRUZR7Eu">http://pastebin.com/tRUZR7Eu...</a>
 				</div><div class="mdl-card--border"></div>

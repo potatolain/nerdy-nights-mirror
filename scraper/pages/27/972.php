@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					like so? (thank you for bearing with me) This got the sprite up on the screen again but i lost controller input it seems <a href="https://hastebin.com/okukuzelok.pl" target="_blank">https://hastebin.com/okukuzelok.p...</a>
+					like so? (thank you for bearing with me) This got the sprite up on the screen again but i lost controller input it seems <a href="https://hastebin.com/okukuzelok.pl" target="_blank" original-href="https://hastebin.com/okukuzelok.pl">https://hastebin.com/okukuzelok.p...</a>
 				</div><div class="mdl-card--border"></div>

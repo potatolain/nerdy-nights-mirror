@@ -23,6 +23,6 @@ Not in NMI, but if you turn off the background, you can do whatever you want.&#x
 <br>
 It&apos;s buried in here or one of my other tutorials somewhere.<br>
 <br>
-<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=38605" target="_blank">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
+<a href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=38605" target="_blank" original-href="http://nintendoage.com/forum/messageview.cfm?catid=22&amp;threadid=38605">http://nintendoage.com/forum/messageview.cfm?catid=22&amp;th...</a> <br>
 <br>
 				</div><div class="mdl-card--border"></div>

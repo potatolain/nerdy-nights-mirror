@@ -29,7 +29,7 @@ EDIT: well, that didn&apos;t work. Found a thing on the programming resources pa
 <br>
 Also, sorry for all my spelling errors. CHR-RAM and CHR-ROM.<br>
 View this as it will explain CHRRAM and CHRROM much better than I can.<br>
-<a href="http://wiki.nesdev.com/w/index.php/CHR_ROM_vs._CHR_RAM" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+<a href="http://wiki.nesdev.com/w/index.php/CHR_ROM_vs._CHR_RAM" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/CHR_ROM_vs._CHR_RAM">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 What is sound like you are trying to accomplish is not bank swap related. Bank Swapping is for getting more ROM space in your game.<br>
 What you are trying to do is manipulate tiles on the screen. For this, you must have all the tiles in RAM at PPU Address $1000-$1FFF, Pattern Table 1. That is where the background tiles are stored in RAM, think of it as a your Tile Holder in Scrabble. Your Name Table refers to addresses in the Pattern Table to display your background, think of this as the Game Board in Scrabble. You can use any tiles on your Tile Holder to write words on the Game Board. Only difference is, that your Tile Holder never actaully loses its tiles. (this is sort of a poor example, but kind of paints a picture). Now, lets say you have tiles ASDFPIG in your Tile Holder (Pattern Table). You can use those tiles to spell PIG on the game board (Name Table). However, if you would swap out the PIG tiles in your Tile Holder (Pattern Table) with CAT (ASDFCAT), now the game board (Name Table) would display CAT.<br>

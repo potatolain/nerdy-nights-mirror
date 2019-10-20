@@ -11,13 +11,13 @@
 <p>The formula is:</p>
 <p>ab = [(a+b)^2 - (a-b)^2]/4 </p>
 <p>&#xA0;</p>
-<p><a href="http://www.bath.ac.uk/~ma2jc/babylonian.html" rel="external nofollow">Babylonian Mathematics</a></p>
+<p><a href="http://www.bath.ac.uk/~ma2jc/babylonian.html" rel="external nofollow" original-href="http://www.bath.ac.uk/~ma2jc/babylonian.html">Babylonian Mathematics</a></p>
 <p>&#xA0;</p>
 <p>There are also the useful: sqrt(a^2 + b) approx = a + b/2a </p>
 <p>&#xA0;</p>
 <p>There are several variations on this code and the following mores specialized version is attributed to Stephen Judd at C=Hacking (noted in old Stella post) and is 24-26 cycles at the expense of some range. Multiplying several numbers by a particular number is quite fast as you just need to reload Y each time.</p>
 <p>&#xA0;</p>
-<p><a href="scraper/files/c=hacking9.txt" rel="external nofollow">Fast Signed Multiply</a></p>
+<p><a href="scraper/files/c=hacking9.txt" rel="external nofollow" original-href="http://www.ffd2.com/fridge/chacking/c=hacking9.txt">Fast Signed Multiply</a></p>
 <p>&#xA0;</p>
 <p></p>
 <pre class="ipsCode">; &#xA0; &#xA0; &#xA0; &#xA0;Multiply Y * A and result in A

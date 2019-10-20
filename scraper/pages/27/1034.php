@@ -21,7 +21,7 @@ If it started to happen only after your week 8 updates, then it&apos;s obviously
 <br>
 Yeah, definitely been scratching my head on this one.<br>
 I zipped up the asm with my chr just in case its something with the chr file... I also uncommented everything back.&#xA0;<br>
-Any help is appreciated. Here is the <a href="http://www.mediafire.com/file/6wj50q642o09cu6/firstgame_backgrounds.zip/file" target="_blank">link</a><br>
+Any help is appreciated. Here is the <a href="http://www.mediafire.com/file/6wj50q642o09cu6/firstgame_backgrounds.zip/file" target="_blank" original-href="http://www.mediafire.com/file/6wj50q642o09cu6/firstgame_backgrounds.zip/file">link</a><br>
 <br>
 Thanks!<br>
 &#xA0;

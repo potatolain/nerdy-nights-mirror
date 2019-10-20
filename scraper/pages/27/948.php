@@ -14,6 +14,6 @@
 <br>
 I tend to do gravity, but either works. &#xA0;<br>
 <br>
-For this sort of thing, I find <a href="http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/" target="_blank">this page</a> to be an amazing guide to getting you thinking about good ways of dealing that sort of thing in platformers.<br>
+For this sort of thing, I find <a href="http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/" target="_blank" original-href="http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/">this page</a> to be an amazing guide to getting you thinking about good ways of dealing that sort of thing in platformers.<br>
 &#xA0;
 				</div><div class="mdl-card--border"></div>

@@ -1,5 +1,5 @@
 <div class="mdl-card__title"><strong>djmipsdjmips</strong> posted on May 21, 2007May 24, 2007</div><div class="mdl-card__supporting-text">
-<p><a href="https://en.wikipedia.org/wiki/Arithmetic_shift" rel="external nofollow">Arithmetic Shifts</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Arithmetic_shift" rel="external nofollow" original-href="https://en.wikipedia.org/wiki/Arithmetic_shift">Arithmetic Shifts</a></p>
 <p>-------------------</p>
 <p>&#xA0;</p>
 <p>For signed shifting you need to use an arithmetic shift.</p>

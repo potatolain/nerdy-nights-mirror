@@ -19,7 +19,7 @@
 	<br>
 	I don&apos;t think it will be a problem because nothing really happens between that code and the NMI. I was enabling the PPU right after the LoadBackground and it was wigging out my screen. Since going this route, my screen issues have fixed. If it breaks future code, then I guess I will be forced to cross that bridge when it happens. The NMI is still and enigma to me, so any advice helps!</div>
 <br>
-More than likely, you touch $2006 in between screen enabling. Look at The Skinny:&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_skinny_on_NES_scrolling" target="_blank">http://wiki.nesdev.com/w/index.ph...</a><br>
+More than likely, you touch $2006 in between screen enabling. Look at The Skinny:&#xA0;<a href="http://wiki.nesdev.com/w/index.php/The_skinny_on_NES_scrolling" target="_blank" original-href="http://wiki.nesdev.com/w/index.php/The_skinny_on_NES_scrolling">http://wiki.nesdev.com/w/index.ph...</a><br>
 <br>
 Basically, $2000, $2005, and $2006 all share bits of a single 16-bit register, so the last thing you need to do in NMI is update $2005 (x2) and $2000. That will more than likely fix your problem.<br>
 <br>
