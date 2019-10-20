@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>UrchlayUrchlay</strong> posted on March 12, 2007</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1255235" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>
 <p>&#xA0;</p>
 <p>I have often wanted to find the absolute value of a signed byte, usually I do something like this:</p>

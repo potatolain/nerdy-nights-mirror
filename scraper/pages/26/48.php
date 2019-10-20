@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on November 11, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Hmmm...I wonder if Go Fish! 1K will run in PCAE?&#xA0; I never even bothered to check...<p>&#xA0;</p>
 <p>EDIT: Sure as heck doesn&apos;t!&#xA0; Wonder why...</p>
 <p></p>

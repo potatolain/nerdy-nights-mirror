@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on March 9, 2007March 9, 2007</div><div class="mdl-card__supporting-text">
 <p>Here&apos;s another:</p>
 <p></p>
 <pre class="ipsCode">Swapping values with XOR

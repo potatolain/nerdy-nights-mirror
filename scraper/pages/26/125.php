@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>johncljohncl</strong> posted on December 29, 2008December 29, 2008</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="872999" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>I like that version, nice use of LAX, but you gotta be brave and not use the temp <img alt=";)" src="scraper/images/atariage_icon_wink.gif" original-src="https://atariage.com/forums/uploads/emoticons/atariage_icon_wink.gif"> <p>&#xA0;</p>
 <p></p>
 <pre class="ipsCode"> &#xA0; &#xA0;LAX word

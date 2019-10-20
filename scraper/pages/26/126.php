@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>bogaxbogax</strong> posted on February 24, 2009</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="872906" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>As I was growing up, I kept a notebook full of cool code snippets and ideas. My notebook had been misplaced but I ran across it recently and here is one of the pages which is from a 1987 Dr. Dobbs article by Mark S. Ackerman. &quot;6502 Killer Hacks&quot;.<p>&#xA0;</p>
 <p><span style="color:#FF0000;">Post your own 6502 Killer Hacks and share them with the rest of us!</span></p>
 <p>.</p>

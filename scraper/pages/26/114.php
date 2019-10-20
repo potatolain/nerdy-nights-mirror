@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Robert MRobert M</strong> posted on January 24, 2008</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1451251" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Anyone have a killer hack for 8.8 multiplication? <p>I need to do 8.8 * 8.8 and have the result be 8.8.</p>
 <p>&#xA0;</p>
 <p><strong>I know that the integer part of the result will not exceed 8 bits and I don&apos;t need a 16-bit remainder.</strong></p>

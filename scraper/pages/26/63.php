@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>RybagsRybags</strong> posted on May 21, 2006</div><div class="mdl-card__supporting-text">
 <p>Quickly written... probably more cycles - table values adjusted since carry will be set for add.</p>
 <p>&#xA0;</p>
 <p></p>

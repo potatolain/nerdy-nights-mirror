@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on February 24, 2009February 24, 2009</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1689548" data-ipsquote-username="bogax" data-cite="bogax" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Kernigans method for counting set bits in a byte<p>&#xA0;</p>
 <p> This code lifted directly from dclxvi in the 6502.org</p>
 <p> programming forum</p>

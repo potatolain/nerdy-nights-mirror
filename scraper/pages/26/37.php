@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Atari-JessAtari-Jess</strong> posted on July 22, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Not a killer hack but I&apos;d like to share a link to an interview with William Mensch, 6502 designer.<p>&#xA0;</p>
 <p><a href="http://vodreal.stanford.edu/sul/sgp/mensch.ram" rel="external nofollow">Real format video of interview</a></p>
 <p></p>

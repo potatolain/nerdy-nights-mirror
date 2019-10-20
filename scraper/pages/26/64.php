@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on May 21, 2006May 21, 2006</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1071119" data-ipsquote-username="Rybags" data-cite="Rybags" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Quickly written... probably more cycles - table values adjusted since carry will be set for add.</div></blockquote>
 <p>Actually it might be quicker in terms of cycles, but it is quite a bit longer.</p>
 <p>&#xA0;</p>

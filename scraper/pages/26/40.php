@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on November 9, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Some code courtesy of <p>&#xA0;</p>
 <p><a href="http://members.lycos.co.uk/leeedavison/6502/shorts/index.html" rel>Lee Davison 6502 code &apos;shorts&apos;</a></p>
 <p></p>

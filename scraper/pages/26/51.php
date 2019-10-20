@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>TROGDORTROGDOR</strong> posted on December 21, 2005December 21, 2005</div><div class="mdl-card__supporting-text">
 <p>Here&apos;s my all-time favorite hack for the 6502. The &quot;skip 2 bytes&quot; pseudo-instruction, which piggybacks off the BIT instruction. It saves a byte when performing &quot;either/or&quot; branching.</p>
 <p>&#xA0;</p>
 <p>Consider the following example. You want to store a value in either Loc1 or Loc2, depending on whether it&apos;s negative. Normally, your code would look like:</p>

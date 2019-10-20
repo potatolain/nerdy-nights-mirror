@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Ben_LarsonBen_Larson</strong> posted on January 23, 2008</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Anyone have a killer hack for 8.8 multiplication? <p>I need to do 8.8 * 8.8 and have the result be 8.8.</p>
 </div></blockquote>
 <p>&#xA0;</p>

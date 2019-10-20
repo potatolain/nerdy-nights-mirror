@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Thomas JentzschThomas Jentzsch</strong> posted on March 9, 2007</div><div class="mdl-card__supporting-text">
 <p>This is how I would do it:</p>
 <pre class="ipsCode">	lda	 v	  ; 2
 ldx	 #-1	; 2

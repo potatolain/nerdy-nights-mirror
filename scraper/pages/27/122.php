@@ -31,7 +31,7 @@ All those 3 parts (move, render, fill) are completely separate functions. &#xA0;
 	<i>Originally posted by: <b>SoleGooseProductions</b></i><br>
 	<br>
 	Sad to say, but the last comment leaves me baffled in terms of the &quot;if you have a cut screen (?) you skip move+render and just do fill.&quot;&#xA0;</div>
-Go to 3:10 in this video of Battle Kid:&#xA0;<br clear="all"><div class="col-md-6"><div class="embed-responsive embed-responsive-16by9"><iframe width="500" height="280" frameborder="0" src="https://www.youtube.com/embed/yne04hukuyc" allowfullscreen></iframe></div></div><br clear="all"> &#xA0;Player is on screen, then the cut screen with dialog shows up. &#xA0;Don&apos;t want the player visible or able to move around, so the move and render steps get skipped. &#xA0;When the cut screen exits the player is still in the same place and rendered again.<br>
+Go to 3:10 in this video of Battle Kid:&#xA0;<br clear="all"><div class="col-md-6"><div class="embed-responsive embed-responsive-16by9"><a href="https://www.youtube.com/yne04hukuyc">Youtube</a></div></div><br clear="all"> &#xA0;Player is on screen, then the cut screen with dialog shows up. &#xA0;Don&apos;t want the player visible or able to move around, so the move and render steps get skipped. &#xA0;When the cut screen exits the player is still in the same place and rendered again.<br>
 <br>
 <div class="FTQUOTE">
 	<i>Originally posted by: <b>SoleGooseProductions</b></i><br>

@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on July 22, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="djmips" data-cite="djmips" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Both the multiply by 1/x and using the tables of squares for multiplication can be traced back to the Babylonians (2000-600BC) <p></p>
 </div></blockquote>
 <p>&#xA0;</p>

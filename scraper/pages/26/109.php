@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on January 24, 2008</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1451363" data-ipsquote-username="Ben_Larson" data-cite="Ben_Larson" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>(scroll down to &apos;Binary Multiplication&apos;):</div></blockquote>
 <p>&#xA0;</p>
 <p>Three useful optimizations I would suggest:</p>

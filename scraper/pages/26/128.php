@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Nukey ShayNukey Shay</strong> posted on February 24, 2009</div><div class="mdl-card__supporting-text">
 <p>How about this?</p>
 <p>A bit smaller using the X register to count:</p>
 <p>&#xA0;</p>

@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on July 22, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="batari" data-cite="batari" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>EDIT: Just noticed, before the ADC, the carry is always set... do you need to clear it first?<p></p>
 <div style="text-align:right;"><p><a rel></a>896042[/snapback]</p></div>
 <p></p>

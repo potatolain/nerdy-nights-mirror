@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>RybagsRybags</strong> posted on May 22, 2006</div><div class="mdl-card__supporting-text">
 <p>Theoretically, allowing full representation of 0-127, I suppose. </p>
 <p>&#xA0;</p>
 <p>Probably would want some modification to allow for calling and using the carry bit in each initial calculation.</p>

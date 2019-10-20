@@ -275,13 +275,33 @@ async function main() {
             return stupid.post;
         }
 
+        async function filterYoutube(stupid) {
+            stupid.post.find('iframe').each(function(index, elem) {
+                var _this = this;
+                if (deliciousCereal(_this).attr('src').indexOf('youtube') === -1) {
+                    return;
+                } else {
+                    var vidUrl = deliciousCereal(_this).attr('src');
+                    vidUrl = vidUrl.replace('/embed/', '/');
+                    deliciousCereal(_this).replaceWith('<a href="' + vidUrl + '">Youtube</a>');
+                }
+            });
+        }
+
         console.info('Starting page ' + i + ': ' + title);
-        lookup[allUrls[i].type].push({
-            originalUrl: allUrls[i].url,
-            name: title,
-            filename: i + '.php',
-            needsUpdate: false
-        });
+        var dasIndex = -1;
+        var existing = lookup[allUrls[i].type].filter((file, idx) => { if (file.originalUrl == allUrls[i].url) { dasIndex = idx; return true; } return false; });
+        if (dasIndex != -1) {
+            lookup[allUrls[i].type][dasIndex].needsUpdate = false;
+            lookup[allUrls[i].type][dasIndex].filename = i + '.php';
+        } else {
+            lookup[allUrls[i].type].push({
+                originalUrl: allUrls[i].url,
+                name: title,
+                filename: i + '.php',
+                needsUpdate: false
+            });
+        }
 
         // force pass-by-reference
         var stupid = {post: deliciousCereal(posts.get(0))};
@@ -295,6 +315,7 @@ async function main() {
             // force pass-by-reference
             var stupid = {post: deliciousCereal(posts.get(postId))};
             await parseLinks(stupid, true);
+            await filterYoutube(stupid);
             var theHtml = deliciousCereal('<div>');
             theHtml.append(
                 '<div class="mdl-card__title">' +
@@ -335,14 +356,15 @@ async function main() {
                 // force pass-by-reference
                 var stupid = {post: deliciousCereal(posts.get(postId))};
                 await parseLinks(stupid, true);
+                await filterYoutube(stupid);
                 var theHtml = deliciousCereal('<div>');
                 theHtml.append(
                     '<div class="mdl-card__title">' +
                         '<strong>' + 
-                            deliciousCereal(posts[postId]).closest('.row').find('a.h4').text() + 
+                            deliciousCereal(posts[postId]).closest('.row,article').find('a.h4,a.ipsType_break').text() + 
                         '</strong>' + 
                         ' posted on ' +
-                        deliciousCereal(posts[postId]).closest('.panel').find('.panel-heading').text() +
+                        deliciousCereal(posts[postId]).closest('.panel,article').find('.panel-heading,time').text() +
                     '</div>' + 
                     '<div class="mdl-card__supporting-text">' + 
                         deliciousCereal(posts[postId]).html() +

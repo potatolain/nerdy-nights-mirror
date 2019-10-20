@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on January 24, 2008January 24, 2008</div><div class="mdl-card__supporting-text">
 <p>Hmmm. Have to think about that...</p>
 <p>&#xA0;</p>
 <p>EDIT: I&apos;m not exactly following this. Doesn&apos;t 8.16 / 256 = 0.24 ?</p>

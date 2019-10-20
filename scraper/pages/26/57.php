@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>cd-wcd-w</strong> posted on April 19, 2006</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="873438" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Here&apos;s the software collision routine I worked up for Go Fish!<p>A little different - I use it to check if two boxes overlap. Call it once for X values, then call it again with Y values.</p>
 <p></p>
 <pre class="ipsCode">CheckBoundaries

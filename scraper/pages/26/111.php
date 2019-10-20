@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on January 24, 2008</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1451775" data-ipsquote-username="Thomas Jentzsch" data-cite="Thomas Jentzsch" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>No, you only require those 8 bit tables. I did this back in the 80ies with my C64. IIRC I did use 5 256 bytes tables (some were used just to save a few cycles) for 32 bit FP math (Mandelbrot).<p>&#xA0;</p>
 <p>Let&apos;s see if I can remember it...</p>
 <p>&#xA0;</p>

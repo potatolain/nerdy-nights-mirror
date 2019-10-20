@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on March 13, 2007</div><div class="mdl-card__supporting-text">
 <p>Here&apos;s another interesting approach:</p>
 <p></p>
 <pre class="ipsCode">; Enter at s0

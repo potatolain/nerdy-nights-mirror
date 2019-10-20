@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on May 31, 2007</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>That division by 5 is nasty for optimization. Instead I recommend dividing by 40 so that the average number of times through the loop is cut in half plus 1 add instruction. Its slower for some cases, but I estimate about 45% faster on average.</div></blockquote>
 <p>&#xA0;</p>
 <p>How about something like:</p>

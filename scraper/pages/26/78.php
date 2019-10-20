@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>UrchlayUrchlay</strong> posted on March 9, 2007</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1253493" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>
 <p><img alt=":D" src="scraper/images/atariage_icon_mrgreen.gif" original-src="https://atariage.com/forums/uploads/emoticons/atariage_icon_mrgreen.gif"> Thanks Urchlay and TJ, lots of fun reading. </p>
 <p>&#xA0;</p>

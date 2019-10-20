@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>UrchlayUrchlay</strong> posted on March 9, 2007</div><div class="mdl-card__supporting-text">
 <p>A while ago, I wrote this bit of code to calculate even/odd parity. It could probably stand some improvement... I definitely don&apos;t consider it a &quot;killer hack&quot;: it&apos;s coded for clarity more than speed or size, but it does implement something from the bithack page, so I thought someone might be interested.</p>
 <p>&#xA0;</p>
 <p></p>

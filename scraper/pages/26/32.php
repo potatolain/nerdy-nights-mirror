@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>retroconretrocon</strong> posted on July 21, 2005July 21, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="supercat" data-cite="supercat" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>As for division, the normal approach is to do a shift-and-subtract.&#xA0; A 16/8-&gt;8+8 result is pretty easy, with the caveat that the results will be meaningless if the quotient doesn&apos;t fit in eight bits.&#xA0; I&apos;ll try to work one up for you.<p></p>
 <div style="text-align:right;"><p><a rel></a>896028[/snapback]</p></div>
 <p></p>

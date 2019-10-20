@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on March 9, 2007March 9, 2007</div><div class="mdl-card__supporting-text">
 <p>Thanks. <img alt=";)" src="scraper/images/atariage_icon_wink.gif" original-src="https://atariage.com/forums/uploads/emoticons/atariage_icon_wink.gif"></p>
 <p>&#xA0;</p>
 <p>EDIT: How about this one:</p>

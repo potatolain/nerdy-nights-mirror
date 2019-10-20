@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>djmipsdjmips</strong> posted on November 9, 2005</div><div class="mdl-card__supporting-text">
 <p>Some code courtesy of </p>
 <p>&#xA0;</p>
 <p><a href="http://members.lycos.co.uk/leeedavison/6502/shorts/index.html" rel>Lee Davison 6502 code &apos;shorts&apos;</a></p>

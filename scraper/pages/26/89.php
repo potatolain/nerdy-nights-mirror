@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on March 12, 2007March 12, 2007</div><div class="mdl-card__supporting-text">
 <p>Cool! Here&apos;s another one:</p>
 <p>&#xA0;</p>
 <p>Modulus.</p>

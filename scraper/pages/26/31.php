@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on July 21, 2005July 21, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="supercat" data-cite="supercat" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Well, I just snuck 8x8-&gt;16 in up above.&#xA0; I would think that for your fixed-point maths you&apos;d want an 8x8-&gt;16 multiply.&#xA0; As noted, it&apos;s pretty easy.<p></p>
 </div></blockquote>
 <p>Wow, I had no idea it was so simple. I&apos;ll go ahead and use it, and just return the lower byte in the result, but leave a note in the docs on how to get the upper byte for integer multiplication if someone really needs it in bB!</p>

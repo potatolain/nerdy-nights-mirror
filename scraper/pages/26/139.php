@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>vdub_bobbyvdub_bobby</strong> posted on March 3, 2011</div><div class="mdl-card__supporting-text">
 <p>Just saw this today:</p>
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>
 <strong>Average of Integers</strong><p>This is actually an extension of the &quot;well known&quot; fact that for binary integer values x and y, (x+y) equals ((x&amp;y)+(x|y)) equals ((x^y)+2*(x&amp;y)).</p>

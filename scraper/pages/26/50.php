@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>djmipsdjmips</strong> posted on November 15, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="supercat" data-cite="supercat" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div> I also like his &apos;toggle carry&apos; method, though I still find myself wishing the 6502 allowed a direct method to do that.<p></p>
 </div></blockquote>
 <p>&#xA0;</p>

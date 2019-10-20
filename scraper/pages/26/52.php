@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on December 21, 2005</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-username="TROGDOR" data-cite="TROGDOR" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>The only thing to be careful with this is that the N, V, and Z flags will be corrupted.&#xA0; But the accumulator is not affected.&#xA0; So you&apos;ve just saved a byte.&#xA0; Also be wary that one extra cycle is used.&#xA0; BIT Absolute is 4 cycles, and a BMI branch is 3 cycles (or 4 if it crosses a page boundary.)<p></p>
 <div style="text-align:right;"><p><a rel></a>986490[/snapback]</p></div>
 <p></p>

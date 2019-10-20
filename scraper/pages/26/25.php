@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on July 21, 2005</div><div class="mdl-card__supporting-text">
 <p>Hello,</p>
 <p>&#xA0;</p>
 <p>A few days ago I worked up a slick routine for 8-bit unsigned multiplication (or I think it&apos;s slick, anyway.) It works as long as the values do not overflow 8 bits, in which case the value should not be relied upon anyway. The loop will never repeat more than 8 times.</p>

@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Thomas JentzschThomas Jentzsch</strong> posted on January 24, 2008January 24, 2008</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1451337" data-ipsquote-username="vdub_bobby" data-cite="vdub_bobby" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>Do you mean the f(x) = (x^2)/4 method?<p>&#xA0;</p>
 <p>That requires a table of squares, which is fine for 8 bits, but how do I translate that to 16 bits? The table I would need is enormous! I don&apos;t have that much space. <img alt=":)" src="scraper/images/atariage_icon_smile.gif" original-src="https://atariage.com/forums/uploads/emoticons/atariage_icon_smile.gif"></p>
 </div></blockquote>

@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on May 21, 2006</div><div class="mdl-card__supporting-text">
 <p>Here&apos;s another one for the code wizards out there. I&apos;m trying to write some good code for 7-bit binary-&gt;8-bit BCD. Here&apos;s two examples I&apos;ve come up with:</p>
 <p>&#xA0;</p>
 <p>Obvious method (23 bytes):</p>

@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>supercatsupercat</strong> posted on April 19, 2006</div><div class="mdl-card__supporting-text">
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentcommentid="1053871" data-ipsquote-username="cd-w" data-cite="cd-w" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>I was looking back through this thread for a collision detection routine for my Juno First game, and the above routine looks like it will be ideal. However, if I am not mistaken, the comparisons marked [*] are the inverse of each other, so I think the code can be simplified as follows:</div></blockquote>
 <p>&#xA0;</p>
 <p>If one is trying to determine whether two objects of fixed size are overlapping, why not just use:</p>

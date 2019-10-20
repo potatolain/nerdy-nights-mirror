@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Robert MRobert M</strong> posted on January 24, 2008</div><div class="mdl-card__supporting-text">
 <p>Okay, I did a spreadsheet in Excel to prove this to myself. </p>
 <p>&#xA0;</p>
 <p>0.8 * 8.8 = 8.16</p>

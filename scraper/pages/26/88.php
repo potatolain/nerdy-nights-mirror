@@ -1,4 +1,4 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>+bataribatari</strong> posted on March 11, 2007</div><div class="mdl-card__supporting-text">
 <p>To detect zero, just do this:</p>
 <p></p>
 <pre class="ipsCode"> tax

@@ -1,3 +1,3 @@
-<div class="mdl-card__title"><strong></strong> posted on </div><div class="mdl-card__supporting-text">
+<div class="mdl-card__title"><strong>Hornpipe2Hornpipe2</strong> posted on April 11, 2008</div><div class="mdl-card__supporting-text">
 <p>I personally like to use BRANCH instructions instead of JMP wherever possible. It saves a byte of ROM each time, and the cycle cost is the same. There are so many branch instructions you can usually find one that will execute 100% of the time for your given application.</p>
 </div><div class="mdl-card--border"></div>
