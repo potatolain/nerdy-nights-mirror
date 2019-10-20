@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					can&apos;t get, how the graphics are made <img src="/media/_images/expressions/face-icon-small-sad.gif" border="0" style="display: none;">
+					can&apos;t get, how the graphics are made <img src="images/blank.gif" border="0" style="display: none;" original-src="/media/_images/expressions/face-icon-small-sad.gif">
 <br>in the pattern table, the 8*8 tile is stored, and it contains 64 bits (every bit contains information bout the color) ??
 <br>
 <br>and then in the attribute table, are there more information about the color and this is added to the pattern table?

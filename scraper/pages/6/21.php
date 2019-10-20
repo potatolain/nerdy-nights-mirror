@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					<div class="FTQUOTE"><i>Originally posted by: <b>Zzap</b></i><br><br>Here&apos;s a version that loads a full background, using simple addressing, and note that I haven&apos;t really bothered setting the attributes up so that it looks pretty or anything (it just repeats the rows you had previously) <img border="0" src="i/expressions/face-icon-small-smile.gif" style="display: none;"> I also reset the scroll values after writing to the PPU so that it wasn&apos;t having issues there.
+					<div class="FTQUOTE"><i>Originally posted by: <b>Zzap</b></i><br><br>Here&apos;s a version that loads a full background, using simple addressing, and note that I haven&apos;t really bothered setting the attributes up so that it looks pretty or anything (it just repeats the rows you had previously) <img border="0" src="images/blank.gif" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif"> I also reset the scroll values after writing to the PPU so that it wasn&apos;t having issues there.
 <br>
 <br><a href="http://nintendoage.pastebin.com/f21f5696c" target="_blank" original-href="http://nintendoage.pastebin.com/f21f5696c">http://nintendoage.pastebin.com/f21f5696c</a>
 <br>

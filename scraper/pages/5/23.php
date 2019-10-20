@@ -26,5 +26,5 @@
 <br>  CLC
 <br>  ADC #$08
 <br>  STA $0207
-<br>  STA $020F</div><br><br>ah, that is clever as well <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">&#xA0; Thanks.<br>
+<br>  STA $020F</div><br><br>ah, that is clever as well <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">&#xA0; Thanks.<br>
 				</div><div class="mdl-card--border"></div>

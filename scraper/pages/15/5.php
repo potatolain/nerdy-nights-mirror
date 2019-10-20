@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Looks great, you followed bunnys styling perfectly <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"> I think I&apos;m going to learn a bit about some of the intricacies of the APU here too <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					Looks great, you followed bunnys styling perfectly <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif"> I think I&apos;m going to learn a bit about some of the intricacies of the APU here too <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">
 				</div><div class="mdl-card--border"></div>

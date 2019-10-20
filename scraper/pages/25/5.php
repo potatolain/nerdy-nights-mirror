@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Other than using the debugger to find the bankswitching location, all you need to know to make it a multicart is covered in previous lessons  <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					Other than using the debugger to find the bankswitching location, all you need to know to make it a multicart is covered in previous lessons  <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">
 				</div><div class="mdl-card--border"></div>

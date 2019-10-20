@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					That bored in Hawaii? <img src="/media/_images/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					That bored in Hawaii? <img src="images/blank.gif" border="0" style="display: none;" original-src="/media/_images/expressions/face-icon-small-smile.gif">
 				</div><div class="mdl-card--border"></div>

@@ -4,7 +4,7 @@
 <p>&#xA0;</p>
 <p>Yeah, well that&apos;s even further before my time than the 1960&apos;s.</p>
 <p>&#xA0;</p>
-<p>BTW, I developed an interesting method for doing long division which would be really cool if someone hadn&apos;t patented the same thing shortly before (and unbeknownst to me). It would be especially useful for performing really huge divisions on machines with a fast multiply but slow divide.</p>
+<p>BTW, I developed an interesting method for doing long division which would be really cool if someone hadn&apos;t patented the same thing shortly before (and unbeknownst to me).  It would be especially useful for performing really huge divisions on machines with a fast multiply but slow divide.</p>
 <p>&#xA0;</p>
 <blockquote data-ipsquote class="ipsQuote" data-ipsquote-contentapp="forums" data-ipsquote-contenttype="forums" data-ipsquote-contentid="71120" data-ipsquote-contentclass="forums_Topic"><div>There are several variations on this code and the following mores specialized version is attributed to Stephen Judd&#xA0; at C=Hacking (noted in old Stella post)&#xA0; and is 24-26 cycles at the expense of some range. Multiplying several numbers by a particular number is quite fast as you just need to reload Y each time.<p></p>
 <div style="text-align:right;"><p><a rel></a>896209[/snapback]</p></div>

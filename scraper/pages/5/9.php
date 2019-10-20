@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Yay, it worked! <img src="i/expressions/face-icon-small-happy.gif" border="0" style="display: none;"> Thanks, Zzap!
+					Yay, it worked! <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-happy.gif"> Thanks, Zzap!
 				</div><div class="mdl-card--border"></div>

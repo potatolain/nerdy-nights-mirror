@@ -44,7 +44,7 @@
 <br>  JSR LoadTitle
 <br>  JMP GameEngineDone
 <br>
-<br>here&apos;s the actual hackish animation for the splash page. no laughing at my ugly code <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"> note the JSR sound_init is right when the first sprites of the &quot;H&quot; are suppose to move into place.
+<br>here&apos;s the actual hackish animation for the splash page. no laughing at my ugly code <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif"> note the JSR sound_init is right when the first sprites of the &quot;H&quot; are suppose to move into place.
 <br>
 <br>splashanim:
 <br>

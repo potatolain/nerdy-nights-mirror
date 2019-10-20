@@ -27,5 +27,5 @@
 <br>
 <br>
 <br>
-<br>Thanks</div><br>BNE will cause a branch if the result is not zero, right? <br><br>Oh, and you probably shouldn&apos;t listen to anything I say. I&apos;m about a half-step above NoobExtreem(TM). Okay, I&apos;m going to stop posting now. Bye. <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"><span style="text-decoration: underline;"></span><br>
+<br>Thanks</div><br>BNE will cause a branch if the result is not zero, right? <br><br>Oh, and you probably shouldn&apos;t listen to anything I say. I&apos;m about a half-step above NoobExtreem(TM). Okay, I&apos;m going to stop posting now. Bye. <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif"><span style="text-decoration: underline;"></span><br>
 				</div><div class="mdl-card--border"></div>

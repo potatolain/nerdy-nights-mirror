@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Sweet! <img src="i/expressions/face-icon-small-happy.gif" border="0" style="display: none;"> Thanks, Al!
+					Sweet! <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-happy.gif"> Thanks, Al!
 				</div><div class="mdl-card--border"></div>

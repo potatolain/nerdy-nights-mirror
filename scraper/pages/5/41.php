@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					Fuck MLN. I&apos;m mRn...recognize.&#xA0;&#xA0; <img src="/media/_images/expressions/face-icon-small-happy.gif" border="0" style="display: none;">
+					Fuck MLN. I&apos;m mRn...recognize.&#xA0;&#xA0; <img src="images/blank.gif" border="0" style="display: none;" original-src="/media/_images/expressions/face-icon-small-happy.gif">
 				</div><div class="mdl-card--border"></div>

@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					This should be awesome for the community bunnyboy <img src="i/expressions/face-icon-small-happy.gif" border="0" style="display: none;">
+					This should be awesome for the community bunnyboy <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-happy.gif">
 				</div><div class="mdl-card--border"></div>

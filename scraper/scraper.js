@@ -70,7 +70,8 @@ var urlReplacements = {
 var downloadBlacklist = [
     'zophar.net', // Urls are beyond broken for this. 
     'expressions/face-', // I uh... not sure what's going on here, but that's not gonna work.
-    '_images/expressions/'
+    '_images/expressions/',
+    'github.com' // Links to github should just be left in-tact. 1, it's probably gonna stay around, and 2, their urls are often deceptive of their real content.
 ];
 
 var allUrls = [];
@@ -163,6 +164,8 @@ async function main() {
                     for (var i = 0; i != downloadBlacklist.length; i++) {
                         if (url.indexOf(downloadBlacklist[i]) !== -1) {
                             datCheerio.attr('style', 'display: none;');
+                            datCheerio.attr('original-src', datCheerio.attr('src'));
+                            datCheerio.attr('src', 'images/blank.gif');
                             return;
                         }
                     }

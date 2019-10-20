@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					I&apos;d imagine that when you got to collision detection, this will not be as efficient.  But then, I&apos;m a noob as well, and I don&apos;t really know what I&apos;m talking about.  <img src="i/expressions/face-icon-small-tongue.gif" border="0" style="display: none;">
+					I&apos;d imagine that when you got to collision detection, this will not be as efficient.  But then, I&apos;m a noob as well, and I don&apos;t really know what I&apos;m talking about.  <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-tongue.gif">
 <br>
 <br>I basically use a routine that stores $0200 into sprite_vertical and $0203 into_sprite horizontal.  Then do all the moving, collision detection and all the with these variables.  That way you can loop all the enemies and stuff through without having to write the same code for them.  At the end, you just reverse the process putting the sprite_--- into the addresses then updating the other 3 sprites with reference to that one.
 <br>

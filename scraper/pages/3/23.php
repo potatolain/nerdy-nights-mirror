@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					take a screenshot of the folder everything is in and the window with error message  <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					take a screenshot of the folder everything is in and the window with error message  <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">
 				</div><div class="mdl-card--border"></div>

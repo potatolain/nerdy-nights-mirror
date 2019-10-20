@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					This reminds me of one of my old programming courses in college.  Fun stuff <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"> .
+					This reminds me of one of my old programming courses in college.  Fun stuff <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif"> .
 				</div><div class="mdl-card--border"></div>

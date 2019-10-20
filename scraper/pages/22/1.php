@@ -9,5 +9,5 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					excellent...muhahahaha.<br><br>btw, song6 would be battlekid minus noise channel <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;"><br>
+					excellent...muhahahaha.<br><br>btw, song6 would be battlekid minus noise channel <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif"><br>
 				</div><div class="mdl-card--border"></div>

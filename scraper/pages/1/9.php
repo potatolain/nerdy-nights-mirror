@@ -11,7 +11,7 @@
 	</div><div class="mdl-card__supporting-text">
 					<div class="FTQUOTE"><begin quote><i>Originally posted by: <b>burnambill333</b></i>
 1 - In scientific mode on windows calculator, what is the &quot;Oct&quot; number system? I&apos;m just curious about this really.</begin></div><br>
-Oct is Octal, base 8.  Not really used in computing anymore.  You should be able to figure out how it works based on the descriptions of bin/dec/hex  <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+Oct is Octal, base 8.  Not really used in computing anymore.  You should be able to figure out how it works based on the descriptions of bin/dec/hex  <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">
 <br><br>
 <div class="FTQUOTE"><begin quote><i>Originally posted by: <b>burnambill333</b></i>
 2 - Can&apos;t binary represent letters as well? For example, on <a href="http://www.nickciske.com/tools/binary.php" target="_blank" original-href="http://www.nickciske.com/tools/binary.php">this site</a> you can convert binary to text and back again, which can hold letters, numbers, and punctuation.</begin></div><br>

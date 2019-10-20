@@ -9,7 +9,7 @@
 			
 		
 	</div><div class="mdl-card__supporting-text">
-					i&apos;m trying to find the programs to download to get started <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+					i&apos;m trying to find the programs to download to get started <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">
 <br>
 <br>any links?
 				</div><div class="mdl-card--border"></div>

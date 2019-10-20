@@ -10,7 +10,7 @@
 		
 	</div><div class="mdl-card__supporting-text">
 					Yes, if you want to move NOT sprite 0, you skip $0200-$0203 and just move $0204 and $0207 for sprite 1.<br>
-<br>To change the color of the sprite, you need to first of all edit the palettes that you have.  There are four different palette sections for sprites.  Something like this is in your document if you&apos;re using nerdy nights. <img src="/media/_images/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+<br>To change the color of the sprite, you need to first of all edit the palettes that you have.  There are four different palette sections for sprites.  Something like this is in your document if you&apos;re using nerdy nights. <img src="images/blank.gif" border="0" style="display: none;" original-src="/media/_images/expressions/face-icon-small-smile.gif">
 <br>
 <br>$xx,$00,$00,$00, $xx,$00,$00,$00, $xx,$00,$00,$00, $xx,$00,$00,$00 ;sprites
 <br>$xx,$00,$00,$00, $xx,$00,$00,$00, $xx,$00,$00,$00, $xx,$00,$00,$00 ;background

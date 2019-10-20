@@ -11,7 +11,7 @@
 	</div><div class="mdl-card__supporting-text">
 					Yes a sound engine is pretty complicated, which I guess is the reason there aren&apos;t any tutorials for making one yet.
 <br>
-<br>I&apos;ve never actually used the FamiTracker engine in a game, but I&apos;ve heard that it doesn&apos;t have sfx support.  Writing my own sound engine has been more fun anyway <img src="i/expressions/face-icon-small-smile.gif" border="0" style="display: none;">
+<br>I&apos;ve never actually used the FamiTracker engine in a game, but I&apos;ve heard that it doesn&apos;t have sfx support.  Writing my own sound engine has been more fun anyway <img src="images/blank.gif" border="0" style="display: none;" original-src="i/expressions/face-icon-small-smile.gif">
 <br>
 <br>Glad to see you are playing around with the engine and coming up with solutions to select a sound and a speed.  One thing you can do to save some bytes is to put the stores inside the sound_load routine:
 <br>
