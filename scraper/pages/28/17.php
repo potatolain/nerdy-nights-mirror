@@ -1,0 +1,14 @@
+<div class="mdl-card__title"><strong>MetalSlime</strong> posted on 
+		
+			
+				
+				Apr 23, 2010 at 2:48:27 AM 
+			
+			
+			
+			
+		
+	</div><div class="mdl-card__supporting-text">
+					<div class="FTQUOTE"><i>Originally posted by: <b>bigjt_2</b></i><br><br>Number two took me a minute but I started plugging in the numbers to my programming calc and see how it works now.  I haven&apos;t played around too much yet with using flag bits instead of flag bytes, but am gradually seeing how they work.  Basically what it seems I need to do is add a BIT test in the part where it&apos;s reading from background.i and use an AND to read from bit 7.  If bit 7 is one, jump to RLE, if it&apos;s 0, write the matatile into RAM and jump to next byte.  That&apos;s pretty cool!  Obviously this means you can&apos;t have any more than 128 metatiles on any one list, because after $7F (decimal 127) the test bit for RLE would always be set and you&apos;d always jump to RLE.  How do you usually get around this?  Actually, have you ever needed to in the first place?  Upon thinking about it it seems that&apos;s a lot of metatiles, but then this demo is pretty simple and it uses 25, so I&apos;m guessing the number can add up pretty quick.  Do you simply jump to different metatile indexes if the number gets too high?
+<br></div><br>It&apos;s worthwhile to learn bit testing. It can save you a lot of space.&#xA0; To do it, you use AND.&#xA0; AND works like this on a bit level:<br><br>0 AND 0 = 0<br>1 AND 0 = 0<br>0 AND 1 = 0<br>1 AND 1 = 1<br><br>To bit test, you use AND to clear all of the bits except the one you are checking.&#xA0; If the result is 0, your bit was off.&#xA0; If the result is non-zero, your bit is on.&#xA0; To check bit7 you&apos;d AND with #%10000000.&#xA0; To check bit0 you&apos;d AND with #%00000001.&#xA0; For bit4:<br><br>lda some_number<br>and #%00010000&#xA0; ;check bit4<br>bne bit_was_on&#xA0;&#xA0;&#xA0; ;if non-zero, the bit was on (1 AND 1 gives you a 1, everything else is 0&apos;ed)<br><br>so if you had an RLE flag in bit 7:<br><br>&#xA0; &#xA0; lda [ptr], y&#xA0;&#xA0; ;read a byte from buffer<br>&#xA0;&#xA0;&#xA0; and #%10000000&#xA0; ;check bit7<br>&#xA0;&#xA0;&#xA0; bne @rle&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; ;if non-zero, we have rle<br>...;snip<br>@rle:<br>&#xA0;&#xA0; lda [ptr], y&#xA0; ;re-read byte<br>&#xA0;&#xA0; and #%01111111 ;cut off the rle bit to get the metatile #.<br><br>And yes, stealing a bit would limit you to 127 (128?) metatiles.&#xA0; You could have different sets for different levels to get around this though.<br>
+				</div><div class="mdl-card--border"></div>

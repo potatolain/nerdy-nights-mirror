@@ -1,0 +1,13 @@
+<div class="mdl-card__title"><strong>bigjt_2</strong> posted on 
+		
+			
+				
+				Apr 19, 2010 at 10:39:09 AM 
+			
+			
+			
+			
+		
+	</div><div class="mdl-card__supporting-text">
+					Hey Folks,<br><br>Here&apos;s a newer version that&apos;s quite a bit better.&#xA0; It makes use of 2x2 tile metatiles (16x16 pixel) and also the RLE compression that ProgrammingAce descibes in his article <a href="http://cinematicbazaar.com/?p=80" target="_blank" original-href="http://cinematicbazaar.com/?p=80">here.</a>&#xA0;&#xA0; Again, for demo purposes this uses the SMB1 chr file since it&apos;s readily available.<br><br>By condensing everything down to metatiles and using the RLE method, backgrounds in the background.i file are roughly 80% their original size.&#xA0; Also, the backgrounds are a hell of a lot easier to load in once the initial time investment of getting the metatiles.i set up is completed.&#xA0; The RLE has three major flags in the background.i file that trigger in the dbuffersubs.asm.<br><br>$FD is used to draw a repetition of metatiles where all four tiles are the same.&#xA0; In this demo I use it to draw the sky, but you can use it for anything just as long as all four tiles making up the metatile are similar (though you&apos;d obviously need to change the code in dbuffersubs.asm to the tile you want).&#xA0; In background.i, simply code it by typing $FD, and the number of times you wish to draw the sky metatile.&#xA0; Ex. .db $FD,$05 in background.i draws the sky metatile five times on the current column.<br><br>$FE is used to draw a repetition of metatiles made up of different tiles.&#xA0; With this you have to code the flag, then the number of times you want it to load, then the metatile number.&#xA0; Ex. .db $FE,$07,$19 would draw the question block seven times on the current column.<br><br>$FF is used to terminate the load loop in dbuffersubs.asm, and must be placed at the end of each column you&apos;re coding in background.i.<br><br>If you find bugs or if I&apos;ve done a really good job making this confusing as hell, please IM me.&#xA0; Also, I didn&apos;t really take a lot of time looking over my comments so hopefully they make sense.&#xA0; If not, let me know.<br><br>Just in case the attachment doesn&apos;t work,<a href="http://www.mediafire.com/?mzzea0ntgty" target="_blank" original-href="http://www.mediafire.com/?mzzea0ntgty"> here&apos;s the link at mediafire.</a><br>
+				</div><div class="mdl-card--border"></div>

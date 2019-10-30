@@ -40,7 +40,13 @@ var soundUrls = [
 var miscUrls = [
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=19733",
     "https://atariage.com/forums/topic/71120-6502-killer-hacks/",
-    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=103138"
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=103138",
+    // Attachments can't be gotten without logging in... in the interest of time, just manually add them :/
+    { type: 'misc', url: "http://nintendoage.com/forum/messageview.cfm?StartRow=1&catid=22&threadid=31898", attach: 'scraper/files/top_status_bar.zip', attachName: 'top_status_bar.zip' },
+    { type: 'misc', url: 'http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=26114', attach: 'scraper/files/MMC1.zip', attachName: 'MMC1.zip' },
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137051",
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137055",
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137056"
 ];
 
 var lookup = {
@@ -94,10 +100,14 @@ for (var i = 0; i != soundUrls.length; i++) {
     })
 }
 for (var i = 0; i != miscUrls.length; i++) {
-    allUrls.push({
-        type: 'misc',
-        url: miscUrls[i]
-    })
+    if (typeof miscUrls[i] == 'string') {
+        allUrls.push({
+            type: 'misc',
+            url: miscUrls[i]
+        })
+    } else {
+        allUrls.push(miscUrls[i]);
+    }
 }
 
 var missingImages = [];
@@ -134,13 +144,20 @@ async function main() {
             deliciousCereal = cheerio.load(content.data),
             posts = deliciousCereal('[data-role="commentContent"],.m8t');// If this breaks, this is likely where it fails. This is a class for the html of the post.
 
+        if (allUrls[i].attach) {
+            console.info('Attachment found on post... adding in');
+            deliciousCereal(posts[0]).append('<br /><p><strong>Attachment:</strong> <a no-mirror href="' + allUrls[i].attach +'">' + allUrls[i].attachName + '</a></p>');
+        }
+
         var title = deliciousCereal('h1.ipsType_pageTitle,h2').first().text().trim();
         if (allUrls[i].url.indexOf('nintendoage') !== -1) {
             if (deliciousCereal('h2 small').length) {
                 subTitle = deliciousCereal('h2 small').text();
                 if (subTitle.length) {
                     title = title.replace(subTitle, '').trim();
-                    title += ': ' + subTitle;
+                    if (title.indexOf('SGP') === -1) {
+                        title += ': ' + subTitle;
+                    }
                 }
             }
         } else if (allUrls[i].url.indexOf('atariage') !== -1) {
@@ -217,8 +234,9 @@ async function main() {
             await Promise.all(allImg);
 
             var allHref = [];
-            stupid.post.find('a[href]').each(function(fileIndex, elem) {
+            stupid.post.find('a[href]:not([no-mirror])').each(function(fileIndex, elem) {
                 var href = deliciousCereal(this).attr('href');
+                var basename = path.basename(href);
                 deliciousCereal(this).attr('original-href', href);
 
                 if (urlReplacements[href]) {
@@ -236,13 +254,18 @@ async function main() {
                     }
                 }
 
+                if (basename.indexOf('?') !== -1) {
+                    var lastSpot = basename.lastIndexOf('=');
+                    basename = basename.substr(lastSpot+1);
+                }
+
                 // Original site already down, sadly... but we have backups saved in the repo!
                 if (href.indexOf('tummaigames') !== -1) {
-                    deliciousCereal(this).attr('href', 'downloads/NerdyNightsSoundSourceCollection/' + path.basename(href));
+                    deliciousCereal(this).attr('href', 'downloads/NerdyNightsSoundSourceCollection/' + basename);
                     return;
                 }
 
-                deliciousCereal(this).attr('href', 'scraper/files/' + path.basename(href));
+                deliciousCereal(this).attr('href', 'scraper/files/' + basename);
                 var _this = this;
                 allHref.push( (async function() {
                     
@@ -258,20 +281,20 @@ async function main() {
                     } catch (e) {
                         console.warn('Failed downloading file at ', href, e.message);
                         deliciousCereal(_this).attr('original-href', href);
-                        deliciousCereal(_this).attr('href', 'downloads/missing/' + path.basename(href));
+                        deliciousCereal(_this).attr('href', 'downloads/missing/' + basename);
                         pushMissingFile({
-                            newUrl: 'downloads/missing/' + path.basename(href),
+                            newUrl: 'downloads/missing/' + basename,
                             originalUrl: href,
                             page: title,
                             id: i,
                             isComment: isComment,
-                            existsInRepo: fs.existsSync('../downloads/missing/' + path.basename(href))
+                            existsInRepo: fs.existsSync('../downloads/missing/' + basename)
                         });
                         return;
                     }
 
-                    fs.writeFileSync('./files/' + path.basename(href), zipFile.data);
-                    console.debug('Downloaded and mirrored ' + href + ' to ' + './scraper/files/' + path.basename(href));
+                    fs.writeFileSync('./files/' + basename, zipFile.data);
+                    console.debug('Downloaded and mirrored ' + href + ' to ' + './scraper/files/' + basename);
                 })() );
             })
 
