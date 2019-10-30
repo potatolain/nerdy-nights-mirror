@@ -175,12 +175,6 @@
             "needsUpdate": false
         },
         {
-            "originalUrl": "http://nintendoage.com/forum/messageview.cfm?StartRow=1&catid=22&threadid=31898",
-            "name": "Background Horizontal Scrolling Buffer",
-            "filename": "28.php",
-            "needsUpdate": false
-        },
-        {
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=26114",
             "name": "MMC1 Memory Mapping: NintendoAge Programming Resources - MMC1 Memory Mapping",
             "filename": "29.php",
@@ -202,6 +196,18 @@
             "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137056",
             "name": "World Building with SGP 2: Introduction to NES Graphics Editors",
             "filename": "32.php",
+            "needsUpdate": false
+        },
+        {
+            "originalUrl": "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33132",
+            "name": "Top Status Bar and Controller Question",
+            "filename": "33.php",
+            "needsUpdate": false
+        },
+        {
+            "originalUrl": "http://nintendoage.com/forum/messageview.cfm?StartRow=1&catid=22&threadid=31898",
+            "name": "Background Horizontal Scrolling Buffer",
+            "filename": "28.php",
             "needsUpdate": false
         }
     ]

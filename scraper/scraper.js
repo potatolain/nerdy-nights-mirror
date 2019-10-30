@@ -46,8 +46,13 @@ var miscUrls = [
     { type: 'misc', url: 'http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=26114', attach: 'scraper/files/MMC1.zip', attachName: 'MMC1.zip' },
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137051",
     "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137055",
-    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137056"
+    "http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=137056",
+    { type: 'misc', url: 'http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=33132', attach: 'scraper/files/spr0_scroll.zip', attachName: 'spr0_scroll.zip' },
 ];
+
+var hackAttachments = {
+    'scraper/files/top_status_bar.zip': 'Lastly, I took an hour and cleaned up my comments so they ACTUALLY reflected the code.' 
+};
 
 var lookup = {
     main: [],
@@ -232,6 +237,13 @@ async function main() {
                 })());
             })
             await Promise.all(allImg);
+
+            // Attachments... this is crap, so we have to do some weird things to manually whitelist attachments. here we go :/
+            Object.keys(hackAttachments).forEach(function(key) {
+                if (stupid.post.text().indexOf(hackAttachments[key]) !== -1) {
+                   stupid.post.append('<br /><p><strong>Attachment:</strong> <a no-mirror href="' + key +'">' + path.basename(key) + '</a></p>');
+                }
+            });
 
             var allHref = [];
             stupid.post.find('a[href]:not([no-mirror])').each(function(fileIndex, elem) {
