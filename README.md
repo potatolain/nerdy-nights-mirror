@@ -1,4 +1,4 @@
-# What is this?
+# Nerdy Nights Mirror
 
 This is a mirror site for the Nerdy Nights tutorial originally posted on NintendoAge. More information about the tutorial
 itself is avaialble in the Overview section of the site, however this will focus on the scripts/setup.
@@ -12,6 +12,17 @@ it could be that the original source went down, and we were served some html/jun
 
 Note that the scraper is extremely quick-and-dirty... I tried to comment throughout, but it's very custom-build for 
 this use case. Hopefully this helps someone, or it at least gives a place to fix things that are missing.
+
+## Why?
+
+The internet is a surprisingly fragile thing. Tomorrow, any site you visit could go offline, and it's possible that there
+won't be backups. We have sites like <a href="https://web.archive.org">archive.org</a> that help us preserve some of this
+history, but they aren't perfect, and things are often lost. 
+
+Recently, some of the files for the audio tutorials were lost, and aren't on archive.org. Thankfully some people in the
+community had saved those files, so they still exist. This site is meant as an archive of this information, in case something
+happens to either NintendoAge, or the sites hosting any of the linked files. It also doubles as a downloadable version, in
+case people want to use this information while not connected to the internet.
 
 ## Starting up
 
