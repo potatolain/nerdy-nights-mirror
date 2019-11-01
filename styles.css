@@ -258,6 +258,10 @@
     min-height: 0;
   }
 
+  .cardSubtitle {
+    margin-top: 0;
+  }
+
   .mdl-card__title > strong {
     margin-right: 5px;
   }

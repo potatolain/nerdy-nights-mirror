@@ -38,6 +38,11 @@
             </p>
 
             <p>
+                Finally, there are a few other popular topics and tutorials in the Miscellaneous section, all taken from 
+                popular topic on NintendoAge. These are by various authors, who are credited in their individual posts.
+            </p>
+
+            <p>
                 Want to save this locally in case my site goes down, or the apocalypse hits, or whatever? Sure thing!
                 <a href="full_site.zip">Full site download</a>
             </p>

@@ -18,6 +18,8 @@
                         <h2 class="mdl-card__title-text"><?php echo $item['name']; ?></h2>
                     </div>
                     <div class="mdl-card__supporting-text">
+                        <h6 class="cardSubtitle">Written by <?php echo $item['author']; ?></h4>
+
                         <?php include "scraper/pages/" . $item['filename']; ?>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
