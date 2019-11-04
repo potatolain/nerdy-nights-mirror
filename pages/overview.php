@@ -9,13 +9,15 @@
                 <a href="http://nintendoage.com/users/?MetalSlime" target="_blank">MetalSlime</a>.
             </p>
 
-            <p>The original tutorial series is available <a href="http://nintendoage.com/pub/faq/NA/index.html?load=nerdy_nights_out.html" target="_blank">here</a>.
+            <p>The original tutorial series is available <a href="http://archive.nes.science/nintendoage-forums/nintendoage.com/forum/messageviewadfa.html?catid=22&threadid=7155" target="_blank">here</a>.
 
             <p>
                 Recently, the links to the audio series fell off the internet due to a domain expiring. Luckily, members of the community kept these links
                 alive. However, this exposed the fragility of having these tutorials on a bunch of forum posts, which could one day also disappear.
                 MetalSlime's site also went offline, though there is a mirror of that available 
                 <a href="http://web.archive.org/web/20150729002634/http://www.tummaigames.com:80/blog/" target="_blank">thanks to archive.org</a>.
+                In addition, the entire NintendoAge site was recently merged with gocollect's forums, breaking most of the links, images, avatars,
+                etc.
             </p>
 
             <p>

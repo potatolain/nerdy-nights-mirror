@@ -98,7 +98,7 @@
               Adapted in 2019 by Christopher Parker, aka <a href="https://twitter.com/cppchriscpp">cppchriscpp</a>
             </div>
             <ul class="mdl-mega-footer--link-list">
-              <li><a href="http://nintendoage.com/pub/faq/NA/index.html?load=nerdy_nights_out.html">Original Tutorial Series</a></li>
+              <li><a href="http://archive.nes.science/nintendoage-forums/nintendoage.com/forum/messageviewadfa.html?catid=22&threadid=7155">Original Tutorial Series</a></li>
             </ul>
           </div>
         </footer>
