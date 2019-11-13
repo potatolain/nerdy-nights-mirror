@@ -5,6 +5,7 @@
 rm -rf dist
 mkdir -p dist
 php ./index.php > dist/index.html
+node ./postprocessor/index.js 
 cp -R downloads dist/downloads
 cp -R images dist/images
 mkdir -p dist/scraper/files

@@ -58,6 +58,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }, 200);
     }
+
+    // Lazy-load images after the page is done rendering
+    setTimeout(function() {
+        Array.prototype.forEach.call(document.querySelectorAll('img[show-src]'), function(elem) {
+            elem.setAttribute('src', elem.getAttribute('show-src'));
+        });
+    }, 500);
 }, false);
 
 window.doCommentToggle = function(id) {
