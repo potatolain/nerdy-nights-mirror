@@ -40,6 +40,12 @@ document.addEventListener('click', function (event) {
             }
         });
         document.getElementById(targetPage).classList.add('is-active');
+        // Lazy-load any images available
+        Array.prototype.forEach.call(document.getElementById(targetPage).querySelectorAll('img[show-src]'), function(elem) {
+            elem.setAttribute('src', elem.getAttribute('show-src'));
+            elem.removeAttribute('show-src');
+        });
+
     }
 });
 
