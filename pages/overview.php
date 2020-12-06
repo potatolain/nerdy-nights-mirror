@@ -11,6 +11,8 @@
 
             <p>The original tutorial series is available <a href="http://archive.nes.science/nintendoage-forums/nintendoage.com/forum/messageviewadfa.html?catid=22&threadid=7155" target="_blank">here</a>.
 
+            <p>A PDF version created by <a href="https://fuzzytek.ml" target="_blank">Fuzzy</a> is also available for on-the-go reading. Grab that <a href="downloads/Nerdy-Nights-NES-Tutorials-v1.pdf" target="_blank">here</a></p>
+
             <p>
                 Recently, the links to the audio series fell off the internet due to a domain expiring. Luckily, members of the community kept these links
                 alive. However, this exposed the fragility of having these tutorials on a bunch of forum posts, which could one day also disappear.
