@@ -37,7 +37,7 @@
                 There is also a port of the main tutorial series to ca65 done by Dave Dribin, (ddbribin) which is good for getting your start with
                 that assembler. Not all tutorials are ported, but it's a good start, and a good way to get familiar with that syntax.
                 Find it on
-                <a href="https://bitbucket.org/ddribin/nerdy-nights/src/default/" target="_blank">his BitBucket repo</a>. A backup zip is 
+                <a href="https://github.com/ddribin/nerdy-nights" target="_blank">his GitHub repo</a>. A backup zip is 
                 also available <a href="downloads/nerdy-nights-ca65.zip">here</a>, in case you ever need it.
             </p>
 
