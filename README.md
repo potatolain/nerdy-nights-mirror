@@ -6,6 +6,9 @@ itself is avaialble in the Overview section of the site, however this will focus
 The data for the site is mainly populated by a scraper script written in nodejs. It creates a bunch of html files
 (named .php because I'm lazy) and some meta information in json files that is combined into a functional site using php.
 
+**Note: Since this scraper was written, the site has in fact gone down. Running the scaper will probably not work, and
+I do not recommend trying!**
+
 The scraper is in the `scraper` directory. Run it using `npm run scrape` then any updated data should
 be committed to github. Keep an eye on changing links; if a file is updated, _make sure it is still a valid file_ -
 it could be that the original source went down, and we were served some html/junk data!
