@@ -34,7 +34,7 @@
             </p>
 
             <p>
-                There is also a port of the main tutorial series to ca65 done by Dave Dribin, (ddbribin) which is good for getting your start with
+                There is also a port of the main tutorial series to ca65 done by Dave Dribin, (ddribin) which is good for getting your start with
                 that assembler. Not all tutorials are ported, but it's a good start, and a good way to get familiar with that syntax.
                 Find it on
                 <a href="https://github.com/ddribin/nerdy-nights" target="_blank">his GitHub repo</a>. A backup zip is 
