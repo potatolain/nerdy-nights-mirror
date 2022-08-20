@@ -34,11 +34,14 @@
             </p>
 
             <p>
-                There is also a port of the main tutorial series to ca65 done by Dave Dribin, (ddribin) which is good for getting your start with
-                that assembler. Not all tutorials are ported, but it's a good start, and a good way to get familiar with that syntax.
-                Find it on
-                <a href="https://github.com/ddribin/nerdy-nights" target="_blank">his GitHub repo</a>. A backup zip is 
-                also available <a href="downloads/nerdy-nights-ca65.zip">here</a>, in case you ever need it.
+                There are also a ports of the main tutorial series to ca65 done by Dave Dribin (ddribin) and JamesSheppardd, which are 
+                good for getting your start with that assembler. The syntax is a bit different, but it's otherwise very similar. Get those here:
+                <ul>
+                    <li><a target="_blank" href="https://github.com/JamesSheppardd/Nerdy-Nights-ca65-Translation">JamesSheppardd's</a> (Complete - <a href="downloads/nerdy-nights-ca65-js.zip">backup zip</a>)</li>
+                    <li><a target="_blank" href="https://github.com/ddribin/nerdy-nights">ddribin's</a> (Missing later tutorials - <a href="downloads/nerdy-nights-ca65.zip">backup zip</a>)</li>
+                </ul>
+                There is also <a target="_blank" href="https://cppchriscpp.github.io/create-nes-game">create-nes-game</a>, a tool for creating and compiling NES games. It can automatically
+                create a repository for any of the original nerdy nights tutorial steps, using JamesSheppardd's port. 
             </p>
 
             <p>
@@ -88,7 +91,7 @@
 
             <p>
                 This site is maintained by <a href="https://twitter.com/cppchriscpp">cppchriscpp</a>, and is linked to 
-                <a href="http://cpprograms.net">his site</a>. Another version is available <a href="http://cpprograms.net/devnull/nerdy-nights/">there</a>. 
+                <a href="http://cpprograms.net">cpprograms.net</a>. Another version is available <a href="http://cpprograms.net/devnull/nerdy-nights/">there</a>. 
                 Thanks for reading!
             </p>
         </div>
