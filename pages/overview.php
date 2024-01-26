@@ -40,7 +40,7 @@
                     <li><a target="_blank" href="https://github.com/JamesSheppardd/Nerdy-Nights-ca65-Translation">JamesSheppardd's</a> (Complete - <a href="downloads/nerdy-nights-ca65-js.zip">backup zip</a>)</li>
                     <li><a target="_blank" href="https://github.com/ddribin/nerdy-nights">ddribin's</a> (Missing later tutorials - <a href="downloads/nerdy-nights-ca65.zip">backup zip</a>)</li>
                 </ul>
-                There is also <a target="_blank" href="https://cppchriscpp.github.io/create-nes-game">create-nes-game</a>, a tool for creating and compiling NES games. It can automatically
+                There is also <a target="_blank" href="https://create-nes-game.nes.science">create-nes-game</a>, a tool for creating and compiling NES games. It can automatically
                 create a repository for any of the original nerdy nights tutorial steps, using JamesSheppardd's port. 
             </p>
 
@@ -90,8 +90,6 @@
 
 
             <p>
-                This site is maintained by <a href="https://twitter.com/cppchriscpp">cppchriscpp</a>, and is linked to 
-                <a href="http://cpprograms.net">cpprograms.net</a>. Another version is available <a href="http://cpprograms.net/devnull/nerdy-nights/">there</a>. 
                 Thanks for reading!
             </p>
         </div>
